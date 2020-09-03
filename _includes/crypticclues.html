@@ -1,0 +1,29 @@
+<ul>
+{% for puzzle in site.data.cryptics.crypticclues.puzzles %}
+{% if puzzle.title == include.title %}
+{% for entry in puzzle.clues %}
+  <li> <span id="{{entry.clue}}">{{entry.clue}}. {{entry.text}}</span></li>
+  <ul>
+    {% if entry.split %}
+    <li><a href="#{{entry.clue}}" onclick="revealClue('{{entry.clue}}split')">Split Location</a>: <span style="visibility:hidden" id="{{entry.clue}}split">{{entry.split}}<br></span></li>
+    {% endif %}
+    {% if entry.wordplay %}
+    <li><a href="#{{entry.clue}}" onclick="revealClue('{{entry.clue}}wordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="{{entry.clue}}wordplay">{{entry.wordplay}}<br></span></li>
+    {% endif %}
+    {% if entry.enter %}
+    <li><a href="#{{entry.clue}}" onclick="revealClue('{{entry.clue}}enter')">Entering Shenanigans</a>: <span style="visibility:hidden" id="{{entry.clue}}enter">{{entry.enter}}<br></span></li>
+    {% endif %}
+    {% if entry.explanation %}
+    <li><a href="#{{entry.clue}}" onclick="revealClue('{{entry.clue}}explanation')">Clue Explanation</a>: <span style="visibility:hidden" id="{{entry.clue}}explanation">{{entry.explanation}}<br></span></li>
+    {% endif %}
+  </ul>
+{% endfor %}
+{% endif %}
+{% endfor %}
+</ul>
+
+<script>
+  function revealClue(clue) {
+  document.getElementById(clue).style.visibility = "visible";
+}
+</script>

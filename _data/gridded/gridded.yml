@@ -1,0 +1,13 @@
+puzzles:
+  - title: Heat Rises
+    page: griddedheatrises.html
+    pdf: "Heat Rises.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1CvSTJuR4hc6YNRfRkrfkBCSkg3Y5v__jkVLR489sQ-0/edit?usp=sharing
+  - title: Wedding Criss Cross
+    page: griddedcrisscross.html
+    pdf: "Criss Cross.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1H9oZ5E5n5IMkul344Aj_bfE85on96ChfBkpdHVsL0Xo/edit?usp=sharing
+  - title: Wedding Split Crossword
+    page: griddedsplitcrossword.html
+    pdf: "Split Crossword.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1AkHtnPXhR-4dNRAr41WnQtnp8ysNHrVkwdkKF8iYodc/edit?usp=sharing

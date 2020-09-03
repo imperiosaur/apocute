@@ -1,0 +1,24 @@
+---
+title: Cryptics Table of Contents
+keywords: mydoc
+sidebar: cryptics_sidebar
+toc: false
+permalink: cryptics.html
+folder: cryptics
+---
+<table>
+  <tr>
+    <td> Puzzle </td>
+    <td> PDF </td>
+    <td> Google </td>
+  </tr>
+{% for entry in site.data.puzzledata.puzzles %}
+  {% if entry.type == "cryptic" %}
+     <tr>
+       <td> <a href="{{entry.page}}"> {{entry.title}}</a> </td>
+       <td> <a href="{{entry.pdf}}"> Link</a> </td>
+       <td> <a href="{{entry.gsheet}}"> Link</a> </td>
+     </tr>
+  {% endif %}
+{% endfor %}
+</table>

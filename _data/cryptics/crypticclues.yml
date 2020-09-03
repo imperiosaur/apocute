@@ -1,0 +1,191 @@
+puzzles:
+  - title: transformations
+    clues:
+    - clue: 1a
+      text: "unclued"
+    - clue: 10a
+      text: "Two from Spain return with a drink (4)"
+      split: "Between \"a drink\""
+      wordplay: "Reversal and Charade"
+      explanation: "\"Two from spain\" is DOS, \"return\" is a reversal to give SOD, \"with a\" indicates to put an A afterwards for SODA."
+    - clue: 11a
+      text: "Unfinished hemp edge (3)"
+      split: "Between \"hemp edge\""
+      wordplay: "Deletion"
+      explanation: "\"Unfinished hemp\" means to cut the last letter off of HEMP to give HEM."
+    - clue: 12a
+      text: "Briskness in cha-cha steps (5)"
+      split: "Between \"Briskness in\""
+      wordplay: "Hidden Word"
+      explanation: "\"in\" indicates to find the word inside \"cha-cHA STEps\"."
+    - clue: 13a
+      text: "Pop is filled with energy, but boring (4)"
+      split: "Between \"energy, but\""
+      wordplay: "Charade"
+      explanation: "\"Pop\" is another word for DAD. \"energy\" can be shortened to E. Therefore you put the E in DAD to get DEAD."
+    - clue: 14a
+      text: "Cretin fouls sample data (4)"
+      split: "Between \"sample data\""
+      wordplay: "Hidden Word"
+      explanation: "\"sample\" is a hidden word indicator for \"cretIN FOuls\"."
+    - clue: 16a
+      text: "Alternating doesn’t seem stupid (5)"
+      split: "Between \"seem stupid\""
+      wordplay: "Hidden Word"
+      explanation: "\"Alternating\" means to take every other letter of \"DoEsNt SeEm\"."
+    - clue: 19a
+      text: "Warriors enclose Olympic site (3)"
+      split: "Between \"enclose Olympic\""
+      wordplay: "Container"
+      explanation: "\"enclose\" means to look inside \"warRIOrs\"."
+    - clue: 21a
+      text: "Records Landers’ pennant series without catcher (6)"
+      split: "Between \"Records Landers'\""
+      wordplay: "Charade and Deletion"
+      explanation: "\"Landers\" is ANN. \"pennant series\" is ACLS. \"catcher\" can be abbreviated as C, and take that out of ACLS and put it after ANN to get ANNALS."
+    - clue: 24a
+      text: "Do performance-enhancing drugs? Did performance-enhancing drugs! (5)"
+      split: "Between \"drugs? Did\""
+      wordplay: "Charade"
+      explanation: "This is a little untraditional. The first part is wordplay, with DO + P.E.D. The second part is the definition."
+    - clue: 26a
+      text: "Cheer “The Sun God” vociferously (3)"
+      split: "Between \"Cheer \"The \""
+      wordplay: "Homophone"
+      explanation: "\"The Sun God\" is RA. \"vociferously\" is a homophone indicator to give RAH, a cheer. (Note that this clue is mean since \"cheer\" is also a homophone indicator, but it is used here as the definition.)"
+    - clue: 28a
+      text: "Add extra about father (5)"
+      split: "Between \"about father\""
+      wordplay: "Charade"
+      explanation: "\"Add extra\" is PAD, \"about\" is RE, combined they are PADRE."
+    - clue: 30a
+      text: "State surrounded by twice the love! (4)"
+      split: "Given that this is a ! clue, the entire thing is both definition and wordplay."
+      wordplay: "Container"
+      explanation: "\"State\" is HI (Hawaii), \"love\" is a clue for O (as in tennis), so HI surrounded by two O's is OHIO."
+    - clue: 31a
+      text: "Devil fruit goes from $50 to $500 (5)"
+      split: "Between \"Devil fruit\""
+      wordplay: "Letter replacement"
+      explanation: "\"fruit\" is a LEMON, \"goes from $50 to $500\" is an indication to switch the L to D (Roman numerals)."
+    - clue: 32a
+      text: "Stooge ignores odd digit (3)"
+      split: "Between \"odd digit\""
+      wordplay: "Hidden Word"
+      explanation: "\"ignore odd\" is an idicator to remove all the odd letters from \"sToOgE\". (Note that \"digit\" is a definition for TOE)"
+    - clue: 33a
+      text: "unclued"
+    - clue: 1d
+      text: "Top weird thirst (hyph)"
+      split: "Between \"top weird\""
+      wordplay: "Anagram"
+      enter: "This enters normally"
+      explanation: "\"weird\" is an anagram indicator to mix up \"thirst\" to T-SHIRT."
+    - clue: 2d
+      text: "Multicolored, heartless Italian"
+      split: "Between \"Multicolored, heartless\""
+      wordplay: "Deletion"
+      enter: "This enters normally"
+      explanation: "\"Italian\" is a ROMAN. \"heartless\" means to take the center letter out to get ROAN (a multicolored horse)"
+    - clue: 3d
+      text: "President Lovelace, Master of Science"
+      split: "Between \"President Lovelace\""
+      wordplay: "Charade"
+      enter: "This needs to be changed before entering"
+      explanation: "\"Lovelace\" is ADA, \"Master of Science\" is MS, combined is ADAMS."
+    - clue: 4d
+      text: "Alliance messed up a ton (abbv)"
+      split: "Between \"Alliance messed\""
+      wordplay: "Anagram"
+      enter: "This enters normally"
+      explanation: "\"messed up\" is an anagram indicator. Anagramming \"a ton\" gives NATO."
+    - clue: 5d
+      text: "Blended, mashed, blackened"
+      split: "Between \"mashed, blackened\""
+      wordplay: "Anagram"
+      enter: "This needs to be changed before entering"
+      explanation: "\"blended\" is an anagram indicator. Anagraming \"mashed\" gives SHAMED."
+    - clue: 6d
+      text: "Agent loaded paper"
+      split: "Between \"Agent loaded\""
+      wordplay: "Double Definition"
+      enter: "This enters normally"
+      explanation: "FED is both an agent (as in a federal agent) and means loaded paper (in a printer)."
+    - clue: 7d
+      text: "Rising Disney fish is a bad sign"
+      split: "Between \"fish is\""
+      wordplay: "Reversal"
+      enter: "This enters normally"
+      explanation: "\"Disney fish\" is NEMO. \"Rising\" is a reveral indicator since this is a down clue, to give OMEN."
+    - clue: 8d
+      text: "Really neat algorithm starts genetic encoding (abbv)"
+      split: "Between \"starts genetic\""
+      wordplay: "Hidden Word"
+      enter: "This enters normally"
+      explanation: "\"starts\" means to take the first letters of \"Really Neat Algorithm\" to form RNA."
+    - clue: 9d
+      text: "French woman put diamond between Ma and her reflection with ecstasy"
+      split: "Between \"woman put\""
+      wordplay: "Container and Charade"
+      enter: "This needs to be changed before entering"
+      explanation: "\"diamond\" can be abbreviated as D. Putting it between \"Ma and her reflection\" gives MADAM. \"ecstasy\" can be abbreviated as E to give MADAME."
+    - clue: 15d
+      text: "Enemy takes back vow of eating lover"
+      split: "Between \"of eating\""
+      wordplay: "Reversal and Container"
+      enter: "This enters normally"
+      explanation: "\"Enemy\" is FOE and \"vow\" is IDO. \"takes back\" is an indication to insert IDO backwards in FOE to get FOODIE."
+    - clue: 17d
+      text: "Nude Wendy’s bottom"
+      split: "Between \"Wendy's Bottom\""
+      wordplay: "Deletion"
+      enter: "This enters normally"
+      explanation: "\"Nude\" means to remove the first and last letter from \"Wendy\" to get END. (Note that you can just ignore the \"'s\" because of how cryptics work.)"
+    - clue: 18d
+      text: "Behold dividing impact of race"
+      split: "Between \"impact of\""
+      wordplay: "Container"
+      enter: "This enters normally"
+      explanation: "\"Behold\" is LO and \"impact\" is SLAM. \"dividing\" is an indication to insert LO into SLAM to get SLALOM."
+    - clue: 20d
+      text: "Morse code sound interrupting input/output state"
+      split: "Between \"output state\""
+      wordplay: "Container"
+      enter: "This enters normally"
+      explanation: "\"Morse code sound\" is DAH and \"input/output\" is IO. \"interrupting\" is an indication to insert DAH into IO to get IDAHO."
+    - clue: 22d
+      text: "Sordid compact disc announced"
+      split: "Between \"Sordid compact\""
+      wordplay: "Homophone"
+      enter: "This needs to be changed before entering"
+      explanation: "\"Compact disc\" is CD. \"Announced\" is an indicator for a homophone for SEEDY."
+    - clue: 23d
+      text: "Strange, incomplete armor with a nice scent"
+      split: "Between \"a nice\""
+      wordplay: "Deletion, Anagram, Charade"
+      enter: "This enters normally"
+      explanation: "\"Incomplete armor\" is ARMO. \"Strange\" means to anagram it to AROM. \"With a\" means to add A at the end to get AROMA."
+    - clue: 24d
+      text: "First inning of matchup follows big-leaguer’s dance"
+      split: "Between \"leaguer's dance\""
+      wordplay: "Charade"
+      enter: "This enters normally"
+      explanation: "\"First inning\" is an indicator to take the first letter of matchup for M. \"Big-leaguer\" is PRO. M following PRO is PROM."
+    - clue: 27d
+      text: "Garden implement wrapped around a spade!"
+      split: "Given that this is a ! clue, the entire thing is both definition and wordplay."
+      wordplay: "Container"
+      enter: "This needs to be changed before entering"
+      explanation: "\"Garden implement\" is HOE. \"A spade\" is S. HOE wrapped around S is HOSE."
+    - clue: 28d
+      text: "Drug-cooking device"
+      split: "Between \"drug-cooking\""
+      wordplay: "Double Definition"
+      enter: "This enters normally"
+      explanation: "POT is both a drug and a cooking device."
+    - clue: 29d
+      text: "Roger Daltrey wrote marvelous finales"
+      split: "Between \"Roger Daltrey\""
+      wordplay: "Hidden Word"
+      enter: "This needs to be changed before entering"
+      explanation: "\"Finales\" is an indication to take the last words of \"Daltrey wrote marvelous\" to give YES."

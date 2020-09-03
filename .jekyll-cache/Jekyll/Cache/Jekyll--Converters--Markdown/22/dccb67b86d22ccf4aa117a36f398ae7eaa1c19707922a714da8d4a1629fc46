@@ -1,0 +1,32 @@
+I"+<h2 id="context">Context</h2>
+
+<p>The context behind this puzzle is a spoiler for the endgame of this puzzle. (Although, quite frankly, it’s a little impossible to be on this site and not be spoiled.) Therefore, we have put the context of this puzzle in a spoiler below.</p>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Context</a>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            This was the cryptic crossword that Jen wrote before coming out as trans. It was originally posted on the Palindrome mailing list with no explanation, with her coming out to them shortly afterwards.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<h2 id="hints">Hints</h2>
+
+<ul>
+
+</ul>
+
+<script>
+  function revealClue(clue) {
+  document.getElementById(clue).style.visibility = "visible";
+}
+</script>
+
+:ET

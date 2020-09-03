@@ -1,0 +1,39 @@
+I"Ÿ<h2 id="context">Context</h2>
+
+<p>This puzzle was one of the puzzles we wrote to include in our wedding book.</p>
+
+<h2 id="hints">Hints</h2>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">How do I get started with this?</a>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            To start, focus on words that have As and Js in weird patterns. For instance, JACINDA ARDERN has two As in a row and TAJ MAHAL has a lot of As and Js in a small amount of space. Whenever you put a word in the grid, fill in the boxes right in front of and right behind the words so you know that other letters cannot go in them.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<h2 id="answers">Answers</h2>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Grid</a>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            <img src="images/Criss Cross Answers.png" />
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+:ET

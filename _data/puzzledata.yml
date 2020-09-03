@@ -1,0 +1,31 @@
+puzzles:
+  - title: Transformations
+    type: cryptic
+    page: cryptictransformations.html
+    pdf: Transformations.pdf
+    gsheet: https://docs.google.com/spreadsheets/d/1lnXk_GgseMHOkOT1rfcPxK2ikGN-6cpaM1RzAckEEws/edit?usp=sharing
+  - title: "Fantasy Baseball"
+    type: ganza
+    page: ganzafantasybaseball.html
+    pdf: "Fantasy Baseball.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1m00Mzx91pbEvME89vn_Uez29N8TSvxXnlYorXQucfZ4/edit?usp=sharing
+  - title: Heat Rises
+    type: gridded
+    page: griddedheatrises.html
+    pdf: "Heat Rises.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1CvSTJuR4hc6YNRfRkrfkBCSkg3Y5v__jkVLR489sQ-0/edit?usp=sharing
+  - title: Wedding Criss Cross
+    type: gridded
+    page: griddedcrisscross.html
+    pdf: "Criss Cross.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1H9oZ5E5n5IMkul344Aj_bfE85on96ChfBkpdHVsL0Xo/edit?usp=sharing
+  - title: Wedding Split Crossword
+    type: gridded
+    page: griddedsplitcrossword.html
+    pdf: "Split Crossword.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1AkHtnPXhR-4dNRAr41WnQtnp8ysNHrVkwdkKF8iYodc/edit?usp=sharing
+  - title: "Happy Pi Day!"
+    type: other
+    page: otherhappypiday.html
+    pdf: "Happy Pi Day.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1jSVQRWVhc8-mGjg2OXL2_OI5HgXYVVq4FQoKhq80hs0/edit?usp=sharing

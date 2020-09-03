@@ -1,0 +1,38 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Jekyll Doc Theme
+  folders:
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Welcome
+      url: /index.html
+      output: web, pdf
+
+    - title: About
+      url: /about.html
+      output: web, pdf
+
+  - title: Puzzles
+    output: web, pdf
+    folderitems:
+
+    - title: Cryptics
+      url: /cryptics.html
+      output: web, pdf
+
+    - title: Extravaganzas
+      url: /ganzas.html
+      output: web, pdf
+
+    - title: Gridded Puzzles
+      url: /gridded.html
+      output: web, pdf
+
+    - title: Other Puzzles
+      url: /otherpuzzles.html
+      output: web, pdf

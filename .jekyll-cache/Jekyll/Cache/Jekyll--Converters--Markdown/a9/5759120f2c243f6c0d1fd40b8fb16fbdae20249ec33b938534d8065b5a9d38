@@ -1,0 +1,71 @@
+I"ë<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip:</b> Test</div>
+
+<h2 id="context">Context</h2>
+
+<p>This puzzle was written for a minicon in Boston that took place the day before Pi Day. It was designed to be a quick solve that people could do in between activities at the convention.</p>
+
+<h2 id="hints">Hints</h2>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">How do I begin?</a>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            Those sentences on the left look like crossword clues - and they are. Try solving them.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">I can't seem solve those sentences.</a>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            Well, actually they're two clues in one. Find two words for each sentence.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">What are the numbers in the parenthesis?</a>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            Usually, when you see a number after a clue in parenthesis, it's either the enumeration/length of the answer, or an index into the answer. Given that there is two of them, one is probably an enumeration and the other is probably an index. And by probably, in this case, I mean definitely. Of course, dealing with the +Ï€ is another issue.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<h2 id="answers">Answers</h2>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Answers</a>
+                            </div>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            Each line clues two words, where the second one is the first one minus "PI". The first number is the enumeration, the second number is the index. The indexed letter spells "THIS IS A PIECE OF CAKE."<br />TAPIR/TAR (T)<br />HAPRIES/HARES (H)<br />PRESIDENCIES/RESIDENCES (I)<br />SEPIA/SEA (S)<br />SPIKIER/SKIER (I)<br />STUPID/STUD (S)<br />PAIN/AN (A)<br />POPPIES/POPES (P)<br />OPINIONS/ONIONS (I)<br />PIRATE/RATE (E)<br />PSIONIC/SONIC (C)<br />TERRAPIN/TERRAN (E)<br />SPOIL/SOL (O)<br />PROLIFER/ROLFER (F)<br />CAPRIS/CARS (C)<br />RAPID/RAD (A)<br />PAPRIKA/PARKA (K)<br />PRIED/RED (E)
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+:ET

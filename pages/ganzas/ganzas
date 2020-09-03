@@ -1,0 +1,25 @@
+---
+title: Extravaganzas Table of Contents
+keywords: mydoc
+sidebar: ganzas_sidebar
+toc: false
+permalink: ganzas.html
+folder: ganzas
+---
+
+<table>
+  <tr>
+    <td> Puzzle </td>
+    <td> PDF </td>
+    <td> Google </td>
+  </tr>
+{% for entry in site.data.puzzledata.puzzles %}
+  {% if entry.type == "ganza" %}
+     <tr>
+       <td> <a href="{{entry.page}}"> {{entry.title}}</a> </td>
+       <td> <a href="{{entry.pdf}}"> Link</a> </td>
+       <td> <a href="{{entry.gsheet}}"> Link</a> </td>
+     </tr>
+  {% endif %}
+{% endfor %}
+</table>
