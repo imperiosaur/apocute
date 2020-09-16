@@ -7,6 +7,7 @@ permalink: griddedcrisscross.html
 folder: gridded
 ---
 
+{% include files.html %}
 
 ## Context
 

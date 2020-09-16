@@ -7,7 +7,7 @@ permalink: otherhappypiday.html
 folder: other
 ---
 
-{% include files.html content="Test" %}
+{% include files.html %}
 
 ## Context
 

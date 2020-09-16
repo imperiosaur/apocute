@@ -7,6 +7,7 @@ permalink: griddedsplitcrossword.html
 folder: gridded
 ---
 
+{% include files.html %}
 
 ## Context
 

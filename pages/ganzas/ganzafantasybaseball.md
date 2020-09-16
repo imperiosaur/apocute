@@ -7,6 +7,7 @@ permalink: ganzafantasybaseball.html
 folder: ganza
 ---
 
+{% include files.html %}
 
 ## Context
 

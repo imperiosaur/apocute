@@ -7,6 +7,7 @@ permalink: griddedheatrises.html
 folder: gridded
 ---
 
+{% include files.html %}
 
 ## Context
 

@@ -7,6 +7,8 @@ permalink: cryptictransformations.html
 folder: cryptics
 ---
 
+{% include files.html %}
+
 ## Context
 
 The context behind this puzzle is a spoiler for the endgame of this puzzle. (Although, quite frankly, it's a little impossible to be on this site and not be spoiled.) Therefore, we have put the context of this puzzle in a spoiler below.

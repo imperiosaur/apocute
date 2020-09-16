@@ -1,4 +1,2 @@
-<div markdown="span" class="alert alert-success" role="alert"> <b>Puzzle Files:</b> <br>
-{% if include.pdf%}
-{% endif %}
+<div markdown="span" class="alert alert-success" role="alert"> <b>Puzzle Files:</b> {% for entry in site.data.puzzledata.puzzles %}{% if entry.title == page.title %}<a href="{{entry.pdf}}">PDF format</a>, <a href="{{entry.gsheet}}">Google Sheets/Drawing</a>{% endif %}{% endfor %}
 </div>
