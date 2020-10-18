@@ -16,3 +16,7 @@ entries:
     - title: Transformations
       url: /cryptictransformations.html
       output: web, pdf
+
+    - title: 5 Word Alphabet
+      url: /cryptic5wordalphabet.html
+      output: web, pdf

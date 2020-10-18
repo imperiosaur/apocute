@@ -4,6 +4,9 @@ puzzles:
     page: cryptictransformations.html
     pdf: Transformations.pdf
     gsheet: https://docs.google.com/spreadsheets/d/1lnXk_GgseMHOkOT1rfcPxK2ikGN-6cpaM1RzAckEEws/edit?usp=sharing
+  - title: 5 Word Alphabet Cryptic
+    type: cryptic
+    page: cryptic5wordalphabet.html
   - title: "Fantasy Baseball"
     type: ganza
     page: ganzafantasybaseball.html
