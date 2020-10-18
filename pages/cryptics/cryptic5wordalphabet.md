@@ -15,6 +15,7 @@ The clues in this cryptic don't always completely conform to the standards for c
 
 * The clue must be 5 words long
 * Teams had 10 minutes to write a clue and couldn't use outside sources
+* Answer words had to be in MW
 * Teams were awarded points based on how many unique letters of the alphabet they included in their clue
 
 These clues each include the number of the authoring team; the phrase [Team N] is not a puzzle.
