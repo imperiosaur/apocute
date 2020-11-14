@@ -1,6 +1,7 @@
 ---
 title:  "Unnecessarily... Introduction"
 categories: unnecessarily
+sidebar: main_sidebar
 permalink: unnecessarilyintro.html
 tags: [news]
 ---
