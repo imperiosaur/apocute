@@ -1,0 +1,867 @@
+I"��<div class="alert alert-success" role="alert"> <b>Puzzle Files:</b> <a href="Unnecessarily Complex.pdf">PDF format</a>, <a href="https://docs.google.com/spreadsheets/d/1d2HDVP2RPP2GECVdQT-RXHCDmKI4HQ1vODUmJXpFqWc/edit?usp=sharing">Google Sheets/Drawing</a>
+</div>
+
+<h2 id="context">Context</h2>
+
+<p>This is part of our Unnecessarily series. <a href="unnecessarilyintro.html">Click here</a> for an explanation of that series.</p>
+
+<p>This puzzle was written as a handout puzzle for <a href="https://conline3.com/">Conline 3</a>. While Conline 3 has ended, you can still see the other handout puzzles and solve the Extravaganza.</p>
+
+<h2 id="hints">Hints</h2>
+
+<h3 id="clues">Clues</h3>
+<ul>
+
+
+
+
+
+  <li> <span id="1a">1a. Obscured in sitrep: a person paws wall coverings</span></li>
+  <ul>
+    
+    <li><a href="#1a" onclick="revealClue('1aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="1aspecial">This is part of group 2 - one word in the clue needs to be reversed before solving.<br /></span></li>
+    
+    
+    <li><a href="#1a" onclick="revealClue('1asplit')">Split Location</a>: <span style="visibility:hidden" id="1asplit">Between "person paws"<br /></span></li>
+    
+    
+    <li><a href="#1a" onclick="revealClue('1awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="1awordplay">Hidden Word<br /></span></li>
+    
+    
+    
+    <li><a href="#1a" onclick="revealClue('1aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="1aexplanation">"paws" reverses to "swap". "Obscured" is a hidden word indicator for "sitREP A PERson"<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="7a">7a. To annoy Captain James? Elbow head</span></li>
+  <ul>
+    
+    <li><a href="#7a" onclick="revealClue('7aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="7aspecial">This is part of group 1 - one word needs to have it's alphabetically first letter brought to the front.<br /></span></li>
+    
+    
+    <li><a href="#7a" onclick="revealClue('7asplit')">Split Location</a>: <span style="visibility:hidden" id="7asplit">Between "annoy Captain"<br /></span></li>
+    
+    
+    <li><a href="#7a" onclick="revealClue('7awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="7awordplay">Deletion<br /></span></li>
+    
+    
+    
+    <li><a href="#7a" onclick="revealClue('7aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="7aexplanation">"Elbow" turns into "below". "Captain James" is KIRK. "Below head" indicates to take everything but the first letter to get IRK.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="9a">9a. Notes first one back, returns predecessor at the car show</span></li>
+  <ul>
+    
+    <li><a href="#9a" onclick="revealClue('9aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="9aspecial">This is part of group 5 - one word needs to be replaced with the word from the NATO alphabet that begins with the same letter.<br /></span></li>
+    
+    
+    <li><a href="#9a" onclick="revealClue('9asplit')">Split Location</a>: <span style="visibility:hidden" id="9asplit">Between "back, returns"<br /></span></li>
+    
+    
+    <li><a href="#9a" onclick="revealClue('9awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="9awordplay">Charade + Reversal<br /></span></li>
+    
+    
+    
+    <li><a href="#9a" onclick="revealClue('9aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="9aexplanation">"returns" gets changed into "romeo". "Notes" are LA and FA. "first one back" indicates to reverse the first note to get ALFA.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="11a">11a. Head over heels Spanish love enveloped by America's fantastic odors</span></li>
+  <ul>
+    
+    <li><a href="#11a" onclick="revealClue('11aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="11aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#11a" onclick="revealClue('11asplit')">Split Location</a>: <span style="visibility:hidden" id="11asplit">Between "America's fantastic"<br /></span></li>
+    
+    
+    <li><a href="#11a" onclick="revealClue('11awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="11awordplay">Container + Reversal<br /></span></li>
+    
+    
+    
+    <li><a href="#11a" onclick="revealClue('11aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="11aexplanation">"Spanish love" is AMOR. "Head over heels" is a reversal indicator to get ROMA. "enveloped by America's" means to put it in AS to get AROMAS.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="13a">13a. "Education chief is butter-enthusiast," Paula reported</span></li>
+  <ul>
+    
+    <li><a href="#13a" onclick="revealClue('13aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="13aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#13a" onclick="revealClue('13asplit')">Split Location</a>: <span style="visibility:hidden" id="13asplit">Between "chief is"<br /></span></li>
+    
+    
+    <li><a href="#13a" onclick="revealClue('13awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="13awordplay">Homophone<br /></span></li>
+    
+    
+    
+    <li><a href="#13a" onclick="revealClue('13aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="13aexplanation">"butter-enthusiast Paula" is DEEN. "reported" is a homophone indicator to get DEAN.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="14a">14a. Soup containing lots of cream served, hosts about to put in....$*#@! (BEEP)</span></li>
+  <ul>
+    
+    <li><a href="#14a" onclick="revealClue('14aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="14aspecial">This is part of group 4 - all of the duplicate letters from one word need to be removed.<br /></span></li>
+    
+    
+    <li><a href="#14a" onclick="revealClue('14asplit')">Split Location</a>: <span style="visibility:hidden" id="14asplit">Between "hosts about"<br /></span></li>
+    
+    
+    <li><a href="#14a" onclick="revealClue('14awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="14awordplay">Container + Reversal<br /></span></li>
+    
+    
+    
+    <li><a href="#14a" onclick="revealClue('14aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="14aexplanation">"hosts" becomes "hot". "about to" is OT. put in PAGE, clued by "BEEP" to get POTAGE.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="15a">15a. Hungry 5.0 put into beta</span></li>
+  <ul>
+    
+    <li><a href="#15a" onclick="revealClue('15aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="15aspecial">This is part of group 1 - one word needs to have it's alphabetically first letter brought to the front.<br /></span></li>
+    
+    
+    <li><a href="#15a" onclick="revealClue('15asplit')">Split Location</a>: <span style="visibility:hidden" id="15asplit">Between "Hungry 5.0"<br /></span></li>
+    
+    
+    <li><a href="#15a" onclick="revealClue('15awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="15awordplay">Container<br /></span></li>
+    
+    
+    
+    <li><a href="#15a" onclick="revealClue('15aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="15aexplanation">"beta" becomes "abet". "5.0" is V, V is "put into" AID (aka "abet") to get AVID.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="16a">16a. Maxim's "Blue Period," start to finish</span></li>
+  <ul>
+    
+    <li><a href="#16a" onclick="revealClue('16aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="16aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#16a" onclick="revealClue('16asplit')">Split Location</a>: <span style="visibility:hidden" id="16asplit">Between "Maxim's Blue"<br /></span></li>
+    
+    
+    <li><a href="#16a" onclick="revealClue('16awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="16awordplay">Charade<br /></span></li>
+    
+    
+    
+    <li><a href="#16a" onclick="revealClue('16aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="16aexplanation">A "Blue Period" is a SAD AGE. Moving the starting letter to the finish of the word gives ADAGES.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="17a">17a. Helped promote true tweed ensemble</span></li>
+  <ul>
+    
+    <li><a href="#17a" onclick="revealClue('17aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="17aspecial">This is part of group 3 - one word needs to have all its vowels replaced with the letter E.<br /></span></li>
+    
+    
+    <li><a href="#17a" onclick="revealClue('17asplit')">Split Location</a>: <span style="visibility:hidden" id="17asplit">Between "promote true'"<br /></span></li>
+    
+    
+    <li><a href="#17a" onclick="revealClue('17awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="17awordplay">Anagram<br /></span></li>
+    
+    
+    
+    <li><a href="#17a" onclick="revealClue('17aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="17aexplanation">"true" becomes "tree". "ensemble" is an indicator to anagram "tree tweed" to get RETWEETED.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="19a">19a. One might want to do this to 11 in, for example, New Hampshire and Alabama</span></li>
+  <ul>
+    
+    <li><a href="#19a" onclick="revealClue('19aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="19aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#19a" onclick="revealClue('19asplit')">Split Location</a>: <span style="visibility:hidden" id="19asplit">Between "11 in"<br /></span></li>
+    
+    
+    <li><a href="#19a" onclick="revealClue('19awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="19awordplay">Container<br /></span></li>
+    
+    
+    
+    <li><a href="#19a" onclick="revealClue('19aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="19aexplanation">"New Hampshire and Alabama" are NHAL. Put that "in" IE ("for example") to get INHALE. ("11" is a reference to clue 11.)<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="21a">21a. Remove 1 and 2 from 3rd to get 2 in France</span></li>
+  <ul>
+    
+    <li><a href="#21a" onclick="revealClue('21aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="21aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#21a" onclick="revealClue('21asplit')">Split Location</a>: <span style="visibility:hidden" id="21asplit">Between "get 2"<br /></span></li>
+    
+    
+    <li><a href="#21a" onclick="revealClue('21awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="21awordplay">Deletion<br /></span></li>
+    
+    
+    
+    <li><a href="#21a" onclick="revealClue('21aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="21aexplanation">"3rd" is BRONZE. "Remove 1 and 2" (aka take away the first and second letters) to get ONZE. (Note that the 2nd "2" is a reference to clue 2.)<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="23a">23a. Retain cores of large germanium projectiles (these turbocharge aquatic cargo vehicle known for going in a pool)</span></li>
+  <ul>
+    
+    <li><a href="#23a" onclick="revealClue('23aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="23aspecial">This is part of group 2 - one word in the clue needs to be reversed before solving.<br /></span></li>
+    
+    
+    <li><a href="#23a" onclick="revealClue('23asplit')">Split Location</a>: <span style="visibility:hidden" id="23asplit">Between "cargo vehicle"<br /></span></li>
+    
+    
+    <li><a href="#23a" onclick="revealClue('23awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="23awordplay">Letter Selection<br /></span></li>
+    
+    
+    
+    <li><a href="#23a" onclick="revealClue('23aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="23aexplanation">"pool" is changed into "loop". "Retain cores" means to take the center letters of what comes afterwards. The center letters of "large germanium projectiles (these turbocharge aquatic cargo" is RACECAR.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="27a">27a. Enabled small suffix</span></li>
+  <ul>
+    
+    <li><a href="#27a" onclick="revealClue('27aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="27aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#27a" onclick="revealClue('27asplit')">Split Location</a>: <span style="visibility:hidden" id="27asplit">Between "Enabled small"<br /></span></li>
+    
+    
+    <li><a href="#27a" onclick="revealClue('27awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="27awordplay">Double Definition<br /></span></li>
+    
+    
+    
+    <li><a href="#27a" onclick="revealClue('27aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="27aexplanation">LET is both a word that means enabled and a suffix that means small.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="28a">28a. Case for prize-winner dismissed (before 29 or O25 per Gardiner's annalist)</span></li>
+  <ul>
+    
+    <li><a href="#28a" onclick="revealClue('28aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="28aspecial">This is part of group 4 - all of the duplicate letters from one word need to be removed.<br /></span></li>
+    
+    
+    <li><a href="#28a" onclick="revealClue('28asplit')">Split Location</a>: <span style="visibility:hidden" id="28asplit">Between "29 or"<br /></span></li>
+    
+    
+    <li><a href="#28a" onclick="revealClue('28awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="28awordplay">Charade + Deletion<br /></span></li>
+    
+    
+    
+    <li><a href="#28a" onclick="revealClue('28aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="28aexplanation">"annalist" becomes "list". A "prize-winner" is a NOBELIST. The "case" is "dismissed", which removes the first and last letter to get OBELIS. "29" is a reference to the answer to clue 29, which is a word that can indicate the letter K. Sticking that afterwards gives OBELISK.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="30a">30a. Tots losing foremost fingers</span></li>
+  <ul>
+    
+    <li><a href="#30a" onclick="revealClue('30aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="30aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#30a" onclick="revealClue('30asplit')">Split Location</a>: <span style="visibility:hidden" id="30asplit">Between "foremost fingers"<br /></span></li>
+    
+    
+    <li><a href="#30a" onclick="revealClue('30awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="30awordplay">Deletion<br /></span></li>
+    
+    
+    
+    <li><a href="#30a" onclick="revealClue('30aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="30aexplanation">"Tots" are KIDS. "losing foremost" means to take away the first letter to get IDS.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="31a">31a. How some might respond when seeing #69 in French city?</span></li>
+  <ul>
+    
+    <li><a href="#31a" onclick="revealClue('31aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="31aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#31a" onclick="revealClue('31asplit')">Split Location</a>: <span style="visibility:hidden" id="31asplit">Between "#69 in"<br /></span></li>
+    
+    
+    <li><a href="#31a" onclick="revealClue('31awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="31awordplay">Double Definition<br /></span></li>
+    
+    
+    
+    <li><a href="#31a" onclick="revealClue('31aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="31aexplanation">NICE is both a French city and something people on the internet say when seeing the number 69.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="32a">32a. Eclipsing large model is stair leading to moon</span></li>
+  <ul>
+    
+    <li><a href="#32a" onclick="revealClue('32aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="32aspecial">This is part of group 1 - one word needs to have it's alphabetically first letter brought to the front.<br /></span></li>
+    
+    
+    <li><a href="#32a" onclick="revealClue('32asplit')">Split Location</a>: <span style="visibility:hidden" id="32asplit">Between "to moon"<br /></span></li>
+    
+    
+    <li><a href="#32a" onclick="revealClue('32awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="32awordplay">Anagram + Deletion<br /></span></li>
+    
+    
+    
+    <li><a href="#32a" onclick="revealClue('32aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="32aexplanation">"stair" becomes "astir". "Eclipsing large" means to delete L from MODEL. "astir" is an angram indicator for MODE IS to get DEIMOS.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="34a">34a. "Enactment" appears in the dictionary</span></li>
+  <ul>
+    
+    <li><a href="#34a" onclick="revealClue('34aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="34aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#34a" onclick="revealClue('34asplit')">Split Location</a>: <span style="visibility:hidden" id="34asplit">Between "Enactment appears"<br /></span></li>
+    
+    
+    <li><a href="#34a" onclick="revealClue('34awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="34awordplay">Hidden Word<br /></span></li>
+    
+    
+    
+    <li><a href="#34a" onclick="revealClue('34aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="34aexplanation">"appears in" is a hidden word indicator for thE DICTionary.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="35a">35a. You might build a casa pequeña on one, on all going west?</span></li>
+  <ul>
+    
+    <li><a href="#35a" onclick="revealClue('35aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="35aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#35a" onclick="revealClue('35asplit')">Split Location</a>: <span style="visibility:hidden" id="35asplit">Between "#69 in"<br /></span></li>
+    
+    
+    <li><a href="#35a" onclick="revealClue('35awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="35awordplay">Pun, Reversal<br /></span></li>
+    
+    
+    
+    <li><a href="#35a" onclick="revealClue('35aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="35aexplanation">"going west" is a reversal indicator for ON ALL to get LLANO.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="36a">36a. Gödel theorem featuring Greek letter</span></li>
+  <ul>
+    
+    <li><a href="#36a" onclick="revealClue('36aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="36aspecial">This is part of group 5 - one word needs to be replaced with the word from the NATO alphabet that begins with the same letter.<br /></span></li>
+    
+    
+    <li><a href="#36a" onclick="revealClue('36asplit')">Split Location</a>: <span style="visibility:hidden" id="36asplit">Between "featuring Greek"<br /></span></li>
+    
+    
+    <li><a href="#36a" onclick="revealClue('36awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="36awordplay">Hidden Word<br /></span></li>
+    
+    
+    
+    <li><a href="#36a" onclick="revealClue('36aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="36aexplanation">"theorem" becomes "tango". "featuring" is a hidden word indicator for GöDEL TAngo<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="37a">37a. Saturated with water: 33 grams absorbed</span></li>
+  <ul>
+    
+    <li><a href="#37a" onclick="revealClue('37aspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="37aspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#37a" onclick="revealClue('37asplit')">Split Location</a>: <span style="visibility:hidden" id="37asplit">Between "water: 33"<br /></span></li>
+    
+    
+    <li><a href="#37a" onclick="revealClue('37awordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="37awordplay">Container<br /></span></li>
+    
+    
+    
+    <li><a href="#37a" onclick="revealClue('37aexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="37aexplanation">"33" refers to clue 33 whose answer is SOY. Gram is G, so "grams" would be GG. "absorbed" is a container indicator, so put GG in SOY to get SOGGY.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="1d">1d. Equipment for mapping and measuring deeps or sand lairs at regular intervals</span></li>
+  <ul>
+    
+    <li><a href="#1d" onclick="revealClue('1dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="1dspecial">This is part of group 2 - one word in the clue needs to be reversed before solving.<br /></span></li>
+    
+    
+    <li><a href="#1d" onclick="revealClue('1dsplit')">Split Location</a>: <span style="visibility:hidden" id="1dsplit">Between "deeps or"<br /></span></li>
+    
+    
+    <li><a href="#1d" onclick="revealClue('1dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="1dwordplay">Every Other<br /></span></li>
+    
+    
+    
+    <li><a href="#1d" onclick="revealClue('1dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="1dexplanation">"deeps" becomes "speed". "at regular intervals" is a clue to take every other letter of "oR sAnD lAiRs" for RADAR.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="2d">2d. If we need that extra push over the cliff we might put the dial here for outer layer of lasagne in oven</span></li>
+  <ul>
+    
+    <li><a href="#2d" onclick="revealClue('2dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="2dspecial">This is part of group 3 - one word needs to have all its vowels replaced with the letter E.<br /></span></li>
+    
+    
+    <li><a href="#2d" onclick="revealClue('2dsplit')">Split Location</a>: <span style="visibility:hidden" id="2dsplit">Between "for outer"<br /></span></li>
+    
+    
+    <li><a href="#2d" onclick="revealClue('2dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="2dwordplay">Container<br /></span></li>
+    
+    
+    
+    <li><a href="#2d" onclick="revealClue('2dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="2dexplanation">"oven" becomes "even". "outer layer of lasagne" is LE. Put that in "even" to get ELEVEN.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="3d">3d. T + 3A + 2W - (2A + W + T) = √(BEER)</span></li>
+  <ul>
+    
+    <li><a href="#3d" onclick="revealClue('3dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="3dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#3d" onclick="revealClue('3dsplit')">Split Location</a>: <span style="visibility:hidden" id="3dsplit">Between "= √"<br /></span></li>
+    
+    
+    <li><a href="#3d" onclick="revealClue('3dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="3dwordplay">Math!<br /></span></li>
+    
+    
+    
+    <li><a href="#3d" onclick="revealClue('3dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="3dexplanation">The left hand side of the equation simplifies to A+W, aka A AND W. (The right side is ROOT BEER, which is the definition.)<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="4d">4d. Essence of "Pennsylvania's Father"</span></li>
+  <ul>
+    
+    <li><a href="#4d" onclick="revealClue('4dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="4dspecial">This is part of group 5 - one word needs to be replaced with the word from the NATO alphabet that begins with the same letter.<br /></span></li>
+    
+    
+    <li><a href="#4d" onclick="revealClue('4dsplit')">Split Location</a>: <span style="visibility:hidden" id="4dsplit">Between "Pennsylvania's father"<br /></span></li>
+    
+    
+    <li><a href="#4d" onclick="revealClue('4dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="4dwordplay">Charade<br /></span></li>
+    
+    
+    
+    <li><a href="#4d" onclick="revealClue('4dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="4dexplanation">"Essence" becomes "Echo". "Pennsylvania" is PA, "echo"ed is PAPA.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="5d">5d. A bit at a time, chip away at a Keats poem about a Clooney show?</span></li>
+  <ul>
+    
+    <li><a href="#5d" onclick="revealClue('5dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="5dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#5d" onclick="revealClue('5dsplit')">Split Location</a>: <span style="visibility:hidden" id="5dsplit">Between "at a"<br /></span></li>
+    
+    
+    <li><a href="#5d" onclick="revealClue('5dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="5dwordplay">Charade/Pun<br /></span></li>
+    
+    
+    
+    <li><a href="#5d" onclick="revealClue('5dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="5dexplanation">"Keats poem about a Clooney show" would be an ER ODE.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="6d">6d. Twists or ink or wheels or the earth or tornado or hula hoop or thing that snips</span></li>
+  <ul>
+    
+    <li><a href="#6d" onclick="revealClue('6dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="6dspecial">This is part of group 2 - one word in the clue needs to be reversed before solving.<br /></span></li>
+    
+    
+    <li><a href="#6d" onclick="revealClue('6dsplit')">Split Location</a>: <span style="visibility:hidden" id="6dsplit">Between "or wheels"<br /></span></li>
+    
+    
+    <li><a href="#6d" onclick="revealClue('6dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="6dwordplay">Charade<br /></span></li>
+    
+    
+    
+    <li><a href="#6d" onclick="revealClue('6dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="6dexplanation">"snips" becomes "spins". "Twists or" is RO. "Ink" is TAT. Combine with "or" to get ROTATOR.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="7d">7d. You might do good deeds to improve this game; I unfortunately...</span></li>
+  <ul>
+    
+    <li><a href="#7d" onclick="revealClue('7dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="7dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#7d" onclick="revealClue('7dsplit')">Split Location</a>: <span style="visibility:hidden" id="7dsplit">Between "this game"<br /></span></li>
+    
+    
+    <li><a href="#7d" onclick="revealClue('7dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="7dwordplay">Anagram<br /></span></li>
+    
+    
+    
+    <li><a href="#7d" onclick="revealClue('7dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="7dexplanation">"unfortunately" is an anagram indicator. "game I" anagrammed is IMAGE.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="8d">8d. ...had exhibited wreathe made from buds of rosemary and golden Easter daisies</span></li>
+  <ul>
+    
+    <li><a href="#8d" onclick="revealClue('8dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="8dspecial">This is part of group 4 - all of the duplicate letters from one word need to be removed.<br /></span></li>
+    
+    
+    <li><a href="#8d" onclick="revealClue('8dsplit')">Split Location</a>: <span style="visibility:hidden" id="8dsplit">Between "wreathe made"<br /></span></li>
+    
+    
+    <li><a href="#8d" onclick="revealClue('8dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="8dwordplay">Letter Selection<br /></span></li>
+    
+    
+    
+    <li><a href="#8d" onclick="revealClue('8dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="8dexplanation">"wreathe" becomes "wrath". "buds of" is an indicator to take the first letters of each word. This gives RAGED.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="10d">10d. "Trust One's Hill"</span></li>
+  <ul>
+    
+    <li><a href="#10d" onclick="revealClue('10dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="10dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#10d" onclick="revealClue('10dsplit')">Split Location</a>: <span style="visibility:hidden" id="10dsplit">Between "Trust One's"<br /></span></li>
+    
+    
+    <li><a href="#10d" onclick="revealClue('10dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="10dwordplay">Double Definition<br /></span></li>
+    
+    
+    
+    <li><a href="#10d" onclick="revealClue('10dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="10dexplanation">FAITH - insert better explanation here<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="12d">12d. No limits when re-using parts of set versus having six lines</span></li>
+  <ul>
+    
+    <li><a href="#12d" onclick="revealClue('12dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="12dspecial">This is part of group 3 - one word needs to have all its vowels replaced with the letter E.<br /></span></li>
+    
+    
+    <li><a href="#12d" onclick="revealClue('12dsplit')">Split Location</a>: <span style="visibility:hidden" id="12dsplit">Between "set versus"<br /></span></li>
+    
+    
+    <li><a href="#12d" onclick="revealClue('12dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="12dwordplay">Letter Bank<br /></span></li>
+    
+    
+    
+    <li><a href="#12d" onclick="revealClue('12dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="12dexplanation">"versus" becomes "verses". "No limits when re-using parts of set" indicates to take the letters of SET and use them as a letter bank to get SESTET.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="18d">18d. Hero of Valencia exchanged a club for a diamond and shuffled 25</span></li>
+  <ul>
+    
+    <li><a href="#18d" onclick="revealClue('18dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="18dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#18d" onclick="revealClue('18dsplit')">Split Location</a>: <span style="visibility:hidden" id="18dsplit">Between "Valencia exchanged"<br /></span></li>
+    
+    
+    <li><a href="#18d" onclick="revealClue('18dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="18dwordplay">Letter Replacement + Anagram<br /></span></li>
+    
+    
+    
+    <li><a href="#18d" onclick="revealClue('18dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="18dexplanation">"25" is a clue with the answer CECIL. "exchanged a club for a diamond" means to switch a C for a D. "shuffled" means to anagram to get EL CID.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="19d">19d. Articulated two words you might say to compare patty received flattened</span></li>
+  <ul>
+    
+    <li><a href="#19d" onclick="revealClue('19dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="19dspecial">This is part of group 4 - all of the duplicate letters from one word need to be removed.<br /></span></li>
+    
+    
+    <li><a href="#19d" onclick="revealClue('19dsplit')">Split Location</a>: <span style="visibility:hidden" id="19dsplit">Between "received flattened"<br /></span></li>
+    
+    
+    <li><a href="#19d" onclick="revealClue('19dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="19dwordplay">Homophone<br /></span></li>
+    
+    
+    
+    <li><a href="#19d" onclick="revealClue('19dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="19dexplanation">"patty" becomes "pay". "Articulated" is a homophone indicator. "two words you might say to compare pay received" is I EARNED. A homophone for that is IRONED.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="20d">20d. Eating as Congers stands</span></li>
+  <ul>
+    
+    <li><a href="#20d" onclick="revealClue('20dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="20dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#20d" onclick="revealClue('20dsplit')">Split Location</a>: <span style="visibility:hidden" id="20dsplit">Between "Congers stands"<br /></span></li>
+    
+    
+    <li><a href="#20d" onclick="revealClue('20dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="20dwordplay">Container<br /></span></li>
+    
+    
+    
+    <li><a href="#20d" onclick="revealClue('20dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="20dexplanation">"Congers" are EELS. "Eating as" means to add AS to the middle to get EASELS.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="22d">22d. Scrutinized ongoing selection for chairman</span></li>
+  <ul>
+    
+    <li><a href="#22d" onclick="revealClue('22dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="22dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#22d" onclick="revealClue('22dsplit')">Split Location</a>: <span style="visibility:hidden" id="22dsplit">Between "for chairman"<br /></span></li>
+    
+    
+    <li><a href="#22d" onclick="revealClue('22dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="22dwordplay">Hidden Word<br /></span></li>
+    
+    
+    
+    <li><a href="#22d" onclick="revealClue('22dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="22dexplanation">"Selection" is a hidden word indicator for scrutiniZED ONGoing.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="24d">24d. "Make sure to follow rules extracted from slab" I edify</span></li>
+  <ul>
+    
+    <li><a href="#24d" onclick="revealClue('24dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="24dspecial">This is part of group 1 - one word needs to have it's alphabetically first letter brought to the front.<br /></span></li>
+    
+    
+    <li><a href="#24d" onclick="revealClue('24dsplit')">Split Location</a>: <span style="visibility:hidden" id="24dsplit">Between "rules extracted"<br /></span></li>
+    
+    
+    <li><a href="#24d" onclick="revealClue('24dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="24dwordplay">Hidden Word<br /></span></li>
+    
+    
+    
+    <li><a href="#24d" onclick="revealClue('24dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="24dexplanation">"edify" becomes "deify". "extracted" is a hidden word indicator for slAB I DEify.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="25d">25d. Approximately 18 cents instead of dollars for first winner of the DeMille Award</span></li>
+  <ul>
+    
+    <li><a href="#25d" onclick="revealClue('25dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="25dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#25d" onclick="revealClue('25dsplit')">Split Location</a>: <span style="visibility:hidden" id="25dsplit">Between "for first"<br /></span></li>
+    
+    
+    <li><a href="#25d" onclick="revealClue('25dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="25dwordplay">Letter Replacement + Anagram<br /></span></li>
+    
+    
+    
+    <li><a href="#25d" onclick="revealClue('25dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="25dexplanation">"18" refers to clue 18 which has the answer EL CID. "cents instead of dollars" means to replace a D with a C. "Approximately" is an anagram indicator. Rearrange ELCIC to get CECIL.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="26d">26d. Get by, voting for foot of bronze medal goalie Alec Marriott</span></li>
+  <ul>
+    
+    <li><a href="#26d" onclick="revealClue('26dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="26dspecial">This is part of group 3 - one word needs to have all its vowels replaced with the letter E.<br /></span></li>
+    
+    
+    <li><a href="#26d" onclick="revealClue('26dsplit')">Split Location</a>: <span style="visibility:hidden" id="26dsplit">Between "for foot"<br /></span></li>
+    
+    
+    <li><a href="#26d" onclick="revealClue('26dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="26dwordplay">Letter Selection<br /></span></li>
+    
+    
+    
+    <li><a href="#26d" onclick="revealClue('26dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="26dexplanation">"foot" becomes "feet". The "feet of bronze medal goalie Alec Marriott" are ELECT.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="27d">27d. "Tropical city with about 9 million people." Carelessly Mr. Al forgets 2.71 thousand.</span></li>
+  <ul>
+    
+    <li><a href="#27d" onclick="revealClue('27dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="27dspecial">This is part of group 5 - one word needs to be replaced with the word from the NATO alphabet that begins with the same letter.<br /></span></li>
+    
+    
+    <li><a href="#27d" onclick="revealClue('27dsplit')">Split Location</a>: <span style="visibility:hidden" id="27dsplit">Between "people Carelessly"<br /></span></li>
+    
+    
+    <li><a href="#27d" onclick="revealClue('27dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="27dwordplay">Anagram + Deletion<br /></span></li>
+    
+    
+    
+    <li><a href="#27d" onclick="revealClue('27dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="27dexplanation">"Mr" becomes "mike". "Carelessly" is an anagram indicator, and "forgets 2.71 thousand" means to delete E and K. Take MIKE AL, remove E and K and anagram what's left to get LIMA.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="29d">29d. Mass in Sèvres, France might be low-key in Verlan, reportedly</span></li>
+  <ul>
+    
+    <li><a href="#29d" onclick="revealClue('29dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="29dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#29d" onclick="revealClue('29dsplit')">Split Location</a>: <span style="visibility:hidden" id="29dsplit">Between "France might"<br /></span></li>
+    
+    
+    <li><a href="#29d" onclick="revealClue('29dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="29dwordplay">Language Game + Homophone<br /></span></li>
+    
+    
+    
+    <li><a href="#29d" onclick="revealClue('29dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="29dexplanation">If "low-key" was said in Verlan, it would switch the syllables to be key-low. "Reportedly" is a homophone indicator, and a homophone of key-low is KILO.<br /></span></li>
+    
+  </ul>
+
+  <li> <span id="33d">33d. Edible item you might give up with Lent?!</span></li>
+  <ul>
+    
+    <li><a href="#33d" onclick="revealClue('33dspecial')">Clue Shenanigans</a>: <span style="visibility:hidden" id="33dspecial">This clue works normally.<br /></span></li>
+    
+    
+    <li><a href="#33d" onclick="revealClue('33dsplit')">Split Location</a>: <span style="visibility:hidden" id="33dsplit">This is an exclamation point clue, which means that the entire thing is both the wordplay and the definition. <br /></span></li>
+    
+    
+    <li><a href="#33d" onclick="revealClue('33dwordplay')">Wordplay Type</a>: <span style="visibility:hidden" id="33dwordplay">Deletion<br /></span></li>
+    
+    
+    
+    <li><a href="#33d" onclick="revealClue('33dexplanation')">Clue Explanation</a>: <span style="visibility:hidden" id="33dexplanation">SOYLENT is an "edible item". You "give up" LENT to get SOY.<br /></span></li>
+    
+  </ul>
+
+
+
+
+
+</ul>
+
+<script>
+  function revealClue(clue) {
+  document.getElementById(clue).style.visibility = "visible";
+}
+</script>
+
+<h3 id="instructions">Instructions</h3>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Section 1 - There's a problem with entering the word in the grid.</a>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            If a word already has it's alphabetically earliest letter in the first position, then when you enter it in the grid, there is no change. This is okay.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Section 2 - There's a problem with entering the word in the grid.</a>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            You can enter a palindrome in the grid in reverse. Doesn't change much, but you can do it.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Section 3 - There's a problem with entering the word in the grid.</a>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            When an answer undergoes the Second Great Vowel shift, that does mean that any Es in the answer change to Es. Theoretically, if there was an answer word that had only Es as vowels, that means that it wouldn't change.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Section 4 - There's a problem with entering the word in the grid.</a>
+                            </div>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            If there's no duplicate letters, that means that no letters are removed before entering them in the grid.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Section 5 - There's a problem with entering the word in the grid.</a>
+                            </div>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            You can replace a NATO alphabet letter with the word that represents its first letter in the NATO alphabet. Just means that it doesn't change much.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Section 6 - There's a problem with entering the word in the grid.</a>
+                            </div>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            Then you did something wrong. These should all enter regularly.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Section 6 - There's something weird with ordering these clues.</a>
+                            </div>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            I mean, have you seen the rest of this puzzle? This shouldn't be too surprising.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<h2 id="answers">Answers</h2>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Grid</a>
+                            </div>
+                        </div>
+                        <div id="collapseEight" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            <img src="images/Unnecessarily Complex Answer Grid.png" />
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Variety Parts</a>
+                            </div>
+                        </div>
+                        <div id="collapseNine" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                            Some of the clues need to be transformed to be solved. The instructions tell you to transform the answers too before putting them in the grid, but it turns out that the transformations don't actually do anything. <br /> <br /> Section 1 - Answers need to have the alphabetically-first letter moved to the front, but they're already the first letter. For extraction, this means that you're taking the first letter of each relevant clue.<br /> 7A - IRK - T<br /> 15A - AVID - H<br /> 32A - DEIMOS - E<br /> 24D - ABIDE - M<br /> <br /> Section 2 - Answers need to be reversed before entering, but they're all palindromes, so that doesn't change anything. For extraction, you take the position of the first R, but all of them start with the letter R, so you take the first letter of each relevant clue. (We didn't mean to make them all start with R, that was just a happy accident that we used.)<br /> 1A - REPAPER - O<br /> 23A - RACECAR - R<br /> 1D - RADAR - E<br /> 6D - ROTATOR - T<br /> <br /> Section 3 - Answers need to have their vowels replaced with the letter E before entering, but all their vowels are already Es. The indicated number is ELEVEN, so the ones digit is 1, so you take the first letter of each clue.<br /> 17A - RETWEETED - H<br /> 2D - ELEVEN - I<br /> 12D - SESTETS - N<br /> 26D - ELECT - G<br /> <br /> Section 4 - Answers need to have their duplicated letters removed before entering, but they have no duplicated letters. Since you aren't removing any letters, the extraction instructions just extract the first letter of each clue every time.<br /> 14A - POTAGE - S<br /> 28A - OBELISK - C<br /> 8D - RAGED - H<br /> 19D - IRONED - A<br /> <br /> Section 5 - Answers need to be replaced with NATO letters, but they're already NATO letters. Since you're not changing the word anymore, the extraction instructions just extract the first letter of each clue every time.<br /> 9A - ALFA - N<br /> 36A - DELTA - G<br /> 4D - PAPA - E<br /> 27D - LIMA - T<br /> <br /> Section 6 - Answers don't need to be changed for this one, but there is a complicated ordering method. If you follow the complicated ordering, all it does is rearrange the clues and then put them back in clue order, then extract the first letter of each clue.<br /> 11A - AROMAS - H<br /> 13A - DEAN - E<br /> 16A - ADAGES - M<br /> 19A - INHALE - O<br /> 21A - ONZE - R<br /> 27A - LET - E<br /> 30A - IDS - T<br /> 31A - NICE - H<br /> 34A - EDICT - E<br /> 35A - LLANO - Y<br /> 37A - SOGGY - S<br /> 3D - A AND W - T<br /> 5D - ERODE - A<br /> 7D - IMAGE - Y<br /> 10D - FAITH - T<br /> 18D - EL CID - H<br /> 20D - EASELS - E<br /> 22D - ZEDONG - S<br /> 25D - CECIL - A<br /> 29D - KILO - M<br /> 33D - SOY - E<br /> <br /> Combine all of these parts together to get the answer phrase THE MORE THINGS CHANGE THE MORE THEY STAY THE SAME, an appropriate description of how this puzzle worked.
+                            </div>
+                        </div>
+                    </div>
+  </div>
+
+:ET

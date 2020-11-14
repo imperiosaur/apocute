@@ -7,6 +7,16 @@ puzzles:
   - title: 5 Word Alphabet Cryptic
     type: cryptic
     page: cryptic5wordalphabet.html
+  - title: Unnecessarily Cryptic
+    type: cryptic
+    page: crypticucryptic.html
+    pdf: "Unnecessarily Cryptic.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1zjL0PNVBzL1KJi7FZuVv6ylk6K5E08UaA0xb8gpOatM/edit?usp=sharing
+  - title: Unnecessarily Complex
+    type: cryptic
+    page: crypticucomplex.html
+    pdf: "Unnecessarily Complex.pdf"
+    gsheet: https://docs.google.com/spreadsheets/d/1d2HDVP2RPP2GECVdQT-RXHCDmKI4HQ1vODUmJXpFqWc/edit?usp=sharing
   - title: "Fantasy Baseball"
     type: ganza
     page: ganzafantasybaseball.html

@@ -20,3 +20,14 @@ entries:
     - title: 5 Word Alphabet
       url: /cryptic5wordalphabet.html
       output: web, pdf
+
+  - title: Unnecessarily...
+    output: web, pdf
+    folderitems:
+    - title: Cryptic
+      url: /crypticucryptic.html
+      output: web, pdf
+
+    - title: Complex
+      url: /crypticucomplex.html
+      output: web, pdf

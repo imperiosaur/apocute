@@ -4,6 +4,9 @@
 {% for entry in puzzle.clues %}
   <li> <span id="{{entry.clue}}">{{entry.clue}}. {{entry.text}}</span></li>
   <ul>
+    {% if entry.special %}
+    <li><a href="#{{entry.clue}}" onclick="revealClue('{{entry.clue}}special')">Clue Shenanigans</a>: <span style="visibility:hidden" id="{{entry.clue}}special">{{entry.special}}<br></span></li>
+    {% endif %}
     {% if entry.split %}
     <li><a href="#{{entry.clue}}" onclick="revealClue('{{entry.clue}}split')">Split Location</a>: <span style="visibility:hidden" id="{{entry.clue}}split">{{entry.split}}<br></span></li>
     {% endif %}
