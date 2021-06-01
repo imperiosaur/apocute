@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Line of Lights</title>
+  
+  <script type="text/javascript">
+    function handleChange(lightNumber) {
+      var checkbox = document.getElementById("light"+lightNumber);
+      var outputText = document.getElementById("output"+lightNumber);
+      if(checkbox.checked == true) {
+        outputText.innerHTML = "🟡";
+        updatePanel();
+      } else {
+        outputText.innerHTML = "⚫";
+        updatePanel();
+      }
+    }
+
+    function updatePanel () {
+      var power = 1;
+      var total = 0;
+      for (var i = 1; i < 24; i++) {
+        if(document.getElementById("light"+i).checked == true) {
+          total = total + power;
+        }
+        power = power * 2;
+      }
+      var outputString = "";
+      switch(total) {
+        case 33033:
+        outputString = "IS";
+        break;
+        case 1052823:
+        outputString = "AX";
+        break;
+        default:
+        total = total % 676;
+        total = (total + 235) * 373;
+        total = total % 676;
+        outputString = String.fromCharCode(65 + Math.floor(total/26), 65 + (total % 26));
+      }
+
+      document.getElementById("displayPanel").innerHTML = outputString;
+    }
+  </script>
+</head>
+
+<body>
+  <form>
+    <table>
+      <tr>
+        <td><span id="output1">⚫</span></td>
+        <td><span id="output2">⚫</span></td>
+        <td><span id="output3">⚫</span></td>
+        <td><span id="output4">⚫</span></td>
+        <td><span id="output5">⚫</span></td>
+        <td><span id="output6">⚫</span></td>
+        <td><span id="output7">⚫</span></td>
+        <td><span id="output8">⚫</span></td>
+        <td><span id="output9">⚫</span></td>
+        <td><span id="output10">⚫</span></td>
+        <td><span id="output11">⚫</span></td>
+        <td><span id="output12">⚫</span></td>
+        <td><span id="output13">⚫</span></td>
+        <td><span id="output14">⚫</span></td>
+        <td><span id="output15">⚫</span></td>
+        <td><span id="output16">⚫</span></td>
+        <td><span id="output17">⚫</span></td>
+        <td><span id="output18">⚫</span></td>
+        <td><span id="output19">⚫</span></td>
+        <td><span id="output20">⚫</span></td>
+        <td><span id="output21">⚫</span></td>
+        <td><span id="output22">⚫</span></td>
+        <td><span id="output23">⚫</span></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="light1" onclick="handleChange(1)"></td>
+        <td><input type="checkbox" id="light2" onclick="handleChange(2)"></td>
+        <td><input type="checkbox" id="light3" onclick="handleChange(3)"></td>
+        <td><input type="checkbox" id="light4" onclick="handleChange(4)"></td>
+        <td><input type="checkbox" id="light5" onclick="handleChange(5)"></td>
+        <td><input type="checkbox" id="light6" onclick="handleChange(6)"></td>
+        <td><input type="checkbox" id="light7" onclick="handleChange(7)"></td>
+        <td><input type="checkbox" id="light8" onclick="handleChange(8)"></td>
+        <td><input type="checkbox" id="light9" onclick="handleChange(9)"></td>
+        <td><input type="checkbox" id="light10" onclick="handleChange(10)"></td>
+        <td><input type="checkbox" id="light11" onclick="handleChange(11)"></td>
+        <td><input type="checkbox" id="light12" onclick="handleChange(12)"></td>
+        <td><input type="checkbox" id="light13" onclick="handleChange(13)"></td>
+        <td><input type="checkbox" id="light14" onclick="handleChange(14)"></td>
+        <td><input type="checkbox" id="light15" onclick="handleChange(15)"></td>
+        <td><input type="checkbox" id="light16" onclick="handleChange(16)"></td>
+        <td><input type="checkbox" id="light17" onclick="handleChange(17)"></td>
+        <td><input type="checkbox" id="light18" onclick="handleChange(18)"></td>
+        <td><input type="checkbox" id="light19" onclick="handleChange(19)"></td>
+        <td><input type="checkbox" id="light20" onclick="handleChange(20)"></td>
+        <td><input type="checkbox" id="light21" onclick="handleChange(21)"></td>
+        <td><input type="checkbox" id="light22" onclick="handleChange(22)"></td>
+        <td><input type="checkbox" id="light23" onclick="handleChange(23)"></td>
+      </tr>
+    </table>
+  </form>
+  <div class="displayPanel" id="displayPanel">
+    RJ
+  </div>
+</body>
+
+</html>
