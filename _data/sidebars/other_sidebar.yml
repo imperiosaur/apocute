@@ -19,3 +19,7 @@ entries:
     - title: "Happy Pi Day!"
       url: /otherhappypiday.html
       output: web, pdf
+
+    - title: "Spelling Wasp"
+      url: /otherspellingwasp.html
+      output: web, pdf
