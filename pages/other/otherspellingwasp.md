@@ -9,7 +9,7 @@ folder: other
 
 ## Context
 
-This puzzle was written for the official program for the 2021 National Puzzler's League Convention. If this is a thing that you find fun, you might enjoy the [National Puzzler's League](https://www.puzzlers.org/)
+This puzzle was written for the official program for the 2021 National Puzzler's League Convention. If this is a thing that you find fun, you might enjoy the [National Puzzler's League](https://www.puzzlers.org/).
 
 ## Instructions
 
