@@ -108,7 +108,7 @@ var steps = [
      'Prove you are human to continue by completing the following lyric: This can be the haziest \nThis can be the laziest \nThis can be the ___ Christmas of all.',
      'swayziest'],
 
-    [['You will continue to receive Crow Facts every &lt;hour&gt;. Welcome to Crow Facts!', 'Crow Fact #21: Insert Kinga fact here.'],
+    [['You will continue to receive Crow Facts every &lt;hour&gt;. Welcome to Crow Facts!', 'Crow Fact #21: Crow is the third in a line of ferocious monsters, all of which provide horrible sights to their captives.'],
      'To continue, please describe what you would give to be ambidexterous.',
      'righthand'],
 

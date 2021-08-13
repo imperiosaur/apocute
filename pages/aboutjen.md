@@ -10,7 +10,10 @@ In addition to puzzle writing, I write RPG materials and dabble in game design.
 
 ## Puzzles
 
-- **[Escape the Eldritch Garden](https://www.escapethispodcast.com/e/season-5-episode-10-the-eldritch-garden-ft-jen-mcteague/)** and **[Podcast this Escape](https://www.escapethispodcast.com/e/podcast-this-escape-the-eldritch-garden-ft-jen-mcteague/)** - This is an audio escape room that I created and then ran for the hosts of Escape this Podcast. Feel free to listen to the podcast, then grab the notes and run the room for your friends!
+- **Audio Escape Rooms** - Each of these three rooms I wrote and then ran for the hosts of Escape thiS Podast.
+  - **[Dimensional Analysis](https://www.escapethispodcast.com/e/season-9-episode-3-dimensional-analysis-ft-jen-mcteague/)** and **[Podcast this Escape](https://www.escapethispodcast.com/e/podcast-this-escape-dimensional-analysis/)**
+  - **[It's Puzzles All the Way Down](https://www.escapethispodcast.com/e/season-7-episode-11-its-puzzles-all-the-way-down-ft-jen-mcteague/)** and **[Podcast this Escape](https://www.escapethispodcast.com/e/podcast-this-escape-its-puzzles-all-the-way-down/)**
+  - **[Escape the Eldritch Garden](https://www.escapethispodcast.com/e/season-5-episode-10-the-eldritch-garden-ft-jen-mcteague/)** and **[Podcast this Escape](https://www.escapethispodcast.com/e/podcast-this-escape-the-eldritch-garden-ft-jen-mcteague/)**
 - **[Difficult Choices](https://inkubatorcrosswords.com/)** - This was my regular crossword debut, and was written for The Inkubator! You should totally subscribe, and you can request my old puzzle to be emailed to you from the archives. My puzzle is called Difficult Choices and was published on March 5, 2020.
 
 ## RPG Writing
@@ -28,7 +31,8 @@ In addition to puzzle writing, I write RPG materials and dabble in game design.
 
 ### Pathfinder Adventure Card Game
 
-- **PACG Open** - No link currently, but I wrote the initial draft of the ACG Open for GenCon 2018.
+- **[PACG Open 2019](https://paizo.com/products/btq01zua?Pathfinder-Adventure-Card-Society-2019-Open-All-for-Immortality)** - I pitched this idea, then wrote the deck set-up.
+- **[PACG Open 2018](https://paizo.com/products/btq027v5?2018-PACS-Open-Ruins-of-Bonekeep)** - I wrote the initial draft of the ACG Open for GenCon 2018.
 - **[Paizo Unchained](https://paizo.com/threads/rzs2v14p?A-World-of-Despair#1)** - Written for April Fools 2018, this is an ACG Adventure where you square off against various members of the Lone Shark staff. There may be a puzzle in it!
 - **[ACG #5-4: Rise from the Wreckage](https://paizo.com/products/btq01wru?Pathfinder-Society-Adventure-Card-Guild-54-Rise-From-the-Wreckage)** - I wrote the story for this adventure and outlined the general mechanics which Keith implemented. This includes a scenario where all the locations are ships!
 - **[ACG #4-5: The Pactmaster's Bargain](https://paizo.com/products/btpya05i?Pathfinder-Society-Adventure-Card-Guild-45-The-Pactmasters-Bargain)** - I wrote the story for this adventure and outlined the general mechanics which Keith implemented. This includes a scenario where you're activating an ancient structure to get into a pyramid!
