@@ -96,7 +96,7 @@ var steps = [
      'To continue receiving Daily Crow Facts, reply \'crow\'',
      'crow'],
 
-    [['Thanks for subscribing to Crow Facts!', 'Crow Fact #1: Crow is outstanding in his field and he\'s got being scary in the... well... you know..'],
+    [['Thanks for subscribing to Crow Facts!', 'Crow Fact #1: Crow is outstanding in his field and he\'s got being scary in the... well... you know...'],
      'Would you like to receive a Crow Fact every hour?\nReply \'J6w5346wd83hd3\' to continue',
      'j6w5346wd83hd3'],
 
@@ -104,17 +104,17 @@ var steps = [
      'To continue receiving Hourly Crow Facts, please estimate the number of turkeys that could fit in 26-100.',
      '5000'],
 
-    [['You are subscribed to Crow Facts, your source for fascinating facts about crows!', 'Crow Fact #10: It takes one week for Crow to transform and rise out of the water. His twin watches with all 18 eyes.'],
+    [['You are subscribed to Crow Facts, your source for fascinating facts about crows!', 'Crow Fact #10: Crow has power over thunder and lightning, but before he uses it, he shouts \"I\'M CROW!\"'],
      'Prove you are human to continue by completing the following lyric: This can be the haziest \nThis can be the laziest \nThis can be the ___ Christmas of all.',
      'swayziest'],
 
-    [['You will continue to receive Crow Facts every &lt;hour&gt;. Welcome to Crow Facts!', 'Crow Fact #21: Crow is the third in a line of ferocious monsters, all of which provide horrible sights to their captives.'],
+    [['You will continue to receive Crow Facts every &lt;hour&gt;. Welcome to Crow Facts!', 'Crow Fact #21: It takes one week for Crow to transform and rise out of the water. His twin watches with all 18 eyes.'],
      'To continue, please describe what you would give to be ambidexterous.',
      'righthand'],
 
-    [['Thanks for texting Crow Facts! Remember, every time you text you will receive an instant Crow Fact!', 'Crow Fact #19: From one night to daybreak, Crow is the ultimate nocturnal beast.'],
+    [['Thanks for texting Crow Facts! Remember, every time you text you will receive an instant Crow Fact!', 'Crow Fact #19: Crow is the third in a line of ferocious monsters, all of which provide horrible sights to their captives.'],
      'To continue, reply with the name of the person who was really good in Mannequin.',
-     'kimcatrall'],
+     'kimcattrall'],
 
     [['Thank you for subscribing to Crow Facts!', 'Crow Fact #15: Crow goes to great lengths to hide his very large shoe size.'],
      'To continue, who is your favorite robot?',
@@ -207,7 +207,7 @@ function get_responses(message)
 
     var correct = (step == -1 || standardize_message(message) == steps[step][2]);
 
-    if (step == 2 && standardize_message(message).length > 3) {
+    if (step == 2 && !isNaN(message) && standardize_message(message).length > 3) {
 	       correct = true;
     }
 
