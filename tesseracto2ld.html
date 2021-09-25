@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tesseract</title>
+
+    <script type="text/javascript">
+      function handleChange() {
+        var conversion = [
+          ["S", "F", "J", "I", "Q", "I", "O", "X", "L", "U", "G", "K", "E", "O", "K", "Q"],
+          ["F", "W", "F", "W", "X", "Q", "M", "M", "Y", "I", "A", "P", "B", "K", "T", "O"],
+          ["J", "F", "Z", "A", "G", "L", "A", "A", "R", "I", "U", "F", "L", "I", "O", "Y"],
+          ["I", "W", "A", "Q", "J", "Q", "F", "B", "L", "S", "P", "B", "A", "O", "N", "M"],
+          ["Q", "X", "G", "J", "P", "O", "V", "R", "F", "H", "D", "M", "W", "X", "X", "S"],
+          ["I", "Q", "L", "Q", "O", "A", "W", "N", "J", "Z", "M", "T", "Q", "G", "T", "J"],
+          ["O", "M", "A", "F", "V", "W", "Z", "Q", "B", "I", "J", "R", "U", "L", "Z", "O"],
+          ["X", "M", "A", "B", "R", "N", "Q", "K", "V", "H", "X", "A", "H", "F", "E", "H"],
+          ["Q", "Y", "R", "L", "F", "J", "B", "V", "X", "I", "J", "U", "F", "S", "P", "L"],
+          ["U", "Q", "I", "S", "H", "Z", "I", "H", "I", "D", "K", "A", "V", "U", "J", "I"],
+          ["G", "A", "T", "P", "D", "M", "J", "X", "J", "K", "W", "L", "P", "A", "S", "S"],
+          ["K", "P", "F", "H", "M", "T", "R", "A", "U", "A", "L", "H", "S", "C", "Q", "I"],
+          ["E", "B", "L", "A", "F", "Q", "U", "H", "F", "V", "P", "S", "J", "D", "G", "W"],
+          ["O", "K", "I", "O", "X", "G", "L", "F", "S", "U", "A", "C", "D", "E", "N", "C"],
+          ["K", "T", "O", "N", "X", "T", "Y", "E", "P", "J", "S", "Q", "G", "N", "W", "Q"],
+          ["Q", "O", "Y", "M", "S", "J", "O", "I", "L", "I", "S", "I", "W", "C", "Q", "S"]
+        ];
+        const rbsLeft = document.querySelectorAll('input[name="radioleft"]');
+        var choiceLeft = 0;
+        for (const rb of rbsLeft) {
+          if(rb.checked) {
+            choiceLeft = rb.value;
+            break;
+          }
+        }
+        const rbsRight = document.querySelectorAll('input[name="radioright"]');
+        var choiceRight = 0;
+        for (const rb of rbsRight) {
+          if(rb.checked) {
+            choiceRight = rb.value;
+            break;
+          }
+        }
+        var theletter = conversion[choiceLeft][choiceRight];
+        theletter = String.fromCharCode((theletter.charCodeAt(0) - 13 - choiceLeft - choiceRight) % 26 + 65);
+        document.getElementById("outputPanel").innerHTML = theletter;
+      }
+    </script>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td><img src="Tesseract.png" alt="Tesseract"></td>
+        <td>
+          <form class="" action="index.html" method="post">
+            <table>
+              <tr>
+                <td>Point</td>
+                <td>Selection 1</td>
+                <td>Selection 2</td>
+              </tr>
+              <tr>
+                <td>A</td>
+                <td><input type="radio" name="radioleft" value="0" onclick="handleChange()" checked></td>
+                <td><input type="radio" name="radioright" value="0" onclick="handleChange()" checked></td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td><input type="radio" name="radioleft" value="1" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="1" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td><input type="radio" name="radioleft" value="2" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="2" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>D</td>
+                <td><input type="radio" name="radioleft" value="3" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="3" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>E</td>
+                <td><input type="radio" name="radioleft" value="4" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="4" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>F</td>
+                <td><input type="radio" name="radioleft" value="5" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="5" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>G</td>
+                <td><input type="radio" name="radioleft" value="6" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="6" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>H</td>
+                <td><input type="radio" name="radioleft" value="7" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="7" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>I</td>
+                <td><input type="radio" name="radioleft" value="8" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="8" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>J</td>
+                <td><input type="radio" name="radioleft" value="9" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="9" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>K</td>
+                <td><input type="radio" name="radioleft" value="10" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="10" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td><input type="radio" name="radioleft" value="11" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="11" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td><input type="radio" name="radioleft" value="12" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="12" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>N</td>
+                <td><input type="radio" name="radioleft" value="13" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="13" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>O</td>
+                <td><input type="radio" name="radioleft" value="14" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="14" onclick="handleChange()"></td>
+              </tr>
+              <tr>
+                <td>P</td>
+                <td><input type="radio" name="radioleft" value="15" onclick="handleChange()"></td>
+                <td><input type="radio" name="radioright" value="15" onclick="handleChange()"></td>
+              </tr>
+            </table>
+          </form>
+          Output: <span id="outputPanel">S</span>
+        </td>
+      </tr>
+    </table>
+
+
+  </body>
+</html>
