@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Bookspace Plays Pathfinder</title>
+    <script src="resolve.js"></script>
+
+    <style>
+      #note {
+        background-color:#E0E0E0;
+        border: 2px dotted black;
+      }
+
+      .column {
+          float: left;
+          width: 50%;
+        }
+
+      .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+
+        #wizard {
+          background-color: #b3c6ff;
+        }
+
+        #fighter {
+          background-color: #ffddcc;
+        }
+
+        #cleric {
+          background-color: #ffffcc;
+        }
+
+        #rogue {
+          background-color: #ddccff;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div><h1>Bookspace Plays Pathfinder</h1></div>
+    <div id="note">Testsolver note: The source code will be obfsucated before being presented to solvers. Please do not delve into it while testsolving.</div>
+
+    <div class="row">
+      <div id="wizard" class="column"> <h2>Wizard</h2>
+        Guess spells from <a href="https://2e.aonprd.com/SpellLists.aspx?Tradition=0" target="_blank">your spellbook</a>. Your knowledge with spells will help you narrow down spells to find the best one to use against this monster. <br> <br>
+        Note that knowledge of Pathfinder 2nd Edition is not needed to solve this. You also do not need to click on any links on the spellbook page.<br> <br>
+        <form>
+          <label for="wizardGuess">Try a spell here:</label><br>
+          <input type="text" id="wizardGuess" name="wizardGuess">
+          <input type="button" onclick="checkWizard();" value="Try the Spell!">
+        </form>
+        <div id="wizardResponse">
+          <b>Results:</b><br><br>
+        </div>
+      </div>
+      <div id="fighter" class="column"> <h2>Fighter</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="cleric" class="column"> <h2>Cleric</h2>
+      </div>
+      <div id="rogue" class="column"> <h2>Rogue</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <h2>Round Selector</h2>
+      <form>
+          <select id="roundNumber" name="roundNumber" onChange="loadRound();"">
+            <option value="1">Round 1</option>
+            <option value="2">Round 2</option>
+            <option value="3">Round 3</option>
+            <option value="4">Round 4</option>
+            <option value="5">Round 5</option>
+            <option value="6">Round 6</option>
+            <option value="7">Round 7</option>
+            <option value="8">Round 8</option>
+          </select>
+      </form>
+    </div>
+  </body>
+</html>
