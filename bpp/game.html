@@ -1,6 +1,8 @@
 <html>
   <head>
     <title>Bookspace Plays Pathfinder</title>
+
+    <script src="enable.js"></script>
     <script src="resolve.js"></script>
 
     <style>
@@ -41,51 +43,97 @@
         #rogue {
           background-color: #ddccff;
         }
+
+        #fighterExplanation {
+          display: none;
+        }
+
+        #clericExplanation {
+          display: none;
+        }
+
+        #clericChant {
+          font-style: italic;
+        }
+
+        #rogueExplanation {
+          display: none;
+        }
+
+        #rogueQuestion {
+          font-weight: bold;
+        }
     </style>
   </head>
 
   <body>
     <div><h1>Bookspace Plays Pathfinder</h1></div>
-    <div id="note">Testsolver note: The source code will be obfsucated before being presented to solvers. Please do not delve into it while testsolving.</div>
+    <div id="note">Testsolver note: The source code will be obfuscated before being presented to solvers. Please do not delve into it while testsolving.</div>
 
     <div class="row">
-      <div id="wizard" class="column"> <h2>Wizard</h2>
+      <div id="wizard" class="column"> <h2>Wizard 🧙‍♀️</h2>
         Guess spells from <a href="https://2e.aonprd.com/SpellLists.aspx?Tradition=0" target="_blank">your spellbook</a>. Your knowledge with spells will help you narrow down spells to find the best one to use against this monster. <br> <br>
-        Note that knowledge of Pathfinder 2nd Edition is not needed to solve this. You also do not need to click on any links on the spellbook page.<br> <br>
-        <form>
+        <i>(Note that knowledge of Pathfinder 2nd Edition is not needed to solve this. You also do not need to click on any links on the spellbook page.)</i><br> <br>
           <label for="wizardGuess">Try a spell here:</label><br>
           <input type="text" id="wizardGuess" name="wizardGuess">
           <input type="button" onclick="checkWizard();" value="Try the Spell!">
-        </form>
         <div id="wizardResponse">
           <b>Results:</b><br><br>
         </div>
       </div>
-      <div id="fighter" class="column"> <h2>Fighter</h2>
+      <div id="fighter" class="column"> <span id="fighterHeading"><h2>Locked 🔒</h2></span>
+        <div id="fighterExplanation"> As a fighter you are a master of weapons. You understand that different situations call for different weapons - especially if you can come up with a weapon that particularly hits a creature's weakness.<br><br>
+          Guess weapons in the box below until you find one that will hit the weakness of the current creature. Note that this may include objects that may not be considered weapons normally. Be quick! You'll be asked to prove that you own the weapon!<br><br>
+          <label for="fighterGuess">Try a weapon here:</label><br>
+          <input type="text" id="fighterGuess" name="fighterGuess">
+          <input type="button" onclick="checkFighter();" value="Try the Weapon!">
+          <div id="fighterResponse">
+            <b>Results:</b><br><br>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="row">
-      <div id="cleric" class="column"> <h2>Cleric</h2>
+      <div id="cleric" class="column"> <span id="clericHeading"><h2>Locked 🔒</h2></span>
+        <div id="clericExplanation">Consulting your faith, you have a vision from your deity as to how to protect your party:<br><br>
+          <span id="clericChant">stop reading the source code</span><br><br>
+          However, that phrase is maybe not the most helpful. In particular, you will need to draw a protective sigil, but you can't draw a sigil of that. You'll need to interpret the statement from your god, and translate it into a series of things to include in your sigil.<br><br>
+          <i>(Please enter words in alphabetical order below.)</i><br><br>
+            <label for="clericGuess">Try an interpretation here:</label><br>
+            <input type="text" id="clericGuess" name="clericGuess">
+            <input type="button" onclick="checkCleric();" value="Ask your Deity!">
+          <div id="clericResponse">
+            <b>Results:</b><br><br>
+          </div>
+        </div>
       </div>
-      <div id="rogue" class="column"> <h2>Rogue</h2>
+      <div id="rogue" class="column"> <span id="rogueHeading"><h2>Locked 🔒</h2></span>
+        <div id="rogueExplanation">As a rogue, you have to be real knowledgable about all sorts of creatures. For instance, there's no point in hiding in the dark when the monster has darkvision and there's no point in sneaking up behind a creature that can smell you. <br><br>
+          As a knowledgable rogue, you of course know everying in the <span id="rogueLink">stat block for reading the source code</span>. <i>(Fortunately, completing this section doesn't require any information about Pathfinder 2nd edition and can be done without clicking any links on that page.)</i><br><br>
+          Answer the following question with your knowledge of this creature: <span id="rogueQuestion">What is the answer?</span><br><br>
+            <label for="rogueGuess">Try an answer here:</label><br>
+            <input type="text" id="rogueGuess" name="rogueGuess">
+            <input type="button" onclick="checkRogue();" value="Check Your Knowledge!">
+          <div id="rogueResponse">
+            <b>Results:</b><br><br>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="row">
       <h2>Round Selector</h2>
-      <form>
-          <select id="roundNumber" name="roundNumber" onChange="loadRound();"">
-            <option value="1">Round 1</option>
-            <option value="2">Round 2</option>
-            <option value="3">Round 3</option>
-            <option value="4">Round 4</option>
-            <option value="5">Round 5</option>
-            <option value="6">Round 6</option>
-            <option value="7">Round 7</option>
-            <option value="8">Round 8</option>
-          </select>
-      </form>
+        <select id="roundNumber" name="roundNumber" onChange="loadRound();">
+          <option value="1">Round 1</option>
+          <option value="2">Round 2</option>
+          <option value="3">Round 3</option>
+          <option value="4">Round 4</option>
+          <option value="5">Round 5</option>
+          <option value="6">Round 6</option>
+          <option value="7">Round 7</option>
+          <option value="8">Round 8</option>
+        </select>
     </div>
   </body>
 </html>
