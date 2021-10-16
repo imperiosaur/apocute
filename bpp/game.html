@@ -6,14 +6,29 @@
     <script src="resolve.js"></script>
 
     <style>
+    body {
+      background-image: url("dice.jpg");
+      background-repeat: repeat-x;
+    }
+
+      #title {
+        background: rgba(256, 256, 256, 0.8);
+        text-align: center;
+      }
+
       #note {
+        background-color:#E0E0E0;
+        border: 2px dotted black;
+      }
+
+      #roundSelector {
         background-color:#E0E0E0;
         border: 2px dotted black;
       }
 
       .column {
           float: left;
-          width: 50%;
+          width: 45%;
         }
 
       .row:after {
@@ -30,18 +45,22 @@
 
         #wizard {
           background-color: #b3c6ff;
+          padding: 2.5%;
         }
 
         #fighter {
           background-color: #ffddcc;
+          padding: 2.5%;
         }
 
         #cleric {
           background-color: #ffffcc;
+          padding: 2.5%;
         }
 
         #rogue {
           background-color: #ddccff;
+          padding: 2.5%;
         }
 
         #fighterExplanation {
@@ -67,7 +86,7 @@
   </head>
 
   <body>
-    <div><h1>Bookspace Plays Pathfinder</h1></div>
+    <div id=title><h1>Bookspace Plays Pathfinder</h1></div>
     <div id="note">Testsolver note: The source code will be obfuscated before being presented to solvers. Please do not delve into it while testsolving.</div>
 
     <div class="row">
@@ -98,7 +117,7 @@
       <div id="cleric" class="column"> <span id="clericHeading"><h2>Locked 🔒</h2></span>
         <div id="clericExplanation">Consulting your faith, you have a vision from your deity as to how to protect your party:<br><br>
           <span id="clericChant">stop reading the source code</span><br><br>
-          However, that phrase is maybe not the most helpful. In particular, you will need to draw a protective sigil, but you can't draw a sigil of that. You'll need to interpret the statement from your god, and translate it into a series of things to include in your sigil.<br><br>
+          However, that phrase is maybe not the most helpful. In particular, you will need to draw a protective sigil, but you can't draw a sigil of that phrase. You'll need to interpret the statement from your god, and translate it into a series of things to include in your sigil.<br><br>
           <i>(Please enter words in alphabetical order below.)</i><br><br>
             <label for="clericGuess">Try an interpretation here:</label><br>
             <input type="text" id="clericGuess" name="clericGuess">
@@ -122,7 +141,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="roundSelector">
       <h2>Round Selector</h2>
         <select id="roundNumber" name="roundNumber" onChange="loadRound();">
           <option value="1">Round 1</option>
@@ -133,7 +152,7 @@
           <option value="6">Round 6</option>
           <option value="7">Round 7</option>
           <option value="8">Round 8</option>
-        </select>
+      </span>
     </div>
   </body>
 </html>
