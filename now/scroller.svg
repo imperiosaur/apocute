@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <style>
+      @import url(https://use.typekit.net/xef3sni.css);
+      svg {
+        font-family: aktiv-grotesk, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: .012em;
+      }
+      .no-motion {
+        display: none;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none; }
+        .no-motion { display: block; }
+      }
+    </style>
+    <path id="curve" fill="transparent" d="M 776 94 L 776 106 C 776 144.634 744.634 176 706 176 L 94 176 C 55.366 176 24 144.634 24 106 L 24 94 C 24 55.366 55.366 24 94 24 L 706 24 C 744.634 24 776 55.366 776 94 Z"/>
+  </defs>
+  <!--
+    Ensure the text is long enough so that any sizes the SVG is shown at, it
+    wraps around at least once.
+  -->
+  <g>
+    <text class="motion">
+      <textPath href="#curve">
+        NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE
+        <animate attributeType="XML" attributeName="startOffset" from="-100%" to="0%" dur="120s" repeatCount="indefinite"/>
+      </textPath>
+    </text>
+    <text class="no-motion">
+      <textPath href="#curve">
+        NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE
+        NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE  NOW A PUZZLE
+      </textPath>
+    </text>
+  </g>
+</svg>
