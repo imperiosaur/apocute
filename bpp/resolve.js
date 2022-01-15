@@ -263,7 +263,7 @@ function checkRogue() {
       hintString = "This is a pun. What kind of food does a gug like to eat?";
     break;
     case "5":
-      actualAnswer = "amagicalexperiment";
+      actualAnswer = "amagicalexperimint";
       hintString = "This is a pun. This is about how an owlbear is created.";
     break;
     case "6":
