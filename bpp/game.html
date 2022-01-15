@@ -87,11 +87,11 @@
 
   <body>
     <div id=title><h1>Bookspace Plays Pathfinder</h1></div>
-    <div id="note">Testsolver note: The source code will be obfuscated before being presented to solvers. Please do not delve into it while testsolving.</div>
+    <div id="note">Hi everyone - we know that there are answers in the source code. Please don't read it.</div>
 
     <div class="row">
       <div id="wizard" class="column"> <h2>Wizard 🧙‍♀️</h2>
-        Guess spells from <a href="https://2e.aonprd.com/SpellLists.aspx?Tradition=0" target="_blank">your spellbook</a>. Your knowledge with spells will help you narrow down spells to find the best one to use against this monster. <br> <br>
+        Guess spells from <a href="https://2e.aonprd.com/SpellLists.aspx?Tradition=0" target="_blank">your spellbook</a>. Your knowledge with spells will help you narrow down spells to find the best one to use against this monster. While you don't know _all_ the spells, you do know most of them, and that will be enough.<br> <br>
         <i>(Note that knowledge of Pathfinder 2nd Edition is not needed to solve this. You also do not need to click on any links on the spellbook page.)</i><br> <br>
           <label for="wizardGuess">Try a spell here:</label><br>
           <input type="text" id="wizardGuess" name="wizardGuess">
@@ -144,6 +144,7 @@
 
     <div class="row" id="roundSelector">
       <h2>Round Selector</h2>
+      <p>Only change this when your GM! No peeking at their notes!</p>
         <select id="roundNumber" name="roundNumber" onChange="loadRound();">
           <option value="1">Round 1</option>
           <option value="2">Round 2</option>

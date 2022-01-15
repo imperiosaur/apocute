@@ -307,76 +307,70 @@ function checkFighter() {
     isAWord = true;
   }
 
-  switch(roundNumber) {
-    case "2":
-      for(var i = 0; i < cleanedUpWeapon.length; i++) {
-        if(cleanedUpWeapon.charAt(i) == cleanedUpWeapon.charAt(i+1)) {weaponScore += 1;}
-      }
-      damageNeeded = 3;
-    break;
-    case "3":
-      weaponScore = 2;
-      for(var i = 0; i < cleanedUpWeapon.length; i++) {
-        if(cleanedUpWeapon.charAt(i) == 'F' || cleanedUpWeapon.charAt(i) == 'A' || cleanedUpWeapon.charAt(i) == 'C' || cleanedUpWeapon.charAt(i) == 'E') {weaponScore -= 1;}
-      }
-      damageNeeded = 4;
-    break;
-    case "4":
-      weaponScore = longestPalindrome(cleanedUpWeapon).length;
-      damageNeeded = 6;
-    break;
-    case "5":
-    weaponScore = cleanedUpWeapon.length;
-      for(var i = 1; i < cleanedUpWeapon.length; i++) {
-        var string1 = cleanedUpWeapon.slice(0,i);
-        var string2 = cleanedUpWeapon.slice(i,cleanedUpWeapon.length);
-        if(enable.has(string1) && enable.has(string2)) {
-          if(string1.length < string2.length) {
-            if(weaponScore > string1.length) {weaponScore = string1.length;}
-          } else {
-            if(weaponScore > string2.length) {weaponScore = string2.length;}
+  if (isAWord) {
+    switch(roundNumber) {
+      case "2":
+        for(var i = 0; i < cleanedUpWeapon.length; i++) {
+          if(cleanedUpWeapon.charAt(i) == cleanedUpWeapon.charAt(i+1)) {weaponScore += 1;}
+        }
+        damageNeeded = 3;
+      break;
+      case "3":
+        weaponScore = 2;
+        for(var i = 0; i < cleanedUpWeapon.length; i++) {
+          if(cleanedUpWeapon.charAt(i) == 'F' || cleanedUpWeapon.charAt(i) == 'A' || cleanedUpWeapon.charAt(i) == 'C' || cleanedUpWeapon.charAt(i) == 'E') {weaponScore -= 1;}
+        }
+        damageNeeded = 4;
+      break;
+      case "4":
+        weaponScore = longestPalindrome(cleanedUpWeapon).length;
+        damageNeeded = 6;
+      break;
+      case "5":
+      weaponScore = cleanedUpWeapon.length;
+        for(var i = 1; i < cleanedUpWeapon.length; i++) {
+          var string1 = cleanedUpWeapon.slice(0,i);
+          var string2 = cleanedUpWeapon.slice(i,cleanedUpWeapon.length);
+          if(enable.has(string1) && enable.has(string2)) {
+            if(string1.length < string2.length) {
+              if(weaponScore > string1.length) {weaponScore = string1.length;}
+            } else {
+              if(weaponScore > string2.length) {weaponScore = string2.length;}
+            }
           }
         }
-      }
-      if (weaponScore == cleanedUpWeapon.length) {weaponScore = 0;}
-      damageNeeded = 6;
-    break;
-    case "6":
-      for(var i = 0; i < cleanedUpWeapon.length; i++) {
-        var newWord = "";
-        for(var j = 0; j < cleanedUpWeapon.length; j++) {
-          if(i !=j) {newWord += cleanedUpWeapon.charAt(j);}
+        if (weaponScore == cleanedUpWeapon.length) {weaponScore = 0;}
+        damageNeeded = 6;
+      break;
+      case "6":
+        for(var i = 0; i < cleanedUpWeapon.length; i++) {
+          var newWord = "";
+          for(var j = 0; j < cleanedUpWeapon.length; j++) {
+            if(i !=j) {newWord += cleanedUpWeapon.charAt(j);}
+          }
+          if(enable.has(newWord)) {weaponScore++;}
         }
-        if(enable.has(newWord)) {weaponScore++;}
-      }
-      damageNeeded = 4;
-      flanking = true;
-    break;
-    case "7":
-      weaponScore = cleanedUpWeapon.length - cleanedUpWeapon.replace(/I/g, "").length;
-      damageNeeded = 8;
-      flanking = true;
-    break;
-    case "8":
-      var anagrams = permutation("",cleanedUpWeapon);
-      for(let anagram of anagrams) {
-        if(anagram != cleanedUpWeapon && enable.has(anagram)) {weaponScore++;}
-      }
-      flanking = true;
-      damageNeeded = 5;
-    break;
+        damageNeeded = 4;
+        flanking = true;
+      break;
+      case "7":
+        weaponScore = cleanedUpWeapon.length - cleanedUpWeapon.replace(/I/g, "").length;
+        damageNeeded = 8;
+        flanking = true;
+      break;
+      case "8":
+        /* Added by Celestine */
+        var anagramForm = toAnagramForm(cleanedUpWeapon);
+        if (anagramForm in anagCount) {
+          // -1 here, as it doesn't count itself as an anagram.
+          weaponScore = anagCount[anagramForm] - 1;
+        }
+        /* end of additions */
+        flanking = true;
+        damageNeeded = 5;
+      break;
+    }
   }
-  //alert("correctWeapon: " + correctWeapon + ", isAWord: " + isAWord + ", flanking: " + flanking);
-  /*if(correctWeapon && !flanking) {
-    outputString = "<b>" + attemptedWeapon + "</b>: Congratulations - you have found a weapon that this monster is weak to! Now it's time to attack it! Take a picture of yourself holding this weapon, and upload it to your team's Discord channel, tagging @Fighter and mentioning the name of the weapon. If you don't like this weapon, you are free to keep guessing to get a weapon you can take a picture with.<br><br>";
-  }
-  if(correctWeapon && flanking) {
-    outputString = "<b>" + attemptedWeapon + "</b>: Congratulations - you have found a weapon that this monster is weak to! However, with more powerful monsters, you'll need to attack with flanking. Two different members of your team musy take a picture of themselves holding this weapon, and upload it to your team's Discord channel, tagging @Fighter and mentioning the name of the weapon. As before, if you don't like this weapon, you are free to keep guessing to get a weapon you can take a picture with.<br><br>";
-  }
-  if(!correctWeapon && isAWord) {
-    outputString = "<b>" + attemptedWeapon + "</b>: While that is a reliable weapon, it doesn't particularly aim at this creature's weakness.<br><br>";
-  }*/
-
   outputString = "<b>" + attemptedWeapon + "</b>: This weapon deals " + weaponScore + " damage to the monster. You need to deal " + damageNeeded + " damage to this monster to defeat it. You may need to find other weapons to help defeat this monster. When you have a set of weapons that will defeat this monster, take a picture of yourself holding all of the weapons, and upload it to your team's Discord channel, tagging @Fighter and mentioning the name of the weapon(s). If you don't like this weapon, you are free to keep guessing to get a weapon you can take a picture with.<br><br>";
 
   if (flanking) {
@@ -432,3 +426,23 @@ function expandAroundCenter(s, left, right) {
   }
   return right - left - 1;
 }
+
+/* Added by Celestine */
+function toAnagramForm(s) {
+  return s.split('').sort().join('');
+}
+
+let anagCount = {};
+function loadAnagrams() {
+  enable.forEach(function (word) {
+    let anagramForm = toAnagramForm(word);
+    if (anagramForm in anagCount) {
+      anagCount[anagramForm] = anagCount[anagramForm] + 1;
+    } else {
+      anagCount[anagramForm] = 1;
+    }
+  });
+}
+
+window.onload = loadAnagrams;
+/* end of additions */
