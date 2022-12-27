@@ -1,0 +1,9 @@
+table {
+  /* background-color: red; */
+}
+
+div.npc { /* non-puzzle content */
+  border-radius: 25px;
+  border: 2px dashed darkred;
+  background-color: lavenderblush;
+}

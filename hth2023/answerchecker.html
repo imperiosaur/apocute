@@ -1,0 +1,87 @@
+<html>
+
+  <head>
+    <script type="text/javascript">
+      //  1 - Become an Expert
+      //  2 - Black Box
+      //  3 - Cryptic
+      //  4 - Identify, Sort, Index, Solve
+      //  5 - Location-Based
+      //  6 - Logic Puzzles
+      //  7 - Picture Pile
+      //  8 - Trigrams
+      //  9 - Twisted Clues
+      // 10 - Metapuzzle
+      const urlParams = new URLSearchParams(window.location.search);
+      const puzzleversion = parseInt(urlParams.get('puzzle'));
+      //console.log(puzzleversion);
+
+
+      function wordCheck() {
+        var entryWord = document.getElementById('entrybox').value;
+        var cleanedUpEntryWord = entryWord.toUpperCase();
+        cleanedUpEntryWord = cleanedUpEntryWord.replace(/[^A-Z]/g, "");
+        //console.log(cleanedUpEntryWord);
+
+        var outputText = "";
+        switch(puzzleversion) {
+          case 1:
+            if(cleanedUpEntryWord == "VISITORCENTER") {outputText = "VISITOR CENTER is correct!";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+          case 2:
+            //console.log("SUCCESS");
+            if(cleanedUpEntryWord == "PUERTORICO") {outputText = "PUERTO RICO is correct!";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+          case 3:
+            if(cleanedUpEntryWord == "GLASSLAB") {outputText = "GLASS LAB is correct!";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+          case 4:
+            if(cleanedUpEntryWord == "REGISTRAR") {outputText = "REGISTRAR is correct!";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+          case 5:
+            if(cleanedUpEntryWord == "PIERCE") {outputText = "PIERCE is correct!";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+          case 6:
+            if(cleanedUpEntryWord == "NANO") {outputText = "NANO is correct!";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+          case 7:
+            if(cleanedUpEntryWord == "CHAPEL") {outputText = "CHAPEL is correct!";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+          case 8:
+            if(cleanedUpEntryWord == "CABLETELEVISION") {outputText = "CABLE TELEVISION is correct!";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+          case 9:
+            if(cleanedUpEntryWord == "SIMONS") {outputText = "SIMONS is correct!";}
+            else if(cleanedUpEntryWord == "SIMON") {outputText = "You're not done yet. Don't forget, you'll need to repeat the transformation process on the result.";}
+            else if(cleanedUpEntryWord == "XXFACTORFCREATORCCOWELLC") {outputText = "You got the correct letters, but you're not done. This puzzle requires recursion, and so you'll need to repeat this process one more time.";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+          case 10:
+            if(cleanedUpEntryWord == "ITLLBEAGOODTIME") {outputText = "That's correct! I may not know much about the theme tomorrow, but I know that IT'LL BE A GOOD TIME! I hope you had fun with these puzzles!";}
+            else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
+          break;
+        }
+        //console.log("AT THE END");
+        document.getElementById('result').innerHTML = outputText;
+      }
+    </script>
+  </head>
+
+  <body>
+    <form class="" action="javascript:wordCheck();" method="post">
+      <label for="entrybox">Check Your Answer:</label>
+      <input type="text" name="entrybox" id="entrybox" value="">
+      <input type="button" name="submitbutton" id="submitbutton" value="Submit" onclick="wordCheck();">
+    </form>
+    <div class="" id="result"></div>
+  </body>
+
+</html>

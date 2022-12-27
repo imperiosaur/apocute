@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>2023 How to Hunt Puzzles</title>
+    <script src="nutshell.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="hth2023.css"></link>
+  </head>
+
+  <body>
+
+    <h1>:Intro</h1>
+      <p>Welcome new Hunters!</p>
+      <p>We’re so glad that you’re taking the first step into what will soon be the highlight of your year – the MIT Mystery Hunt! Friday at noon, we will all be transported into the wonderful world of the Hunt, where reality melts away and puzzles are life. </p>
+      <p>This set of puzzles is designed to help you get used to the kind of puzzles that you are going to see tomorrow. It focuses on the kind of puzzles that tend to show up in the Mystery Hunt, so even if you’re someone who has solved puzzlehunt puzzles before, there should be puzzles and information to help you here.</p>
+      <p>There are 9 puzzles in this set, along with a metapuzzle that uses the answers to the nine puzzles. Each puzzle has an intro to the puzzle type above it, along with lots of hints as to how to approach the puzzle below it. Don’t be afraid to use the hints! You are not expected to be able to solve all of these right away without them, and the hints will give you tips and approaches that will be helpful in the Hunt overall. Each puzzle also contains an answer checker which you may use to check your answer, along with any intermediate messages. Note that this is all implemented in Javascript, which means that it will not save your progress if the page reloads. You should keep track of your progress in a separate place. You’ll need a place to do scratch work for the puzzles anyway.</p>
+      <p>Do note that you are allowed to work with other people, use the internet and otherwise take advantage of any resources that you have to try these puzzles. These puzzles are to prepare you for the Mystery Hunt, and since you have all of those resources for the Hunt, they should be okay for these puzzles as well. The one thing that I ask that you don’t do is please don’t look at the source code. I am a bad coder and there are puzzle answers in plaintext in the Javascript files. But also, these are designed to teach you, and just looking at the answers doesn’t help you learn.</p>
+      <div class="npc">Nothing in any boxes like this are necessary to solve the puzzle, but may contain hints to help you approach the puzzles.</div>
+      <p>If you have any questions, feel free to ask. During the How-to-Hunt seminar, please ask one of the Palindrome members. Afterwards, feel free to email Jen at iammars21 AT gmail DOT com.</p>
+      <p>Good luck, and happy hunting!</p>
+
+    <h1>:Puzzle #1: Become an Expert - Puzzle Done, Needs Testing, Hints</h1>
+      <div class="npc">
+        <a href="#ExpertIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=1" width="100%" height="100px"></iframe></div>
+      <div class="puzzle"><div class="flavor">You're pretty sure that the defendant said the solution to the puzzle, but you couldn't hear them over the click-clacking of the typist on the side.</div>
+      <p>KWRO*URPB EU SWAEUR -T APBS ER S SREUS SEUT TOR SEPB TER</p></div>
+
+    <h1>:X Expert Intro</h1>
+      <p>One of the great things about the puzzles in the MIT Mystery Hunt is that we can assume that there is a group of people indoors putting their brain power for hours of uninterrupted time on each puzzle. This means that Mystery Hunt puzzles can go deeper into very specialist realms of knowledge than many other puzzle hunts. There are some puzzles about these specialist realms where the puzzle writer assumes that no one knows about it at the start of the Hunt, and so therefore part of the puzzle solving is becoming enough of an expert to solve the puzzle.</p>
+      <p>Take the 2022 puzzle <a href="https://puzzles.mit.edu/2022/puzzle/large-scale-anthropomorphism/">Large-scale Anthropomorphism</a>. This puzzle is about <a href="https://en.wikipedia.org/wiki/Dai_shogi">Dai Shogi</a>, a larger variant of Shogi. To solve this puzzle, a team first had to identify that this represents Dai Shogi, construct the board, then learn enough of it in order to solve the mate in 6 problem. This was made more complicated in that the mate was constructed in such a way that white had to make an “Igui” move, which is a type of move where a piece captures but doesn’t move, so you really had to know your stuff. This puzzle would be completely unreasonable in a puzzle hunt like DASH or BAPHL, where people are moving around from place to place, but in the Mystery Hunt, this is fair game.</p>
+      <p>This kind of puzzle has been a staple of the Mystery Hunt ever since the days where you could challenge Hunters by giving them something written in a foreign language and then check out the only book in the library system about that language. Now you might get lucky – maybe you have a person on your team who is familiar with Dai Shogi. If you do, congratulations! You’ve got a much easier puzzle. But otherwise, enjoy the journey that you’re about to be on, and you’ll get a fun story for <a href="#PartyStory">:parties</a> later.</p>
+      <p>This puzzle is designed to capture this feeling while also being significantly shorter than Becoming an Expert puzzles usually are. In the puzzle notes down at the bottom I’ve written some ideas for how this puzzle be written for a full Hunt-level puzzle. </p>
+
+    <h1>:X Party Story</h1>
+      <p>Or at least, I assume it would make a good story. It would be a good story for the kinds of parties I get invited to.</p>
+
+
+    <h1>:Puzzle #2: Black Box - Puzzle Done, Needs Testing, Hints</h1>
+      <div class="npc">
+        <a href="#BlackBoxIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=2" width="100%" height="100px"></iframe></div>
+      <div><iframe src="interactive.html" width="100%" height="300px"></iframe></div>
+      <div class="npc"><p><a href="#BlackBoxHints">:Hints</a></p></div>
+
+    <h1>:X Black Box Intro</h1>
+    <p>There’s a certain simplicity to black box puzzles. You put a set of inputs in, you get a set of inputs out. The puzzle writer theoretically doesn’t need to write specific clues to get you to learn certain things at certain times – the solver just blazes their own trail. Now of course, that’s incredibly simplistic, a lot of work goes into writing one of these puzzles, but the vibe is definitely there. Unlike other puzzles with fixed clues, you get to decide yourself what you’ll use to figure things out.</p>
+    <p>Good black box puzzles elicit a wonderful feeling inside as you solve them. As you start to uncover more and more information, you can start to see the bigger picture. But this being a Mystery Hunt puzzle, you still need to get an answer. Black box puzzles can accomplish this all sorts of ways, whether it’s literally telling you to evaluate something that the black box cannot evaluate itself, or finding some pattern in the rules to do something weird with the box.</p>
+    <p>A great example of this is the Xbox, a puzzle from the Famine Games. When you have time, watch <a href="https://www.youtube.com/watch?v=o_8e6XgAiow">this video</a> about solving it. While it’s not a Mystery Hunt puzzle, it’s the best black box puzzle that I know of.</p>
+
+    <h1>:x Black Box Hints</h1>
+      <p><a href="#BlackBoxStart">:How the heck do I get started?</a></p>
+      <p><a href="#BlackBoxSecond">:I know what I can put in, but where do I go from here?</a></p>
+      <p><a href="#BlackBoxThird">:I don't really understand what words I should be trying.</a></p>
+      <p><a href="#BlackBoxFourth">:How do I figure out the ✅s?</a></p>
+      <p><a href="#BlackBoxFifth">:I understand what's going on behind the scenes. How do I get an answer?</a></p>
+      <br>
+      <p><a href="#BlackBoxSkip">:I'm hopelessly stuck. Get me off the current part that I'm on.</a></p>
+
+    <h1>:X Black Box Start</h1>
+      <p>The first thing question you want to answer is "What kinds of input does this puzzle find acceptable?". Some ideas of things you might want to try:</p>
+      <ul>
+        <li>Can you type arbitrary strings?</li>
+        <li>Can you use numbers?</li>
+        <li>Can you use emoji?</li>
+        <li>Can you use foreign words?</li>
+        <li>Is there any restriction on the number of characters? (What happens if you enter the null string?)</li>
+      </ul>
+      <p>Once you know the answers to these questions, you can then start to look more deeply at the results.</p>
+
+    <h1>:X Black Box Second</h1>
+      <p>Black Box puzzles are all about making theories about what is going on behind the scenes, and then testing those theories. The best tool you have to do that is to try words and then try slight variations on them. Try words with one letter changed, try words that are anagrams of words that you chose before, try words that contain words that you’ve tried before. Any of these small changes can possibly tell you some information about what is going on behind the scenes.</p>
+
+    <h1>:X Black Box Third</h1>
+      <p>Some suggested words to try:<br>
+      BA/BASK/BASKET/BASKETRY<br>
+      MESA/SAME/SAFE<br>
+      MESA/THEM</p>
+      <p>These sets of words should allow you to make some educated guesses about what’s going on behind the scenes. You can come up with other examples that are similar to confirm them.</p>
+
+    <h1>:X Black Box Fourth</h1>
+      <p>The best way to figure out which bigrams are giving the ✅s is to just try a bunch and keep track of what works and what doesn’t work. There is a pattern to which ones give a ✅ and which ones give an ❌.</p>
+      <p>If you don’t recognize that set, try putting it into Google. (It’s a good set to recognize overall. It shows up a lot in the Hunt.)</p>
+
+    <h1>:X Black Box Fifth</h1>
+      <p>This puzzle doesn’t really force you down one path to get the answer. There are two main ways of solving it, but you’ll likely use a little from both paths to get your answer.</p>
+      <p>Note that there are some bigrams that give numbers instead of/in addition to other emojis. These will help find the answer. In addition, the facts that you get from ✅s give you information about the answer. The more different facts you can get, the more you will be able to narrow the answer down.</p>
+      <p>I wouldn’t recommend trying to find words with all 676 different possible bigrams to test in the checker, but with some clever trial and error, you may be able to reduce that significantly.</p>
+
+    <h1>:X Black Box Skip</h1>
+      <p><a href="#BlackBoxSkipOne">:Step 1: Figure out what kind of words you can put in the box</a></p>
+      <p><a href="#BlackBoxSkipTwo">:Step 2: Figure out how the emojis are generated</a></p>
+      <p><a href="#BlackBoxSkipThree">:Step 3: Use that info to figure out the answer</a></p>
+
+    <h1>:X Black Box Skip One</h1>
+      <p>The box will process words from the ENABLE wordlist that have an even number of letters.</p>
+      <p>There are lots of ways of getting this, but here is one possibility:</p>
+      <p>First, figure out that the box is looking for English words. Try a couple common English words, then also keysmash and see what happens. Thankfully, when we enter something that isn’t a word, it tells us that we need to enter words in the <a href="#ENABLEWordlist">:ENABLE wordlist</a>.</p>
+      <p>While you may be pretty sure that the black box just wants English words, it may be worth testing to make sure that numbers, symbols, and emojis aren’t processed weirdly. A quick test of “123”, “-+#”, and “🎉🎶✈” should confirm that there are no shenanigans there.</p>
+      <p>At this point, we should check to see if all the words are acceptable or only words of certain lengths. A good way to test that would be to do a series of words like this:</p>
+      <p>BROW/BROWS/BROWSE/BROWSER/BROSWERS</p>
+      <p>This will hopefully give you the hypothesis that words with an even length work and words with an odd length can’t be processed, which you can then test with lots of other words.</p>
+
+    <h1>:X ENABLE Wordlist</h1>
+      <p>A wordlist is exactly what it sounds like – a list of words. Different wordlists serve different purposes, but most of them are a just an attempt to list all the words in the English language. Word nerds have strong opinions about different wordlists, and you’ll need a wordlist if you want to do any programming with English words, but otherwise, the difference between different wordlists isn’t that important. The advantage here to knowing which wordlist the puzzle is using means that you can search up the wordlist and search through it looking for words that fit certain properties to try in the black box.</p>
+      <p>(Honestly, there’s nothing special here in the choice to use the ENABLE wordlist as opposed to any others. The only reason why I chose it was because I already had a javascript version of it ready that I stole from the prototype version of <a href="https://puzzles.mit.edu/2022/puzzle/nowhere-to-hide/">Nowhere to Hide</a>.)</p>
+
+    <h1>:X Black Box Skip Two</h1>
+      <p>The black box splits the word into bigrams and checks each of them in turn. If it’s a US state abbreviation, then it outputs a ✅ and writes the rule corresponding to that state. If it’s not, then it outputs a ❌. (There are also shenanigans with numbers – those aren’t part of this step.)</p>
+      <p>The bigram step can be inferred through a couple ways. First, it is worth wondering why only words of even length work in the puzzle. That restriction is a weird one to put on a puzzle unless there was a reason for it. When you try words of different lengths (like BROW/BROWSE/BROWSERS from the previous question), the number of emojis are always equal to half the number of letters in the word.</p>
+      <p>A good way to test this would be to take a word that evaluates to different emojis and switch them. MESA/SAME is a good set for this.</p>
+      <p>Then the trick is to figure out that the ✅s are US state abbreviations. This can be done by keeping track of which bigrams are giving ✅s and which ones are giving ❌s. In addition, if you use the bigram “MA” in a word, the rule “There are 50 different hints (including this one)” appears. The number 50 might seem suspicious and might push you towards US State abbreviations.</p>
+
+    <h1>:X Black Box Skip Three</h1>
+      <p>You can either get the answer from trying different bigrams until you find (1)(2)(3)(4)(5), or until you get enough rules to narrow down the answer in a Nutrimatic search. You _can_ do a lot of work to get every piece of information in the puzzle, but you don’t have to.</p>
+      <p>That being said, lots of the rules give characteristics of individual letters of the answer. The most helpful rule is “NE”, which states “Each of the bigrams in the answer consists of a vowel and a consonant in some order.” It may help to make these notes first:</p>
+      <ul>
+        <li>Rhymes with “Zee”: BCDEGPTVZ</li>
+        <li>Doesn’t rhyme with “Zee”: AFHIJKLMNOQRSUWXY</li>
+        <li>In the first half of the alphabet: ABCDEFGHIJKLM</li>
+        <li>In the second half of the alphabet: NOPQRSTUVWXYZ</li>
+        <li>Is odd in alphanumerics: ACEGIKMOQSUWY</li>
+        <li>Is even in alphanumerics: BDFHJLNPRTVXZ</li>
+      </ul>
+      <p>If you have all the rules, you can narrow it down:</p>
+      <ul>
+        <li>Letter 1: Rhymes, Second, Even: PTVZ</li>
+        <li>Letter 2: Doesn’t rhyme, Second, Odd: OQSUWY</li>
+        <li>Letter 3: Rhymes, First, Odd: CEG</li>
+        <li>Letter 4: Doesn’t rhyme, Second, Even: NRX</li>
+        <li>Letter 5: Rhymes, Second, Even: PTVZ</li>
+        <li>Letter 6: Doesn’t rhyme, Second, Odd: OQSUWY</li>
+        <li>Letter 7: Doesn’t rhyme, Second, Even: NRX</li>
+        <li>Letter 8: Doesn’t rhyme, First, Odd: AIKM</li>
+        <li>Letter 9: Rhymes, First, Odd: CEG</li>
+        <li>Letter 10: Doesn’t rhyme, Second, Odd: OQSUWY</li>
+      </ul>
+      <p>At this point, we can make some deductions. Letter 1 has to be a consonant, so Letter 2 has to be a vowel. Similarly, Letter 4 has to be a consonant, so Letter 3 has to be E, the only vowel. Letter 5 has to be a consonant, so Letter 6 has to be a vowel. Letter 7 has to be a consonant, so Letter 8 has to be a vowel. This brings us to the following pattern:</p>
+      <p>[ptvz][ou]e[nrx][ptvz][ou][nrx][ai][ceg][oqsuwy] (<a href="#NutrimaticExplanationOne">:Explanation</a>)</p>
+      <p>We can just put that straight into <a href="https://nutrimatic.org/?q=%5Bptvz%5D%5Bou%5De%5Bnrx%5D%5Bptvz%5D%5Bou%5D%5Bnrx%5D%5Bai%5D%5Bceg%5D%5Boqsuwy%5D&go=Go">Nutrimatic</a>, and the best hit by far is PUERTO RICO.</p>
+
+    <h1>:X Nutrimatic Explanation One</h1>
+      <p>Putting a set of letters in square brackets tells Nutrimatic that this character should be one of this set of letters. So for instance, [ptvz] means that the first letter has to be P, T, V, or Z. The letters are lowercase because that's how Nutrimatic knows you mean the literal letters and not one of its special wildcards.</p>
+
+
+
+    <h1>:Puzzle #3: Cryptic - Puzzle Done, Needs Hints</h1>
+      <div class="npc">
+        <a href="#CrypticIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=3" width="100%" height="100px"></iframe></div>
+      <p></p>
+
+
+    <h1>:X Cryptic Intro</h1>
+      <p>Cryptic crosswords are a crossword puzzle where every clue is its own puzzle. The first thing you should know is that everything that is said below is assuming that you are solving an American cryptic crossword. If the puzzle implies that it’s a British cryptic, <a href="#BritishCryptics">:run. Just run.</a> </p>
+      <p>Every clue in a cryptic crossword will have two parts – the definition and the wordplay. The definition is a word or phrase that could be used to clue the meaning of the word in some way, but often isn’t a straightforward definition of the word. The wordplay is (usually) a way of constructing the word via its letters. Examples of this are provided in the types of wordplay down below.</p>
+      <p>There are eight main types of wordplay that you will see in a cryptic crossword: <a href="#AnagramClues">:anagram</a>, <a href="#CharadeClues">:charade</a>, <a href="#ContainerClues">:containers</a>, <a href="#DeletionClues">:deletions</a>, <a href="#DoubleDefinitionClues">:double definition</a>, <a href="#HomophoneClues">:homophone</a>, <a href="#HiddenWordClues">:hidden word</a>, and <a href="#ReversalClues">:reversal</a>. In addition, these can be <a href="#CombinedClues">:combined</a>, can use <a href="#CrypticAbbreviations">:cryptic abbreviations</a>, may be <a href="#PunctuationinCryptics">:&lit</a>, should have a good <a href="#SurfaceReading">:surface reading</a>, and may have <a href="#ConnectorWords">:connector words</a>.</p>
+      <p>One side effect of cryptic clues is that all of the letters are checked. This means that every letter is clued twice – both by a definition and a wordplay. This means that unlike a standard crossword, a cryptic crossword can and will have unchecked letters in the grid (aka not every letter is used in both an across clue and a down clue). In fact, in a standard block cryptic, generally half of the letters are checked in the grid and half of them are not.</p>
+      <p>But of course, this is the Mystery Hunt and standard cryptics aren’t enough. After all, we still need to get a word or answer out of this somehow. Generally the kinds of cryptics you will see in the Hunt are variety cryptics. Variety cryptics are like standard cryptics, but shenanigans happen. Sometimes you need to transform the clue in some way before solving it, sometimes you need to transform the answer to each clue before entering it into the grid, and sometimes the grid is super weird and hard to enter stuff into. In traditional variety cryptics, you are given a set of instructions on what transformations you need to do, but since this is the Mystery Hunt, sometimes those instructions get… left off.</p>
+      <p>Cryptics are very complicated, and they take a while to get a hold of, but at least now you should be able to recognize them when they show up and have a chance at interpreting them.</p>
+      <p>So how do we actually go about solving variety cryptics? First, take a look at the instructions <a href="#VarietyJoke">:if there are any</a>. Right now, you’re particularly looking for any transformations that you know are going to be affecting the clues.</p>
+      <p>Once you have those in the back of your mind, go down the list of clues, writing down the answers to clues that you’re definitely sure of. If you solve one, it looks like it goes in the grid, and there’s nothing stopping it from the instructions from going in, put it in! Otherwise, write the answer next to the clue – you’ll come back to these. If there are clues that you know are for sure avoided by the instructions, start with those. They will help give you a solid basis for the rest of the shenanigans.</p>
+      <p>Once you’ve made your first pass and put the entries that you can into the grid, now you’re going back over the rest of the clues. At this point, you may not be 100% sure of what you’re entering, but you’re looking for reasonable guesses. You can get these from what’s been filled into the grid already, either the definition or the wordplay, knowing how the instructions work, or from figuring out the extraction early and backsolving the cryptic. When you have your guess, you can try to backsolve how the clue works – something that is generally easier to do than forward solving it. Do not feel bad about doing this – this is how a lot of cryptic clues are solved!</p>
+      <p>From there, you’ll need to get an answer, which can be anything from a simple process to a complicated endeavor. There is a lot of possibilities here, so it’s hard to give any specific advice, although I would say to focus on the pieces of information gained from the instructions to look for your answer – they weren’t put in for no reason.</p>
+
+    <h1>:X British Cryptics</h1>
+      <p>Maybe a little more explanation here is needed. Unlike pretty much everything else that has a British type and an American type, American cryptics are much stricter on the rules than British cryptics. British cryptics have been known to play a little loose with these rules and use words that are _much_ more obscure, meaning that they are very hard to dig into.</p>
+      <p>And then there’s Australian cryptics, where they might not have both parts and instead just have a pun where the answer is the word.</p>
+      <p>I mean, look, it’s worth mentioning because it’s happened in the past, but in general, this is an American event and the vast majority of the cryptics will be American-style.</p>
+
+    <h1>:X Anagram Clues</h1>
+      <p>Anagram clues involve taking a set of letters and rearranging them to form a new word. An anagram clue will always contain an indicator word that you need to anagram, although there are a lot of possible indicator words for anagram clues. Anything that implies mixing up, rearranging, being crazy, being put in a different place, or anything vaguely around that could be an anagram clue. Take the following clue:</p>
+      <div class="sample-clue">Top weird thirst (1-5)</div>
+      <p>In this clue, the word “weird” is our anagram indicator. (I find weird to be the weirdest anagram indicator by far, which is why I’m introducing it here.) This means that we <a href="#IndirectAnagram">:have to</a> anagram either “top” or “thirst” to get the answer. Given that we know that the clue is 6 letters long, this means that we’re anagramming “thirst” into a word that means “top”. This turns out to be T-SHIRT.</p>
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_anagram_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/anagram-indicators.html">lists</a> of anagram indicators. As you can see, there is a lot of variety in anagram indicators.
+
+    <h1>:X Indirect Anagrams</h1>
+      <p>It’s worth mentioning that there’s a third possibility here technically, but it’s bad and American cryptics don’t do it. It’s called an “indirect anagram”. These are anagrams where you don’t anagram the words or phrases in the clue, but something in the clue is supposed to clue the phrase that you are supposed to anagram. In our example, this would mean that “thirst” would be cluing a different word that would anagram to a word meaning “top”. This will never happen in an American cryptic.</p>
+
+    <h1>:X Charade Clues</h1>
+      <p>Charade clues are clues that involve putting two or more words together in order to form a bigger word (much like you would do with a hard word to act in the game Charades). These can, but do not have to, have an indicator. Take the following clue:</p>
+      <div class="sample-clue">Add extra about father (5)</div>
+      <p><a href="#MeanCharadesClue">:This is a particularly mean clue</a>, but it is a charades clue. “Add extra” means PAD, and “about” can be used to clue RE, and when you put them together, you get PADRE, which means father in the priest sense. </p>
+      <p>If a charade clue does have an indicator, it will be something that means “attach” or “come before/after”. A charades clue might have an indicator either because the pieces are out of order or because it would make the surface reading of the clue better.</p>
+      <p>Charade clues often make heavy use of <a href="#CrypticAbbreviations">:cryptic abbreviations</a>, and are very often used <a href="#CombinedClues">:in combination</a> with other types of clues.</p>
+
+    <h1>:X Mean Charades Clue</h1>
+      <p>Why is this mean? "About" is often used as a container indicator, so to an experienced cryptic solver, their first instinct might be to think that this is a container clue where a word meaning "father" is put inside a word meaning "extra" to get a word meaning "add". That being said, it's not like this is going to fool people completely, but it's a nice little trap for experienced solvers.</p>
+
+    <h1>:X Container Clues</h1>
+      <p>Container clues require you to put words inside of other words. They will always have an indicator that indicates one thing going inside of another. These indicators are generally directional, implying which word is being inserted into the other word based on how the clue parses. Take the following clue:</p>
+      <div class="sample-clue">Behold dividing impact of race (6)</div>
+      <p>“Dividing” is our container indicator here. It says that a word meaning “behold” is being put in the middle of a word meaning “impact”. (Think of dividing not as in the mathematical operation, but as standing in the middle, splitting something in two.) The word meaning “behold” is LO, the word meaning impact is “SLAM”, and when you put one in the other you get SLALOM, which is a skiing race. (The “of” is a <a href="#ConnectorWords">:connector word</a>.)</p>
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_container_and_contents_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/container-contents-indicators.html">lists</a> of container indicators.</p>
+      <p>Containers are often used <a href="#CombinedClues">:in combination</a> with other types of clues.</p>
+
+
+    <h1>:X Deletion Clues</h1>
+      <p>Deletion clues require you to remove letters from a word to make the answer. There will be some sort of indicator in the clue that means “not whole”, whether that is something that has already happened or something that you need to do. Take the following clue:</p>
+      <div class="sample-clue">Unfinished hemp edge (3)</div>
+      <p>“Unfinished” is our deletion indicator here. Something is “unfinished” if it’s missing its end, so we need to take the last letter off of “hemp” to get HEM.</p>
+      <p>Deletion indicators often tell you which letter you need to remove, although sometimes you need to get creative with how you interpret them. Here are <a href="https://cryptics.fandom.com/wiki/List_of_letter_deletion_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/subtraction-indicators.html">lists</a> of deletion indicators.</p>
+      <p>Deletions are often used <a href="#CombinedClues">:in combination</a> with other types of clues.</p>
+
+
+    <h1>:X Double Definition Clues</h1>
+      <p>Double definition clues are the exception to “each clue will have a wordplay and a definition.” Like the name implies, these clues have two different definitions. These types of clues will not have any indicators and can therefore be very short. Take the following clue:</p>
+      <div class="sample-clue">Agent loaded paper (3)</div>
+      <p>This is a clue for FED. FED can be used to refer to a federal agent, and it is also the past tense for FEED, which is what you do when you load paper into a copier.</p>
+      <p>The two clues of a double definition must be a coincidence and not etymologically related in any way. The clue “Gave baby food, loaded paper” would not be a good double definition since both meanings of FED are related to each other. The FEED from loading paper comes from the FEED to give someone else food.</p>
+
+    <h1>:X Hidden Word Clues</h1>
+      <p>Hidden word clues are easy – the word is hidden in the clue somewhere! The trick is finding it. Hidden word clues will always have indicators, but they will vary greatly based on which kind of hidden word they are.</p>
+      <p>The most common kind of hidden word is a consecutive substring of one or more words in the clue. Often these words can be over word breaks. These clues will have an indicator that means that one thing is inside the other or that you’re taking a piece of something. Take the following clue:</p>
+      <div class="sample-clue">Briskness in cha-cha steps (5)</div>
+      <p><a href="#InasanIndicator">:“In” is the indicator for the hidden word</a>. The answer, HASTE, can be found across “cha-cHA STEps” and it means “briskness.”</p>
+      <p>Another type of hidden word is one where you take the same letters from a series of words. The indicator in this case should tell you which letters to take. Take the following clue:</p>
+      <div class="sample-clue">Young love, primarily and secondarily, is a new way of saying “carpe diem” (4, abbv)</div>
+      <p>“Primarily and secondarily” is the indicator for the hidden word. The answer, YOLO, can be found by taking the first two letters of “Young” and “love”, and can be clued by “a new way of saying ‘carpe diem’.”</p>
+      <p>The last type of hidden word is one where you take alternating letters from a word or phrase to make a new word. The indicator here should be pretty clear about removing or only reading every other letter.</p>
+      <div class="sample-clue">Stooge ignores odd digit (3)</div>
+      <p>“Ignores odd” is the indicator for the hidden word. The answer, TOE, can be found by removing the odd letters from “Stooge,” and is a word that can be clued by “digit.”</p>
+      <p>The consecutive substring hidden word is not often paired with other types, but the other two can be used in combination with other clues.</p>
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_hidden_word_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/hidden-word-indicators.html">lists</a> of hidden word indicators.</p>
+
+    <h1>:x In as an Indicator</h1>
+      <p>It certainly feels like “in” should be a <a href="#ContainerClues">:container</a> indicator, right? While I wouldn’t put it past someone to use it as a container indicator, I wouldn’t use it by itself for that. A container indicator should have some sense of action. “Put X in Y” is a great way of indicating a container, but just “X in Y” doesn’t really bring the same sense of action. In general, when you see the word “in” without another word modifying it, I would think of hidden words more than containers.</p>
+
+    <h1>:X Homophone Clues</h1>
+      <p>Homophone clues clue a word that sounds exactly the same as the word that is being clued. There will always be an indicator word meaning something like “heard” or “said” or “out loud”. Note that in American cryptics, this will always use American pronunciation over other countries’ pronunciation, but regional variations in American pronunciation may be used. Take the following clue:
+      <div class="sample-clue">Cheer “The Sun God” vociferously (3)</div>
+      <p><a href="#MeanHomophoneClue">:This is a slightly mean clue</a>, but this is a homophone clue. “Vociferously”, a word meaning “in a loud and forceful manner”, is our homophone indicator here. “The Sun God” in this case is Ra, and the homophone of it that means “cheer” is RAH.</p>
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_homophone_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/homophone-indicators.html">lists</a> of homophone indicators.</p>
+
+    <h1>:X Mean Homophone Clue</h1>
+      <p>This is a mean clue because "Cheer" is also a homophone indicator. If you don't know what "vociferously" means, you may first be trying to find a homophone of "The Sun God" that means "vociferously".</p>
+
+    <h1>:X Reversal Clues</h1>
+      <p>Reversal clues flip a clue around, getting meaning out of it being backwards. A reversal clue will always have an indicator to say so. These indicators may clue going backwards in some way, or may take advantage of which way they are being written in the grid, such as “go west” for across clues or “go up” for down clues. Take the following clue:</p>
+      <div class="sample-clue">Rising Disney fish is a bad sign. (4)</div>
+      <p>Since this was a down clue in the crossword I pulled this from, our reversal indicator is “Rising”. This means that we are looking for a Disney fish that when spelled backwards means “a bad sign”, and it’s 4 letters long. (“is” is the <a href="#ConnectorWords">:connector</a>) This gives OMEN (NEMO backwards).</p>
+      <p>Note that the answer has to be OMEN and not NEMO because the “rising” is attached to the “Disney fish”. It is possible to write reversal clues ambiguously such as “Disney fish rising? A bad sign.” There the “rising” may apply to “Disney fish” or “a bad sign” and it’s not clear which you would enter into the grid. (<a href="#PunctuationinCryptics">:Remember, that ? is irrelevant.</a>) Good cryptic authors will not do this.</p>
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_reversal_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/reversal-indicators.html">lists</a> of reversal indicators.</p>
+      <p>Reversals are often used <a href="#CombinedClues">:in combination</a> with other types of clues.</p>
+
+    <h1>:X Combined Clues</h1>
+      <p>These clue types don’t have to be used on their own – in fact you can do all sorts of fun wordplay by combining them. All of the appropriate indicators must be there, but you can often get some fun new indicators by combining them. Take the following clue:</p>
+      <div class="sample-clue">Enemy takes back vow of eating lover (6)</div>
+      <p>Our indicator here is “takes back”. The “takes” part indicates that we are putting “vow” inside of “enemy” like a <a href="#ContainerClues">:container</a> clue, but the “back” part indicates that we need to <a href="#ReversalClues">:reverse</a> the “vow” before putting it in. In this case, the “enemy” is a FOE and the “vow” is I DO, and if you flip that around and put it in FOE, you get FOODIE, which can be clued by “eating lover”. (The “of” is a <a href="#ConnectorWords">:connector word</a>.)</p>
+
+    <h1>:X Connector Words</h1>
+      <p>In an American cryptic, every word in the clue must be used in the definition or the wordplay. The one exception to this is the connector word. This word is used as a connection between the two parts of the clue. While it doesn’t have any meaning in the clue, it helps the surface reading be cleaner. Not every clue has a connector word, and in fact many clues will not.</p>
+      <p>Here is <a href="https://cryptics.fandom.com/wiki/List_of_linking_words_and_phrases">a list</a> of possible connector words.</p>
+
+    <h1>:X Cryptic Abbreviations</h1>
+      <p>Oftentimes, cryptic clues will use words to clue a single letter or a group of letters. These conversions come about because those letters are abbreviations for that word in some way. Take the following clue:</p>
+      <div class="sample-clue">Garden implement wrapped around a spade! (4)</div>
+      <p>This clue is explained in the &lit section, but part of the parsing requires the word “spade” to be read as just an S. This is a cryptic abbreviation. The word “spade” is abbreviated to S in the game of bridge (among other games), so we can use it to represent S in cryptic clues. Note that it’s not just enough that “spade” starts with S, but that it is actually abbreviated by S somewhere.</p>
+      <p>Of course, that’s a fairly obvious abbreviation. There are a lot more that aren’t just the first letter. “Knight” can be used to represent N (chess), “soft” can be used to represent P (music), and “nurse” can be used to represent RN. Of particular note is the number 1,000, which can be used to represent M (Roman numerals), K (kilo), or G (grand). </p>
+      <p>Here is <a href="https://cryptics.fandom.com/wiki/List_of_abbreviations">a list</a> of cryptic abbreviations, although there are lots of other lists throughout the internet.</p>
+
+    <h1>:X Punctuation in Cryptics</h1>
+      <p>For the most part, punctuation in cryptics is there to help the clue sound like a reasonable sentence or phrase and is irrelevant to the actual working of the clue. You can remove any punctuation from your consideration with three main exceptions:</p>
+      <p>If there is a ? at the end of the clue, then the clue is doing something funky and doesn’t follow the standard rules to a T. This may be cluing the definition in a weird way, some very unusual wordplay, or just some other shenanigans.</p>
+      <p>If there is a ! at the end of the clue, then the clue is &lit. This stands for "and literally!" For these clues, the wordplay and the definition are the same thing. Take the following clue:</p>
+      <div class="sample-clue">Garden implement wrapped around a spade! (4)</div>
+      <p>This entire clue is both the wordplay and the definition. On the wordplay side, this is a <a href="#ContainerClues">:container clue</a>, with HOE wrapped around S. (Spade is a <a href="#CrypticAbbreviations">:cryptic abbreviation</a> for S.) On the definition side, a HOSE is a garden implement that you could wrap around something.</p>
+      <p>Note that both of the above only apply to !’s and ?’s at the end of the clue. If they are in the middle of a clue, then you can just ignore it.</p>
+      <p>The other noteworthy piece of punctuation is the ‘s. This can either mean that the clue can be read with “’s” there, with “s” there, or with nothing there. For some reason, the apostrophe can also cause the “s” to be removed. I don’t know why, but it’s super handy when writing. Take the following clue:</p>
+      <div class="sample-clue">Nude Wendy’s bottom (3)</div>
+      <p>“Nude” is a good <a href="#DeletionClues">:deletion</a> indicator – it says to take a word and remove its clothes (aka the letters outside it). Normally you would take the W and the S off of “Wendy’s”, but the apostrophe there means that you can ignore the “s” when interpreting the clue, allowing us to take the W and the Y off of “Wendy” to get END.</p>
+
+    <h1>:X Surface Reading</h1>
+      <p>Every cryptic clue should have a surface reading that makes sense. This means that you can imagine a situation in which someone would say this sentence. It may be a very weird situation, but a situation nonetheless. This surface reading may have nothing to do with the clue whatsoever and in fact may be constructed to confuse you.</p>
+      <p>For example, “Rising Disney fish is a bad sign” would make sense if someone saw a dead Nemo. “Enemy takes back vow of eating lover” is a cannibal reneging on their promise to eat their spouse. The dead Nemo is a hint towards how the clue works, but the cannibal clue is implying that they’re eating the wrong thing.</p>
+
+    <h1>:X Variety Joke</h1>
+      <p>As much as I joked earlier about Mystery Hunt Cryptics not giving any instructions – sometimes they do. Variety cryptics are hard enough already.</p>
+
+
+
+    <h1>:Puzzle #4: Identify, Sort, Index, Solve - Puzzle Done, Needs Hints, Testing</h1>
+      <div class="npc">
+        <a href="#ISISIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=4" width="100%" height="100px"></iframe></div>
+      <div class="puzzle">
+        <p>Design Studio: How to Design <br>
+          Electrical, Optical, and Magnetic Properties of Materials <br>
+          Energy Engineering Projects Laboratory <br>
+          Mechanics and Materials II <br>
+          Organic Chemistry II <br>
+          Principles of Macroeconomics <br>
+          Quantum Physics I <br>
+          Startup Sustainable Tech <br>
+          Systems Neuroscience Core I</p>
+      </div>
+      <div class="npc"><p><a href="#ISISHints">:Hints</a></p></div>
+
+    <h1>:X ISIS Intro</h1>
+      <p>Identify, Sort, Index, Solve is a puzzle framework that has been a staple of puzzle hunting since the early 2000s. The nice thing about it is that it is such a flexible structure, it can be molded to fit all sorts of puzzles. In particular, if you have any reasonably interesting bit of trivia or cool aha that you want to make work, it is not too hard to use ISIS to turn it into a puzzle.</p>
+      <p>The term ISIS was coined <a href="https://foggyb.livejournal.com/43107.html">in 2010 by Foggy Brume</a> (a member of Palindrome). The issue was that even then, ISIS was being played out a little, and you can see that in the puzzles themselves. The puzzles have gotten more complex over the years, and pure ISIS puzzles have gone down in frequency, but they haven’t gone away. There are a number of reasons why an ISIS puzzle might show up in the Hunt: 
+        <ul>
+          <li>The running team is trying to put an easier puzzle on purpose there.</li>
+          <li>The running team had a puzzle break and needs an easy puzzle to substitute in.</li>
+          <li>Someone on the running team really wanted to write a puzzle about some specific topic, and this was the best way of doing that.</li>
+          <li>Someone on the running team is writing their first puzzle, and this was the way they went about it.</li>
+        </ul></p>
+      <p>The point behind sharing this is that ISIS is now under the assumption of “easy” for the MIT Mystery Hunt, so it’s important to know if you’re going into it for the first time. Here are the steps:
+        <ol>
+          <li>Identify – First, figure out what all the things you are looking at are.</li>
+          <li>Sort – Next, figure out what order they need to be in.</li>
+          <li>Index – Find an indication of what letter you need to take out of each item. Often, this is a number that you use to <a href="#Indexing">:index</a> into each item.</li>
+          <li>Solve – Either read off the answer, or read off a <a href="#Cluephrases">:cluephrase</a> for the answer.</li>
+        </ol>
+      This puzzle is a straightforward use of these four steps.</p>
+
+    <h1>:X Indexing</h1>
+      <p>Indexing is a process of taking the Nth letter out of a word or phrase. For example, if you had the phrase “THE MIT MYSTERY HUNT ✅” and you wanted to index 4 into it, you would take the 4th letter, which is M. Note that indexing generally ignores spaces and non-alphabetic characters, unless it would make sense for the context that you’re in. (Note that it generally takes into account alphabetic characters from other languages, so a Ñ would count as a letter if it showed up.)
+      </p>
+
+    <h1>:X Cluephrases</h1>
+      <p>Some puzzles will spell out the answer directly, but there’s three other common things that might happen at the end of a puzzle.</p>
+      <p>First, a puzzle might say something like “ANSWER IS…” or “THE SOLUTION IS…” or just “ANSWER…”. Sometimes the puzzle writer just needs the puzzle to be longer and this is the easiest way of doing that. In addition, this might be used if the answer could be interpreted as a clue phrase and therefore needs to be clarified that this is _the_ answer.</p>
+      <p>Second, a puzzle might have a cluephrase for the answer, like “THE FIRST US PRESIDENT” to clue “WASHINGTON”. This can be done to make the puzzle longer or to make the puzzle easier to get with a smaller percentage of identifications.</p>
+      <p>Lastly, a puzzle might ask you to do recursion. This means that you might get one more clue that you need to do like the clues you did earlier in the puzzle. For example, in a puzzle where you had to insert an R into every clued word, if you got the answer phrase “SOMEONE WHO STARES AT STARS FIVE”, then the answer wouldn’t be “GAZER” but “GRAZER”. (Note that the “FIVE” in this case is an <a href="#Enumeration">:enumeration</a>.)</p>
+      <p>Note that in past Mystery Hunts, these intermediate steps could not be checked. If you put them in the answer checker, the response you would get back would be just "Wrong". The 2022 Hunt was different in that it would check those intermediate phrases, so we'll see if this becomes a trend or not.</p>
+      <p><a href="#RecursionOne">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionOne</h1>
+      <p><a href="#RecursionTwo">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionTwo</h1>
+      <p><a href="#RecursionThree">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionThree</h1>
+      <p><a href="#RecursionFour">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionFour</h1>
+      <p><a href="#RecursionFive">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionFive</h1>
+      <p><a href="#RecursionSix">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionSix</h1>
+      <p><a href="#RecursionSeven">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionSeven</h1>
+      <p><a href="#RecursionEight">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionEight</h1>
+      <p><a href="#RecursionNine">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionNine</h1>
+      <p><a href="#RecursionTen">:Also, because I can't help it, this is an example of recursion.</a></p>
+
+    <h1>:X RecursionTen</h1>
+      <p>Huh. I didn't expect anyone to get this far.</p>
+      <p>I guess, if you want a hint, you can click <a href="#RecursionOne">:here</a>.</p>
+
+    <h1>:X Enumeration</h1>
+      <p>Enumeration means how long the word or phrase is. It is often but not always written in parenthesis as such: “(6)”. If there are multiple words in the phrase, then there will be a space between the words, like “(2 5)”.</p>
+      <p>For example, the phrase “THE MIT MYSTERY HUNT ✅” has the enumeration (3 3 7 4 1). In general, numbers and nonalphabetic characters are counted as individual characters for coming up with enumerations, while spaces and punctuation are either not counted or included in the enumeration. For example, “GILLIGAN’S ISLAND” would either have the enumeration (8’1 6) or (15).</p>
+
+    <h1>:X ISIS Hints</h1>
+      <p><a href="#ISISStart">:How the heck do I get started?</a></p>
+      <p><a href="#ISISSecond">:I'm having trouble identifying these.</a></p>
+      <p><a href="#ISISThird">:I've found them, now what do I do?</a></p>
+      <p><a href="#ISISFourth">:I have the additional information for each item, now what do I do?</a></p>
+      <p><a href="#ISISFifth">:I've figured out how to sort, but I don't have any indices.</a></p>
+      <br>
+      <p><a href="#ISISSkip">:I'm hopelessly stuck. Get me off the current part that I'm on.</a></p>
+
+    <h1>:X ISIS Start</h1>
+      <p>The first part of ISIS is Identify, so the first thing you should attempt to do is to figure out what each of these things are.</p>
+      <p>(This is not saying that you need to do ISIS strictly in order, but generally Identify is a good place to start.)</p>
+
+    <h1>:X ISIS Second</h1>
+      <p>These should sound like things that you are familiar with as MIT Students. Maybe something you were thinking about with respect to the Spring?</p>
+
+    <h1>:X ISIS Third</h1>
+      <p>The puzzle leaves off something that would’ve made this process much easier. If that was left off, then it’s probably important to the puzzle.</p>
+
+    <h1>:X ISIS Fourth</h1>
+      <p>At this point, we need to consider both the Sort and the Index. Ideally we’d like to find a good sort order and a good set of numbers to <a href="#Indexing">:index</a> into these with. A good sort order will not duplicate anything in the order. A good set of indices will not contain any number that is longer than the name of the class that it is associated with.</p>
+
+    <h1>:X ISIS Fifth</h1>
+      <p>Well, when you used the class numbers to sort, you didn’t need the part after the decimal point to resolve any sorting issues. Perhaps each class number should be treated as two different numbers.</p>
+
+    <h1>:X ISIS Skip</h1>
+      <p><a href="#ISISSkipOne">:Step 1: Identify the items in the puzzle</a></p>
+      <p><a href="#ISISSkipTwo">:Step 2: Get additional information</a></p>
+      <p><a href="#ISISSkipThree">:Step 3: Figure out the sort order</a></p>
+      <p><a href="#ISISSkipFour">:Step 4: Index</a></p>
+
+    <h1>:X ISIS Skip One</h1>
+      <p>Each of these items is a class in MIT’s Spring 2023 semester.</p>
+      <p>There are two ways to figure this out. The first is to just put some into Google and see what happens. The second is to guess that they sound like classes and then go looking up the course catalog for MIT. (It is true that they could be classes for some other university, but whenever something university specific comes up in the Hunt, it’s a good idea to check to see if it is an MIT specific reference or not.</p>
+
+    <h1>:X ISIS Skip Two</h1>
+      <p>The additional piece of information you need is the class number for each of the courses.</p>
+      <div><table>
+        <tr><th>Class</th><th>Number</th></tr>
+        <tr><td>Design Studio: How to Design</td><td>4.021</td></tr>
+        <tr><td>Electrical, Optical, and Magnetic Properties of Materials</td><td>3.23</td></tr>
+        <tr><td>Energy Engineering Projects Laboratory</td><td>10.27</td></tr>
+        <tr><td>Mechanics and Materials II</td><td>2.002</td></tr>
+        <tr><td>Organic Chemistry II</td><td>5.13</td></tr>
+        <tr><td>Principles of Macroeconomics</td><td>14.02</td></tr>
+        <tr><td>Quantum Physics I</td><td>8.04</td></tr>
+        <tr><td>Startup Sustainable Tech</td><td>1.004</td></tr>
+        <tr><td>Systems Neuroscience Core I</td><td>9.011</td></tr>
+      </table></div>
+      <p>There is lots of information that you could grab, but the class number stands out because it would’ve made searching for these a lot easier.</p>
+      <p>Be careful here about <a href="#SpreadsheetDumping">:spreadsheet-dumping</a>.</p>
+
+    <h1>:X Spreadsheet Dumping</h1>
+      <p>Oftentimes in ISIS puzzles, it’s easy to copy down lots of extraneous information. I wouldn’t be surprised for this ISIS puzzle if professor name, day and time, or course description were columns in a spreadsheet someone made for this puzzle. It’s a tricky balance. If you copy down too much information, the important stuff can get lost in the weeds. If you copy down too little information, you may not have the important stuff in your sheet. </p>
+      <p>Some of this is all about developing instincts for what might or might not be important, but there is something that you can do to help combat this. If you are working in a group spreadsheet, make a copy of the sheet with all the data, then get the data you think might be important and add that to your copy. If it turns out to be important to the puzzle, then you can add it to the main table. If not, then it’s easy to file that sheet away and go back to the main sheet. Your sheet will be still be there if it turns out to be relevant.</p>
+
+    <h1>:X ISIS Skip Three</h1>
+      <p>Every class has a unique number, so you can use this to sort the classes.</p>
+      <div><table>
+        <tr><th>Class</th><th>Number</th></tr>
+        <tr><td>Startup Sustainable Tech</td><td>1.004</td></tr>
+        <tr><td>Mechanics and Materials II</td><td>2.002</td></tr>
+        <tr><td>Electrical, Optical, and Magnetic Properties of Materials</td><td>3.23</td></tr>
+        <tr><td>Design Studio: How to Design</td><td>4.021</td></tr>
+        <tr><td>Organic Chemistry II</td><td>5.13</td></tr>
+        <tr><td>Quantum Physics I</td><td>8.04</td></tr>
+        <tr><td>Systems Neuroscience Core I</td><td>9.011</td></tr>
+        <tr><td>Energy Engineering Projects Laboratory</td><td>10.27</td></tr>
+        <tr><td>Principles of Macroeconomics</td><td>14.02</td></tr>
+      </table></div>
+      <p>For finding sort orders, it’s worth it to see if there is a natural sort order to the items. (Pokémon would sort by national dex number, elements would sort by periodic table, etc.) If not, then you’re looking for something with will unambiguously sort the items you have (aka no duplicates in any of the data). The course numbers, being unique numbers, provide a nice sort ordering.</p>
+
+    <h1>:X ISIS Skip Four</h1>
+      <p>Use the number after the decimal point as an index into the class name.</p>
+      <div><table>
+        <tr><th>Class</th><th>Number</th><th>Index</th><th>Answer</th></tr>
+        <tr><td>Startup Sustainable Tech</td><td>1.004</td><td>4</td><td>R</td></tr>
+        <tr><td>Mechanics and Materials II</td><td>2.002</td><td>2</td><td>E</td></tr>
+        <tr><td>Electrical, Optical, and Magnetic Properties of Materials</td><td>3.23</td><td>23</td><td>G</td></tr>
+        <tr><td>Design Studio: How to Design</td><td>4.021</td><td>21</td><td>I</td></tr>
+        <tr><td>Organic Chemistry II</td><td>5.13</td><td>13</td><td>S</td></tr>
+        <tr><td>Quantum Physics I</td><td>8.04</td><td>4</td><td>T</td></tr>
+        <tr><td>Systems Neuroscience Core I</td><td>9.011</td><td>11</td><td>R</td></tr>
+        <tr><td>Energy Engineering Projects Laboratory</td><td>10.27</td><td>27</td><td>A</td></tr>
+        <tr><td>Principles of Macroeconomics</td><td>14.02</td><td>2</td><td>R</td></tr>
+      </table></div>
+      <p>The important revelation here is that to sort the classes, you didn’t need the class numbers, just the course numbers. This means that we haven’t figured out the <a href="#Constraints">:constraint</a> on the class numbers themselves, so they are still available for indices.</p>
+
+    <h1>:X Constraints</h1>
+      <p>The idea of how “constrained” something is can be very helpful when solving puzzles. Constraints are restrictions that the puzzle author had when choosing items to put in their puzzle. A good puzzle is constrained enough to be interesting, but not constrained so much that the puzzle is impossible to write.</p>
+      <p>While solving, it can be useful to think about what constraints you know about so far. If the puzzle seems wide open, then you’re probably missing a constraint or two. If the puzzle seems overly constrained, maybe one of the constraints you’re thinking of is wrong and you need to broaden your scope.</p>
+      <p>Note that an overly constrained puzzle could be an author showing off their writing ability, especially if it’s a gridded puzzle. In addition, if some of the clues seem to be generating words that are very odd, then the puzzle author probably had some hard constraint and they needed the odd words to make the puzzle work. </p>
+
+
+
+
+
+
+
+
+
+
+    <h1>:Puzzle #5: Location-Based - Blank</h1>
+      <div class="npc">
+        <a href="#LocationIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=5" width="100%" height="100px"></iframe></div>
+      <p></p>
+
+    <h1>:x Location Intro</h1>
+      <p>Location puzzles are part of what makes the Mystery Hunt feel very much like MIT. They get you to look at MIT’s campus in a new way, from an answer hidden on a particular poster on an out-of-the-way bulletin board, to a runaround taking you to visit various interesting sites all over campus. They’re puzzles that can’t be done in any other puzzle hunt, and they bring the campus to life. Even the pandemic hunts had some remote location puzzles (<a href="#PandemicLocations">:well, one more than the other</a>). </p>
+      <p>Lots of times, location puzzles will be clearly marked, but they do not have to be. Oftentimes, if you are stuck on a puzzle, it can be helpful to think of various places on campus that could fit with the data in the puzzle. Looking back at previous puzzles can be helpful to see what gets used often.</p>
+      <p>This puzzle will use the geometry of MIT in a very specific way. You won’t have to go that far from this room to get the information that you need.</p>
+
+    <h1>:X Pandemic Locations</h1>
+      <p>The 2021 Hunt involved an MMO of people walking around a virtual MIT campus. Anything that the 2022 Hunt did was going to be less tied to MIT than that.</p>
+      <p>Although TBH, I was hoping to just walk around campus for a bit, looking for cool things to base a puzzle around or use in a runaround. Maybe if I get the privilege of writing again, I’ll get to do that.</p>
+
+
+
+    <h1>:Puzzle #6: Logic Puzzles - Puzzle Done, Needs Hints</h1>
+      <div class="npc">
+        <a href="#LogicIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=6" width="100%" height="100px"></iframe></div>
+      <div class="puzzle"><div><img src="logicpuzzles.png"></img></div>
+      <p><a href="https://tinyurl.com/2mmsajr6">Interactive Penpa Solver</a></p>
+      <p>Rules for <a href="#HeyawakeRules">:Heyawake</a>, <a href="#SlitherlinkRules">:Slitherlink</a>, <a href="#EqualSumRules">:Equal Sum Line Sudoku</a>, and <a href="#YajilinRules">:Yajilin</a>.</p>
+      </div>
+
+    <h1>:x Logic Intro</h1>
+      <p>When many people think of the term “logic puzzle”, they often think of <a href="https://en.wikipedia.org/wiki/Zebra_Puzzle">zebra puzzles</a>. Now, these show up in Mystery Hunts, but there will also be Nikoli-style gridded logic puzzles.</p>
+      <p>There are lots of different types of these puzzles, and there all sorts of places that will give you plenty of these puzzles to practice. One famous source is <a href="https://www.gmpuzzles.com/blog/">Grandmaster Puzzles</a>, run by Thomas Snyder. The blog posts a wonderfully handcrafted puzzle every weekday. There are all sorts of puzzle types there, and they will wonderfully break your brain.</p>
+      <p>But keep in mind that a Mystery Hunt puzzle is unlikely to just give you one of those puzzles with nothing else. First of all, you need to get a word or phrase as the answer, and second of all, people like writing computer solvers for these puzzles, so what might be a really hard logic puzzle could be made trivial by some code. This means that you are likely going to see these logic puzzles under different circumstances. Maybe the logic puzzle is otherwise disguised as something else. Maybe the logic puzzle is also a metapuzzle, and you’re trying to crack as much as you can without solving more puzzles. Or maybe the puzzle writer wrote a brand new variant on that type of puzzle that everyone is solving for the first time. It’s best not to be a real expert at any one type, but practice general deductions that will help you with all sorts of puzzles.</p>
+      <p>If you get a grid and it doesn’t tell you what kind of puzzle it is, the second half of <a href="https://devjoe.appspot.com/puzzleid/">/dev/joe’s page</a> will help <a href="#ILearnToo">:you</a>.</p>
+
+    <h1>:x I Learn Too</h1>
+      <p>Fun fact: I discovered this resource while writing this. This is cool! Thanks /dev/joe!</p>
+
+    <h1>:x Heyawake Rules</h1>
+      <p>In this puzzle, you will be shading some squares such that the following restrictions are followed:</p>
+      <ol>
+        <li>Shaded cells must not be orthagonally connected. (This means they cannot border horizontally or vertically, but diagonally is fine.)</li>
+        <li>All unshaded cells must form a single, orthagonally connected region.</li>
+        <li>Each region with a number in it must contain exactly that many shaded squares.</li>
+        <li>No unbroken line of unshaded cells in a row or a column may go across more than 2 rooms.</li>
+      </ol>
+
+    <h1>:x Slitherlink Rules</h1>
+      <p>In this puzzle, you will draw a single, non-intersecting loop along the edges of the grid cells such that each cell with a number has that many of its edges on the loop. The loop can only take 90 degree turns.</p>
+
+    <h1>:x Equal Sum Rules</h1>
+      <p>First, this has normal sudoku rules. (Every row, column, and thick-bordered box must contain the numbers 1-6.)</p>
+      <p>In addition, along a blue line, the digits in each box must sum to the same total. (For example, r1c2 + r2c3 = r3c2 + r3c3.)</p>
+
+    <h1>:x Yajilin Rules</h1>
+      <p>Shade some cells and then draw a non-intersecting loop through all remaining unshaded cells in the grid such that the following restrictions are followed:</p>
+      <ol>
+        <li>Shaded cells may not share an edge with each other.</li>
+        <li>Given gray cells are neither shaded nor part of the loop.</li>
+        <li>A number in a cell gives the number of shaded cells in the grid along the indicated row or column. (Gray cells do not block each others' "line of sight".)</li>
+        <li>The loop can only take 90 degree turns.</li>
+      </ol>
+
+
+
+
+
+
+
+
+    <h1>:Puzzle #7: Picture Pile - Blank</h1>
+      <div class="npc">
+        <a href="#PictureIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=7" width="100%" height="100px"></iframe></div>
+      <p></p>
+
+    <h1>:x Picture Intro</h1>
+      <p>Identify this pile of pictures is a common theme in the Mystery Hunt. There’s a wonderful ambiguity in pictures that isn’t present in words. This ambiguity allows the puzzle solver to represent groups in a more straightforward way by allowing the ambiguity to come from the pictures. As we have not as of yet developed computer code to divine the meaning of why a constructor placed a picture in the puzzle, it’s hard to cheese.</p>
+      <p>That being said, that doesn’t mean that there aren’t computer tools to help you. Various reverse image searches help you, although I’ve been particularly impressed by Google Lens. It shows up in Chrome when you right click an image, it has an interface where you can grab only some of the picture, and it stays on the right side of the browser as you go from tab to tab. Note that puzzle constructors know that reverse image search exists and will take it into account when writing puzzles. This can take the form of either manipulating images so that they’re harder to find in a reverse image search, creating their own images from scratch, or just assuming that you’re going to use it and build the puzzle around that.</p>
+
+
+    <h1>:Puzzle #8: Trigrams - Puzzle Done, Needs Testing, Hints</h1>
+      <div class="npc">
+        <a href="#TrigramIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=8" width="100%" height="100px"></iframe></div>
+      <div class="puzzle">
+        <div class="flavor">You're gonna need a plane to get to all of these places.</div>
+        <div class="trigrams">  AMA IST NAD	OGA	PAN	PIN	RIC	SEA	THE	TIN	TOF (4 2 3 8 8 2 6)</div>
+        <div class="trigrams">  ARD	BIR	EDU	EOF	ING	LAC	MAV	OCA	THP	A (9 2 7 9)</div>
+        <div class="trigrams">  AYD	DEC	DER	DSP	ELT	IVI	REE	TTH	WHA	WOR (4 5 5 2 5 7)</div>
+        <div class="trigrams">  BIA	CIT	FCO	ICO	LOM	OST	REP	RNM	SOU	THE	THE	UBL	YIN (12 4 2 3 8 2 8)</div>
+        <div class="trigrams">  CKS	DBA	DIA	HES	ING	LEA	MOF	MON	PLA	RET	TEA	THE	WHE	Y (5 3 6-1 4 2 3 12 4)</div>
+      </div>
+
+    <h1>:X Trigram Intro</h1>
+      <p>Random anagramming is frowned upon in puzzlehunts. That’s not to say that you’ll never see it, but it’s a very specific tool used for a very specific reason. Trigrams solve the same purpose of anagramming but in a much more interesting way. You can use the <a href="#EnglishRules">:rules of English</a> to help you order the trigrams to make the answer phrase. Most trigram puzzles also give you the <a href="#Enumeration">:enumeration</a> of each phrase, which you can use to help you figure out your placement. For example, if I saw the trigram NGJ in a puzzle, I would be looking to put it after a trigram that ends in an I, and also in a place such that there is a word break after the second letter.</p>
+
+    <h1>:X English Rules</h1>
+      <p>I mean, English is a hellscape conglomerate of languages with millions of exceptions, but there _are_ rules.</p>
+
+
+    <h1>:Puzzle #9: Twisted Clues - Puzzle Done, Needs Testing, Hints</h1>
+      <div class="npc">
+        <a href="#TwistedIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=9" width="100%" height="100px"></iframe></div>
+      <div class="puzzle">
+        <div>SSTHISSWAAAYYWAFFOGGSENDINSSIMAGERROVEEETHEETELEPHON (3)</div>
+        <div>OMEONEHOERFORMSNHEATRICALLAYROVIE (5)</div>
+        <div>UNITOFFREFEQUFLINGONECHFINTIMESONEFURLONG (4)</div>
+        <div>ATHISAONIONABASEDASOFTWAREAKEEPSAYOUAANONYMOUSAONLINE (3)</div>
+        <div>GGLADYSFFROMSSESAMESSTREETIISTTHISKKINDOOFAANIMAL (3)</div>
+        <div>HETITOCHONDRIAMSIHETOWERPOUSEHFOHETLANKB (4)</div>
+      </div>
+
+    <h1>:x Twisted Intro</h1>
+      <p>A twisted clue is a kind of puzzle that I have only seen in puzzlehunts. The basic idea is that the puzzle constructor has taken a clue and applied a transformation to every word. For example, let’s say that I wanted to take the clue ABC SERIES DANCING WITH THE BLANK and the transformation I am using is that I will change every word’s last letter to E. In addition, as standard for this puzzle type, I will remove all word breaks from the clue. This would give:</p>
+      <div class="sample-clue">ABESERIEEDANCINEWITETHEBLANE</div>
+      <p>If a puzzle constructor is feeling nice, they’ll give you <a href="#Enumeration">:enumerations</a>, but they don’t have to. Your job as the solver is to turn that back into ABC SERIES DANCING WITH THE BLANK and answer it.</p>
+      <p>Well, not just that. The usual thing to do is to transform the word you just got as an answer using the transformation the clue was in. So while the answer to the clue is STARS, the word that this clue really wants is STARE.</p>
+      <p>Of course, it’s the Mystery Hunt, and all sorts of shenanigans can happen. This is not to mention that you still need to get a word or answer from all of this. This is a common puzzle type to have some element of <a href="#Cluephrases">:recursion</a> in it.</p>
+      <p>The twisted clues puzzle here is deliberately simple to get you used to the puzzle type, but hopefully still interesting.</p>
+
+
+    <h1>:Metapuzzle - Puzzle Done, Needs Testing, Hints</h1>
+      <div class="npc">
+        <a href="#MetaIntro">:Intro to this puzzle type</a>
+      </div>
+      <div class="answerchecker"><iframe src="answerchecker.html?puzzle=10" width="100%" height="100px" sandbox="allow-forms allow-scripts"></iframe></div>
+      <div class="puzzle">
+        <div class="flavor">What do you mean you didn't know that there was going to be a metapuzzle? Do you even know where you are right now?</div>
+        <p>As mentioned, while we know a lot about puzzles and the Mystery Hunt in general, we at Palindrome don't know anything about what specifically is happening at tomorrow's Hunt. Well, that's not true. We definitely know <i>one</i> thing.</p>
+        <p><i>What do we definitely know about tomorrow's Hunt?</i></p>
+
+        <table>
+          <tr>
+            <th>Puzzle</th>
+            <th>Answer</th>
+          </tr>
+          <tr>
+            <td class="PuzzleName">50/50/50</td>
+            <td class="PuzzleAnswer">?</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Black Box</td>
+            <td class="PuzzleAnswer">PUERTO RICO</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Logic Puzzles</td>
+            <td class="PuzzleAnswer">NANO</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">The Chaotian-Puflantu Dictionary</td>
+            <td class="PuzzleAnswer">?</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Twisted Clues</td>
+            <td class="PuzzleAnswer">SIMONS</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">The Obligatory New York Times Crossword Reference</td>
+            <td class="PuzzleAnswer">?</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Location-Based</td>
+            <td class="PuzzleAnswer">PIERCE</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Become an Expert</td>
+            <td class="PuzzleAnswer">VISITOR CENTER</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Picture Pile</td>
+            <td class="PuzzleAnswer">CHAPEL</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Crow Facts 3,000,000</td>
+            <td class="PuzzleAnswer">?</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Cryptic</td>
+            <td class="PuzzleAnswer">GLASS LAB</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Is This a Picture of Sports?</td>
+            <td class="PuzzleAnswer">?</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Trigrams</td>
+            <td class="PuzzleAnswer">CABLE TELEVISION</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">The World's Most Complicated Scavenger Hunt</td>
+            <td class="PuzzleAnswer">?</td>
+          </tr>
+          <tr>
+            <td class="PuzzleName">Identify, Sort, Index, Solve</td>
+            <td class="PuzzleAnswer">REGISTRAR</td>
+          </tr>
+        </table>
+        <p>Oh right, you probably want to know about those 6 puzzles you didn't have access to. Yeah, sorry about that. It turns out that those puzzles are much harder than the others. Your teammates are working on them, but they would really appreciate it if you could solve the metapuzzle so they don't have to worry about solving them. Fortunately, metapuzzles are designed to be solved missing a few answers. See what you can do.</p>
+      </div>
+
+    <h1>:X Meta Intro</h1>
+      <p>Metapuzzles are the backbone that gives the Mystery Hunt structure. They take it from being a large collection of hard puzzles to something with a form and a story. They also are the cleanest way of tracking progress through a Hunt. While many Hunts may not require you to solve every puzzle to finish, they usually will require you to solve every metapuzzle to finish. Each one that your team gets is a major accomplishment.</p>
+      <p>Solving metapuzzles is a lot like solving regular puzzles, but with the main difference that each metapuzzle uses answers to other puzzles as inputs to its puzzle. Review the tools from <a href="#ISISIntro">:Identify, Sort, Index, Solve</a> again, as those will be the most helpful tools when approaching these. While all of your previous puzzle solving skills and approaches will help you here, there are a couple metapuzzle-specific things to point out.</p>
+      <p>First, when do you start solving metapuzzles? You will need the majority of the answers of a metapuzzle to solve it, but you do not have to have all of the answers. In fact, there may be a really hard puzzle that your team just can’t solve, so you’d really like to solve the metapuzzle without it. A good rule of thumb is to start looking at the metapuzzle when you have 50% of the answers, and start trying to extract an answer when you have 75% of the answers. Obviously, this will <a href="#VaryFromTeamtoTeam">:vary from team to team</a>. This does mean that you are usually solving a metapuzzle with some missing information and may mean that you have to make some educated guesses about what’s missing. This also can allow <a href="#Backsolving">:backsolving</a>.</p>
+      <p>Next, it is good to ask whether this is a pure meta or shell meta. Pure metas are meta puzzles that use no other information than the answers to the puzzles in that round, while shell metas give you some additional information that you need to consider. This can be anything from a couple lines of text to a <a href="#3DCircuit">:3d circuit on a borg cube</a>. You could also end up using the titles to the puzzles, information from the round page, or other information from the puzzle pages themselves. Pure metas require you to find everything you need from the answers, which means a lot has to be packed into a little, but shell metas can go weirder. Different people have different opinions on what is a “good” meta on this axis, but honestly, it doesn’t matter when the meta is in front of you. This question just exists to make sure that you have all of the information you need to solve the puzzle.</p>
+      <p>Another question that is good to ask is whether the answers were chosen for their orthographic qualities or their semantic qualities. Answers chosen for their orthographic qualities are chosen because of the letters in them, no matter what those answers mean. Answers chosen for their semantic qualities are chosen because of what they mean, not any properties of the letters. (Well okay, maybe as part of that meta they’re chosen because they have letters in certain appropriate places, but that’s not usually considered part of the orthographic/semantic distinction.) Basically, is the meaning of the words or the spelling of the words important? Two examples of this include when each of the answers was a <a href="#ConsonancyofaPlanet">:consonancy of a planet plus one extra letter</a> (orthographic) and when each of the answers was a <a href="#LovesFlowers">:character who had a love interest with the name of a flower</a> (semantic). Also, this is not an either/or question, but a sliding scale. A meta could use both orthographic and semantic properties of an answer. </p>
+      <p>One final thing to consider is where this meta is placed in the overall structure of the Hunt. First, this metapuzzle should be answering a question. In 2022, the Ministry <a href="#Submetapuzzles">:submetapuzzles</a> were all characteristics of the creature that is being described, while in Pen Station, the metapuzzles were all items that you would need to help you construct the <a href="#PlotDevice">:Plot Device</a>. But there may also be some shenanigans from the overall structure that you need to pay attention to. In a round where some puzzle answers are used in multiple metapuzzles, the individual answers can’t be as constrained and therefore the metapuzzle can’t use everything that the puzzle answer has to offer. If all the puzzles are mixed together and you need to figure out which puzzles go with which metas, then each of the answers should also contain a way to sort them into the appropriate meta. Basically, use how the Hunt fits together to navigate solving metapuzzles.</p>
+      <p>I also have <a href="#OrderinginMetapuzzles">:some notes about ordering in metapuzzles</a> that I am splitting off for length reasons.</p>
+      <p>Metapuzzles are my favorite part of the Hunt, and I hope you get some joy from them as well.</p>
+
+    <h1>:X Vary From Team to Team</h1>
+      <p>When I say “vary from team to team”, I mean it. I start looking at metas before I even have any answers, and usually I try to figure out how the puzzle answers are associated after only a couple of answers. But I’m weird. </p>
+
+    <h1>:X Backsolving</h1>
+      <p>Sometimes, you can gain information about the answer to a puzzle by just looking at what the meta constraints were. For example, if you know from the meta that the answer must fit the pattern “CoCCCCooC”, where a C is any consonant and o is an “O”, that’s something that you can stick into Nutrimatic to get a series of possible answers. Maybe you can read the answer off just from that search, or maybe you can combine this with information you already know about the puzzle to figure out the answer. For example, if you had solved enough to know that the puzzle was about Doctor Who, then you would immediately jump to the answer TORCHWOOD.</p>
+      <p>Backsolving can be a very controversial topic with puzzlers, and you shouldn’t just backsolve willy-nilly. Different teams have different feelings about how much you guess at answers, and some people really don’t like it when the puzzle they’ve been working on for six hours has been backsolved under their noses. Consult with your team before seeing if backsolving is right for you.</p>
+
+    <h1>:X 3D Circuit</h1>
+      <p>This was the Sci-Fi Round of the 2018 Hunt. It was very impressive. <a href="https://puzzles.mit.edu/2018/full/island/scifi.html">Feel free to check it out</a>, but just keep in mind that the page can be slow to load because of said 3D circuit on a borg cube.</p>
+
+    <h1>:X Consonancy of a Planet</h1>
+      <p>This is the <a href="https://puzzles.mit.edu/2009/puzzles/">Pluto round</a> from 2009.</p>
+
+    <h1>:X Loves Flowers</h1>
+      <p>This is <a href="https://puzzles.mit.edu/2011/puzzles/world1/world1-2.html">World 1-2</a> from 2011.</p>
+
+    <h1>:X Submetapuzzles</h1>
+      <p>Sometimes, a round can have multiple smaller metas feeding into one big meta, creating a two-tier structure in the round. You may also see this kind of thing referred to a metas & metametas.</p>
+
+    <h1>:X Plot Device</h1>
+      <p>I can hear you judging us over there. It was a Hunt where the theme was books! Plot Device made narrative sense!</p>
+
+    <h1>:X Ordering in Metapuzzles</h1>
+      <p>Some notes about ordering for metapuzzles: (I’m pulling this into a different section because I want to reference this multiple times.)</p>
+      <p>Puzzles will very rarely give you a list of items in the order that they need to be for the final answer, and generally if they’re doing that it’s to deliberately make the puzzle easier. (There are definitely some exceptions to this I can think of, but it’s a good guideline.) Metapuzzles are trickier in this respect because you generally have less parts to the puzzle to play around with, which means that if everything else is constraining you too much, the puzzle constructor may just need to drop the idea of making the solvers figure out the order. In this case, the constructor will just give the solvers the order somehow. But how they give the order is the interesting bit.</p>
+      <p>The way that rounds are generally structured, there will be a round page with links to all the puzzles in that round. Either there will be a separate puzzle also <a href="#SeparateMeta">:linked on that page for the meta</a>, or there will be a place to submit the meta answer <a href="#MetaonRoundPage">:on that round page</a>. (Or of course, all sorts of possible <a href="#OtherMetaLayouts">:other shenanigans</a>.) Note that this should be consistent throughout the Hunt. This means that if the puzzle constructor wants to give you the ordering, there are two possible ways for them to do it.</p>
+      <p>The first is that they can give it as part of the shell. This can be done for either method of metapuzzle presentation but is more often done for the separate page one. For examples of this in action, check out the 2022 metapuzzle <a href="https://puzzles.mit.edu/2022/puzzle/introspection/">Introspection</a> or the 2021 metapuzzle <a href="https://puzzles.mit.edu/2021/puzzle/football/">Football</a>. Both of these give the order just in the shell, making it completely clear what order the puzzles are supposed to be in.</p>
+      <p>The second is that they can just put the list of puzzles in that order. Normally, the list of the puzzles on that page is in alphabetical order, as a “nothing up my sleeve” order. But that’s also arbitrary. There’s no reason that order can’t be clueful. The nice thing about doing this is that it doesn’t add anything extra to the round. It’s just there, exactly the same as other rounds, but important. You can see this in action in the 2017 metapuzzle <a href="https://puzzles.mit.edu/2017/round/chemist.html">The Chemist</a> or the 2011 metapuzzle <a href="https://puzzles.mit.edu/2011/puzzles/world1/world1-1.html">World 1-1</a>. (Also the 2022 round <a href="#ReferencePoint">:Reference Point</a>)</p>
+      <p>The point of writing all of this is to highlight how important that round ordering is. If it’s in alphabetical order, then don’t worry about it. But if it’s not, be very suspicious of that order.</p>
+      <p>I also have an inside baseball story about all of this from the 2022 Hunt. It’s not necessary to read to get the idea here, but if you’re interested in behind the scenes stuff, <a href="#MinistryThoughts">:read on</a>.</p>
+
+    <h1>:X Separate Meta</h1>
+      <p>As an example for this, take <a href="https://puzzles.mit.edu/2022/round/lake-eerie/">Lake Eerie</a> from the 2022 Hunt, and scroll down to the list of puzzles. The metapuzzle, “The Graveyard” is bolded and has its own page with its own answer submission box. When you get the solution to this round, you would submit the answer on this page. You can also see this behavior from the round <a href="https://puzzles.mit.edu/2022/round/noirleans/">Noirleans</a> from the same Hunt.</p>
+      <p>Note that this is irrespective of whether the puzzle was a pure meta or a shell meta. Noirleans was a pure meta, and it contains a page with only the flavortext for the meta, while Lake Eerie has both flavortext and a shell.</p>
+
+    <h1>:X Meta on Round Page</h1>
+      <p>As an example for this, take <a href="https://puzzles.mit.edu/2017/round/dynast.html">The Despondent Dynast</a> from the 2017 Hunt. The flavortext for the metapuzzle is on the same page as the list of the puzzles and the answer submission box is in the top of this page. You can also see this behavior from the round <a href="https://puzzles.mit.edu/2017/round/dungeon.html">The Dismal Dungeon</a> from the same Hunt.</p>
+      <p>Note that this is irrespective of whether the puzzle was a pure meta or a shell meta. The Despondent Dynast is a pure meta and therefore just has the flavortext and the submission box on the round page, while The Dismal Dungeon’s round page has both of those things and also the shell for the meta (the grid of letters).</p>
+
+    <h1>:X Other Meta Layouts</h1>
+      <p>Of course, if the Hunt is doing shenanigans, then the round pages are going to look a little different. The 2015 Hunt essentially had one round page with every puzzle in it, as you unlocked puzzles from various rounds the deeper and deeper your submarine went. The 2019 Hunt’s metapuzzles weren’t associated with rounds, but with pairs of rounds, and you had to figure out which answers from the pairs of rounds went with that metapuzzle. This meant that there wasn’t a clean page that listed the puzzles for the round and the corresponding meta. 2012 is the exception to the “it should be consistent” comment, where the show metas were pure metas that didn’t have their own page, while the critic rounds were shell metas that had their own page.</p>
+      <p>Basically, lots of shenanigans possible, but it should be informed by what that Hunt is doing.</p>
+
+    <h1>:X Reference Point</h1>
+      <p>Okay, this one is actually a bit weirder. In <a href="https://puzzles.mit.edu/2022/round/reference-point/">this round</a>, the answers are all in alphabetical order except that You Took the Fifth is first. This is because when you solve the metapuzzle, the answers form a loop. In order to read the answer off, You Took the Fifth needs to be the first letter you read. It was moved up in the order to indicate its importance while also letting solvers figure out the rest of the loop. (As to how well that worked, well, I dunno.)</p>
+
+    <h1>:X Ministry Thoughts</h1>
+      <p>This is going to contain spoilers for the 2022 Ministry meta. So you know, fair warning.</p>
+      <p>Some hunts use the technique of adjusting the presentation order of the puzzles more than others. For example, in 2021, the only round that does this is Football, and they also give the order on the meta shell, while in 2017, this is very common. How important this technique is depends on the team, but as a solver it is always important to keep it in mind.</p>
+      <p>When we were writing the 2022 Hunt, we decided to use this rely on this order a couple of times. And by “we decided” I mean “I decided” because I was nominally in charge of this. There are a couple of metas where important information was conveyed this way, including New You City, Heartford, Reference Point, Sci-Ficisco, and important to this story, <a href="https://puzzles.mit.edu/2022/round/the-ministry/">The Ministry</a>.</p>
+      <p>The general way that the Ministry worked was that there were 25 individual puzzles that you needed to divide up into 5 submetas. Then, once you had those answers, you unlocked the Ministry meta, which needed both the answers to the submetas and the answers to all of the 25 individual puzzles again. If you’re not familiar with past Hunts, the fact that you need to use all 25 answers again is unusual. Oftentimes metas with submetas like this use only the submeta answers. This needed to be clued in some way. In addition to this, we needed to give the ordering of the puzzles to use in the Ministry Meta somewhere.</p>
+      <p>As the editor of this puzzle/one of the people who was in charge of implementing this puzzle, I decided that the best way of doing this was to change the presentation order to be the meta ordering. This would both give the ordering and also clue that you needed the puzzle answers again since you hadn’t used the presentation order before this puzzle. It turned out that this didn’t work. Teams got stuck because they didn’t recognize that the individual puzzles contributed to the meta. Oops.</p>
+      <p>Anyway, I mention this because I feel like this is a thing that I put more emphasis on than others, and I think it’s a bias I have. As a teacher, it’s worth admitting your biases to your students. I shouldn’t be your only source of information, and it’s worth being blatant about stuff like this rather than forcing you to cyberstalk me to figure this stuff out.</p>
+
+
+
+    <h1>:About</h1>
+      <p>These puzzles were written for the 2023 How to Hunt Seminar at MIT on January 12, 2023.</p>
+      <p>Cryptic was written by joon pahk. Logic Puzzles was written by Shai Nir Hana. Example clues in the cryptic section are taken from <a href="https://apocute.com/cryptictransformations.html">Transformations</a>. Everything else was written by <a href="https://apocute.com/">Jen McTeague</a>.</p>
+      <p>This cool expandable stuff is made using <a href="https://ncase.me/nutshell/">Nutshell</a>, an awesome script written by <a href="https://ncase.me/">Nicky Case</a>. You should check their work out - I use their stuff in my classes all the time!.</p>
+      <p>Nothing in this About section is a puzzle. Also this was not written to hide anything for any specific Mystery Hunt puzzle, but I wouldn't put it past teammate or anyone future team to somehow make it part of one without me knowing.</p>
+
+  </body>
+
+</html>
