@@ -20,6 +20,10 @@
       <p>If you have any questions, feel free to ask. During the How-to-Hunt seminar, please ask one of the Palindrome members. Afterwards, feel free to email Jen at iammars21 AT gmail DOT com.</p>
       <p>Good luck, and happy hunting!</p>
 
+
+
+
+
     <h1>:Puzzle #1: Become an Expert - Puzzle Done, Needs Testing, Hints</h1>
       <div class="npc">
         <a href="#ExpertIntro">:Intro to this puzzle type</a>
@@ -30,12 +34,15 @@
 
     <h1>:X Expert Intro</h1>
       <p>One of the great things about the puzzles in the MIT Mystery Hunt is that we can assume that there is a group of people indoors putting their brain power for hours of uninterrupted time on each puzzle. This means that Mystery Hunt puzzles can go deeper into very specialist realms of knowledge than many other puzzle hunts. There are some puzzles about these specialist realms where the puzzle writer assumes that no one knows about it at the start of the Hunt, and so therefore part of the puzzle solving is becoming enough of an expert to solve the puzzle.</p>
-      <p>Take the 2022 puzzle <a href="https://puzzles.mit.edu/2022/puzzle/large-scale-anthropomorphism/">Large-scale Anthropomorphism</a>. This puzzle is about <a href="https://en.wikipedia.org/wiki/Dai_shogi">Dai Shogi</a>, a larger variant of Shogi. To solve this puzzle, a team first had to identify that this represents Dai Shogi, construct the board, then learn enough of it in order to solve the mate in 6 problem. This was made more complicated in that the mate was constructed in such a way that white had to make an “Igui” move, which is a type of move where a piece captures but doesn’t move, so you really had to know your stuff. This puzzle would be completely unreasonable in a puzzle hunt like DASH or BAPHL, where people are moving around from place to place, but in the Mystery Hunt, this is fair game.</p>
+      <p>Take the 2022 puzzle <a href="https://puzzles.mit.edu/2022/puzzle/large-scale-anthropomorphism/" target="_blank">Large-scale Anthropomorphism</a>. This puzzle is about <a href="https://en.wikipedia.org/wiki/Dai_shogi" target="_blank">Dai Shogi</a>, a larger variant of Shogi. To solve this puzzle, a team first had to identify that this represents Dai Shogi, construct the board, then learn enough of it in order to solve the mate in 6 problem. This was made more complicated in that the mate was constructed in such a way that white had to make an “Igui” move, which is a type of move where a piece captures but doesn’t move, so you really had to know your stuff. This puzzle would be completely unreasonable in a puzzle hunt like DASH or BAPHL, where people are moving around from place to place, but in the Mystery Hunt, this is fair game.</p>
       <p>This kind of puzzle has been a staple of the Mystery Hunt ever since the days where you could challenge Hunters by giving them something written in a foreign language and then check out the only book in the library system about that language. Now you might get lucky – maybe you have a person on your team who is familiar with Dai Shogi. If you do, congratulations! You’ve got a much easier puzzle. But otherwise, enjoy the journey that you’re about to be on, and you’ll get a fun story for <a href="#PartyStory">:parties</a> later.</p>
       <p>This puzzle is designed to capture this feeling while also being significantly shorter than Becoming an Expert puzzles usually are. In the puzzle notes down at the bottom I’ve written some ideas for how this puzzle be written for a full Hunt-level puzzle. </p>
 
     <h1>:X Party Story</h1>
       <p>Or at least, I assume it would make a good story. It would be a good story for the kinds of parties I get invited to.</p>
+
+
+
 
 
     <h1>:Puzzle #2: Black Box - Puzzle Done, Needs Testing</h1>
@@ -49,7 +56,7 @@
     <h1>:X Black Box Intro</h1>
     <p>There’s a certain simplicity to black box puzzles. You put a set of inputs in, you get a set of inputs out. The puzzle writer theoretically doesn’t need to write specific clues to get you to learn certain things at certain times – the solver just blazes their own trail. Now of course, that’s incredibly simplistic, a lot of work goes into writing one of these puzzles, but the vibe is definitely there. Unlike other puzzles with fixed clues, you get to decide yourself what you’ll use to figure things out.</p>
     <p>Good black box puzzles elicit a wonderful feeling inside as you solve them. As you start to uncover more and more information, you can start to see the bigger picture. But this being a Mystery Hunt puzzle, you still need to get an answer. Black box puzzles can accomplish this all sorts of ways, whether it’s literally telling you to evaluate something that the black box cannot evaluate itself, or finding some pattern in the rules to do something weird with the box.</p>
-    <p>A great example of this is the Xbox, a puzzle from the Famine Games. When you have time, watch <a href="https://www.youtube.com/watch?v=o_8e6XgAiow">this video</a> about solving it. While it’s not a Mystery Hunt puzzle, it’s the best black box puzzle that I know of.</p>
+    <p>A great example of this is the Xbox, a puzzle from the Famine Games. When you have time, watch <a href="https://www.youtube.com/watch?v=o_8e6XgAiow" target="_blank">this video</a> about solving it. While it’s not a Mystery Hunt puzzle, it’s the best black box puzzle that I know of.</p>
 
     <h1>:x Black Box Hints</h1>
       <p><a href="#BlackBoxStart">:How the heck do I get started?</a></p>
@@ -106,7 +113,7 @@
 
     <h1>:X ENABLE Wordlist</h1>
       <p>A wordlist is exactly what it sounds like – a list of words. Different wordlists serve different purposes, but most of them are a just an attempt to list all the words in the English language. Word nerds have strong opinions about different wordlists, and you’ll need a wordlist if you want to do any programming with English words, but otherwise, the difference between different wordlists isn’t that important. The advantage here to knowing which wordlist the puzzle is using means that you can search up the wordlist and search through it looking for words that fit certain properties to try in the black box.</p>
-      <p>(Honestly, there’s nothing special here in the choice to use the ENABLE wordlist as opposed to any others. The only reason why I chose it was because I already had a javascript version of it ready that I stole from the prototype version of <a href="https://puzzles.mit.edu/2022/puzzle/nowhere-to-hide/">Nowhere to Hide</a>.)</p>
+      <p>(Honestly, there’s nothing special here in the choice to use the ENABLE wordlist as opposed to any others. The only reason why I chose it was because I already had a javascript version of it ready that I stole from the prototype version of <a href="https://puzzles.mit.edu/2022/puzzle/nowhere-to-hide/" target="_blank">Nowhere to Hide</a>.)</p>
 
     <h1>:X Black Box Skip Two</h1>
       <p>The black box splits the word into bigrams and checks each of them in turn. If it’s a US state abbreviation, then it outputs a ✅ and writes the rule corresponding to that state. If it’s not, then it outputs a ❌. (There are also shenanigans with numbers – those aren’t part of this step.)</p>
@@ -140,13 +147,10 @@
       </ul>
       <p>At this point, we can make some deductions. Letter 1 has to be a consonant, so Letter 2 has to be a vowel. Similarly, Letter 4 has to be a consonant, so Letter 3 has to be E, the only vowel. Letter 5 has to be a consonant, so Letter 6 has to be a vowel. Letter 7 has to be a consonant, so Letter 8 has to be a vowel. This brings us to the following pattern:</p>
       <p>[ptvz][ou]e[nrx][ptvz][ou][nrx][ai][ceg][oqsuwy] (<a href="#NutrimaticExplanationOne">:Explanation</a>)</p>
-      <p>We can just put that straight into <a href="https://nutrimatic.org/?q=%5Bptvz%5D%5Bou%5De%5Bnrx%5D%5Bptvz%5D%5Bou%5D%5Bnrx%5D%5Bai%5D%5Bceg%5D%5Boqsuwy%5D&go=Go">Nutrimatic</a>, and the best hit by far is PUERTO RICO.</p>
+      <p>We can just put that straight into <a href="https://nutrimatic.org/?q=%5Bptvz%5D%5Bou%5De%5Bnrx%5D%5Bptvz%5D%5Bou%5D%5Bnrx%5D%5Bai%5D%5Bceg%5D%5Boqsuwy%5D&go=Go" target="_blank">Nutrimatic</a>, and the best hit by far is PUERTO RICO.</p>
 
     <h1>:X Nutrimatic Explanation One</h1>
       <p>Putting a set of letters in square brackets tells Nutrimatic that this character should be one of this set of letters. So for instance, [ptvz] means that the first letter has to be P, T, V, or Z. The letters are lowercase because that's how Nutrimatic knows you mean the literal letters and not one of its special wildcards.</p>
-
-
-
 
 
 
@@ -266,7 +270,6 @@
       </div>
       <div class="npc"><p><a href="#CrypticHints">:Hints</a></p></div>
 
-
     <h1>:X Cryptic Intro</h1>
       <p>Cryptic crosswords are a crossword puzzle where every clue is its own puzzle. The first thing you should know is that everything that is said below is assuming that you are solving an American cryptic crossword. If the puzzle implies that it’s a British cryptic, <a href="#BritishCryptics">:run. Just run.</a> </p>
       <p>Every clue in a cryptic crossword will have two parts – the definition and the wordplay. The definition is a word or phrase that could be used to clue the meaning of the word in some way, but often isn’t a straightforward definition of the word. The wordplay is (usually) a way of constructing the word via its letters. Examples of this are provided in the types of wordplay down below.</p>
@@ -288,7 +291,7 @@
       <p>Anagram clues involve taking a set of letters and rearranging them to form a new word. An anagram clue will always contain an indicator word that you need to anagram, although there are a lot of possible indicator words for anagram clues. Anything that implies mixing up, rearranging, being crazy, being put in a different place, or anything vaguely around that could be an anagram clue. Take the following clue:</p>
       <div class="sample-clue">Top weird thirst (1-5)</div>
       <p>In this clue, the word “weird” is our anagram indicator. (I find weird to be the weirdest anagram indicator by far, which is why I’m introducing it here.) This means that we <a href="#IndirectAnagram">:have to</a> anagram either “top” or “thirst” to get the answer. Given that we know that the clue is 6 letters long, this means that we’re anagramming “thirst” into a word that means “top”. This turns out to be T-SHIRT.</p>
-      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_anagram_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/anagram-indicators.html">lists</a> of anagram indicators. As you can see, there is a lot of variety in anagram indicators.
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_anagram_indicators" target="_blank">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/anagram-indicators.html" target="_blank">lists</a> of anagram indicators. As you can see, there is a lot of variety in anagram indicators.
 
     <h1>:X Indirect Anagrams</h1>
       <p>It’s worth mentioning that there’s a third possibility here technically, but it’s bad and American cryptics don’t do it. It’s called an “indirect anagram”. These are anagrams where you don’t anagram the words or phrases in the clue, but something in the clue is supposed to clue the phrase that you are supposed to anagram. In our example, this would mean that “thirst” would be cluing a different word that would anagram to a word meaning “top”. This will never happen in an American cryptic.</p>
@@ -307,7 +310,7 @@
       <p>Container clues require you to put words inside of other words. They will always have an indicator that indicates one thing going inside of another. These indicators are generally directional, implying which word is being inserted into the other word based on how the clue parses. Take the following clue:</p>
       <div class="sample-clue">Behold dividing impact of race (6)</div>
       <p>“Dividing” is our container indicator here. It says that a word meaning “behold” is being put in the middle of a word meaning “impact”. (Think of dividing not as in the mathematical operation, but as standing in the middle, splitting something in two.) The word meaning “behold” is LO, the word meaning impact is “SLAM”, and when you put one in the other you get SLALOM, which is a skiing race. (The “of” is a <a href="#ConnectorWords">:connector word</a>.)</p>
-      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_container_and_contents_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/container-contents-indicators.html">lists</a> of container indicators.</p>
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_container_and_contents_indicators" target="_blank">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/container-contents-indicators.html" target="_blank">lists</a> of container indicators.</p>
       <p>Containers are often used <a href="#CombinedClues">:in combination</a> with other types of clues.</p>
 
 
@@ -315,7 +318,7 @@
       <p>Deletion clues require you to remove letters from a word to make the answer. There will be some sort of indicator in the clue that means “not whole”, whether that is something that has already happened or something that you need to do. Take the following clue:</p>
       <div class="sample-clue">Unfinished hemp edge (3)</div>
       <p>“Unfinished” is our deletion indicator here. Something is “unfinished” if it’s missing its end, so we need to take the last letter off of “hemp” to get HEM.</p>
-      <p>Deletion indicators often tell you which letter you need to remove, although sometimes you need to get creative with how you interpret them. Here are <a href="https://cryptics.fandom.com/wiki/List_of_letter_deletion_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/subtraction-indicators.html">lists</a> of deletion indicators.</p>
+      <p>Deletion indicators often tell you which letter you need to remove, although sometimes you need to get creative with how you interpret them. Here are <a href="https://cryptics.fandom.com/wiki/List_of_letter_deletion_indicators" target="_blank">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/subtraction-indicators.html" target="_blank">lists</a> of deletion indicators.</p>
       <p>Deletions are often used <a href="#CombinedClues">:in combination</a> with other types of clues.</p>
 
 
@@ -337,7 +340,7 @@
       <div class="sample-clue">Stooge ignores odd digit (3)</div>
       <p>“Ignores odd” is the indicator for the hidden word. The answer, TOE, can be found by removing the odd letters from “Stooge,” and is a word that can be clued by “digit.”</p>
       <p>The consecutive substring hidden word is not often paired with other types, but the other two can be used in combination with other clues.</p>
-      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_hidden_word_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/hidden-word-indicators.html">lists</a> of hidden word indicators.</p>
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_hidden_word_indicators" target="_blank">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/hidden-word-indicators.html" target="_blank">lists</a> of hidden word indicators.</p>
 
     <h1>:x In as an Indicator</h1>
       <p>It certainly feels like “in” should be a <a href="#ContainerClues">:container</a> indicator, right? While I wouldn’t put it past someone to use it as a container indicator, I wouldn’t use it by itself for that. A container indicator should have some sense of action. “Put X in Y” is a great way of indicating a container, but just “X in Y” doesn’t really bring the same sense of action. In general, when you see the word “in” without another word modifying it, I would think of hidden words more than containers.</p>
@@ -346,7 +349,7 @@
       <p>Homophone clues clue a word that sounds exactly the same as the word that is being clued. There will always be an indicator word meaning something like “heard” or “said” or “out loud”. Note that in American cryptics, this will always use American pronunciation over other countries’ pronunciation, but regional variations in American pronunciation may be used. Take the following clue:
       <div class="sample-clue">Cheer “The Sun God” vociferously (3)</div>
       <p><a href="#MeanHomophoneClue">:This is a slightly mean clue</a>, but this is a homophone clue. “Vociferously”, a word meaning “in a loud and forceful manner”, is our homophone indicator here. “The Sun God” in this case is Ra, and the homophone of it that means “cheer” is RAH.</p>
-      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_homophone_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/homophone-indicators.html">lists</a> of homophone indicators.</p>
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_homophone_indicators" target="_blank">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/homophone-indicators.html" target="_blank">lists</a> of homophone indicators.</p>
 
     <h1>:X Mean Homophone Clue</h1>
       <p>This is a mean clue because "Cheer" is also a homophone indicator. If you don't know what "vociferously" means, you may first be trying to find a homophone of "The Sun God" that means "vociferously".</p>
@@ -356,7 +359,7 @@
       <div class="sample-clue">Rising Disney fish is a bad sign. (4)</div>
       <p>Since this was a down clue in the crossword I pulled this from, our reversal indicator is “Rising”. This means that we are looking for a Disney fish that when spelled backwards means “a bad sign”, and it’s 4 letters long. (“is” is the <a href="#ConnectorWords">:connector</a>) This gives OMEN (NEMO backwards).</p>
       <p>Note that the answer has to be OMEN and not NEMO because the “rising” is attached to the “Disney fish”. It is possible to write reversal clues ambiguously such as “Disney fish rising? A bad sign.” There the “rising” may apply to “Disney fish” or “a bad sign” and it’s not clear which you would enter into the grid. (<a href="#PunctuationinCryptics">:Remember, that ? is irrelevant.</a>) Good cryptic authors will not do this.</p>
-      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_reversal_indicators">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/reversal-indicators.html">lists</a> of reversal indicators.</p>
+      <p>Here are <a href="https://cryptics.fandom.com/wiki/List_of_reversal_indicators" target="_blank">two</a> <a href="https://bestforpuzzles.com/cryptic-crossword-dictionary/reversal-indicators.html" target="_blank">lists</a> of reversal indicators.</p>
       <p>Reversals are often used <a href="#CombinedClues">:in combination</a> with other types of clues.</p>
 
     <h1>:X Combined Clues</h1>
@@ -366,14 +369,14 @@
 
     <h1>:X Connector Words</h1>
       <p>In an American cryptic, every word in the clue must be used in the definition or the wordplay. The one exception to this is the connector word. This word is used as a connection between the two parts of the clue. While it doesn’t have any meaning in the clue, it helps the surface reading be cleaner. Not every clue has a connector word, and in fact many clues will not.</p>
-      <p>Here is <a href="https://cryptics.fandom.com/wiki/List_of_linking_words_and_phrases">a list</a> of possible connector words.</p>
+      <p>Here is <a href="https://cryptics.fandom.com/wiki/List_of_linking_words_and_phrases" target="_blank">a list</a> of possible connector words.</p>
 
     <h1>:X Cryptic Abbreviations</h1>
       <p>Oftentimes, cryptic clues will use words to clue a single letter or a group of letters. These conversions come about because those letters are abbreviations for that word in some way. Take the following clue:</p>
       <div class="sample-clue">Garden implement wrapped around a spade! (4)</div>
       <p>This clue is explained in the &lit section, but part of the parsing requires the word “spade” to be read as just an S. This is a cryptic abbreviation. The word “spade” is abbreviated to S in the game of bridge (among other games), so we can use it to represent S in cryptic clues. Note that it’s not just enough that “spade” starts with S, but that it is actually abbreviated by S somewhere.</p>
       <p>Of course, that’s a fairly obvious abbreviation. There are a lot more that aren’t just the first letter. “Knight” can be used to represent N (chess), “soft” can be used to represent P (music), and “nurse” can be used to represent RN. Of particular note is the number 1,000, which can be used to represent M (Roman numerals), K (kilo), or G (grand). </p>
-      <p>Here is <a href="https://cryptics.fandom.com/wiki/List_of_abbreviations">a list</a> of cryptic abbreviations, although there are lots of other lists throughout the internet.</p>
+      <p>Here is <a href="https://cryptics.fandom.com/wiki/List_of_abbreviations" target="_blank">a list</a> of cryptic abbreviations, although there are lots of other lists throughout the internet.</p>
 
     <h1>:X Punctuation in Cryptics</h1>
       <p>For the most part, punctuation in cryptics is there to help the clue sound like a reasonable sentence or phrase and is irrelevant to the actual working of the clue. You can remove any punctuation from your consideration with three main exceptions:</p>
@@ -733,8 +736,7 @@
 
 
 
-
-    <h1>:Puzzle #4: Identify, Sort, Index, Solve - Puzzle Done, Testing</h1>
+    <h1>:Puzzle #4: Identify, Sort, Index, Solve - Puzzle Done, Needs Testing</h1>
       <div class="npc">
         <a href="#ISISIntro">:Intro to this puzzle type</a>
       </div>
@@ -754,7 +756,7 @@
 
     <h1>:X ISIS Intro</h1>
       <p>Identify, Sort, Index, Solve is a puzzle framework that has been a staple of puzzle hunting since the early 2000s. The nice thing about it is that it is such a flexible structure, it can be molded to fit all sorts of puzzles. In particular, if you have any reasonably interesting bit of trivia or cool aha that you want to make work, it is not too hard to use ISIS to turn it into a puzzle.</p>
-      <p>The term ISIS was coined <a href="https://foggyb.livejournal.com/43107.html">in 2010 by Foggy Brume</a> (a member of Palindrome). The issue was that even then, ISIS was being played out a little, and you can see that in the puzzles themselves. The puzzles have gotten more complex over the years, and pure ISIS puzzles have gone down in frequency, but they haven’t gone away. There are a number of reasons why an ISIS puzzle might show up in the Hunt: 
+      <p>The term ISIS was coined <a href="https://foggyb.livejournal.com/43107.html" target="_blank">in 2010 by Foggy Brume</a> (a member of Palindrome). The issue was that even then, ISIS was being played out a little, and you can see that in the puzzles themselves. The puzzles have gotten more complex over the years, and pure ISIS puzzles have gone down in frequency, but they haven’t gone away. There are a number of reasons why an ISIS puzzle might show up in the Hunt: 
         <ul>
           <li>The running team is trying to put an easier puzzle on purpose there.</li>
           <li>The running team had a puzzle break and needs an easy puzzle to substitute in.</li>
@@ -914,11 +916,6 @@
 
 
 
-
-
-
-
-
     <h1>:Puzzle #5: Location-Based - Blank</h1>
       <div class="npc">
         <a href="#LocationIntro">:Intro to this puzzle type</a>
@@ -937,21 +934,26 @@
 
 
 
+
+
     <h1>:Puzzle #6: Logic Puzzles - Puzzle Done, Needs Hints</h1>
       <div class="npc">
         <a href="#LogicIntro">:Intro to this puzzle type</a>
       </div>
+      <div class="flavor">When completing a journey, it can often be useful to compare where you are now to where you were at the start of your previous journey to see how much you've changed and where you've stayed the same.</div>
       <div class="answerchecker"><iframe src="answerchecker.html?puzzle=6" width="100%" height="100px"></iframe></div>
-      <div class="puzzle"><div><img src="logicpuzzles.png"></img></div>
-      <p><a href="https://tinyurl.com/2mmsajr6">Interactive Penpa Solver</a></p>
-      <p>Rules for <a href="#HeyawakeRules">:Heyawake</a>, <a href="#SlitherlinkRules">:Slitherlink</a>, <a href="#EqualSumRules">:Equal Sum Line Sudoku</a>, and <a href="#YajilinRules">:Yajilin</a>.</p>
+      <div class="puzzle">
+        <div><img src="logicpuzzles.png"></img></div>
+        <p><a href="https://tinyurl.com/2mmsajr6" target="_blank">Interactive Penpa Solver</a></p>
+        <p>Rules for <a href="#HeyawakeRules">:Heyawake</a>, <a href="#SlitherlinkRules">:Slitherlink</a>, <a href="#EqualSumRules">:Equal Sum Line Sudoku</a>, and <a href="#YajilinRules">:Yajilin</a>.</p>
       </div>
+      <div class="npc"><p><a href="#LogicHints">:Hints</a></p></div>
 
     <h1>:x Logic Intro</h1>
-      <p>When many people think of the term “logic puzzle”, they often think of <a href="https://en.wikipedia.org/wiki/Zebra_Puzzle">zebra puzzles</a>. Now, these show up in Mystery Hunts, but there will also be Nikoli-style gridded logic puzzles.</p>
-      <p>There are lots of different types of these puzzles, and there all sorts of places that will give you plenty of these puzzles to practice. One famous source is <a href="https://www.gmpuzzles.com/blog/">Grandmaster Puzzles</a>, run by Thomas Snyder. The blog posts a wonderfully handcrafted puzzle every weekday. There are all sorts of puzzle types there, and they will wonderfully break your brain.</p>
+      <p>When many people think of the term “logic puzzle”, they often think of <a href="https://en.wikipedia.org/wiki/Zebra_Puzzle" target="_blank">zebra puzzles</a>. Now, these show up in Mystery Hunts, but there will also be Nikoli-style gridded logic puzzles.</p>
+      <p>There are lots of different types of these puzzles, and there all sorts of places that will give you plenty of these puzzles to practice. One famous source is <a href="https://www.gmpuzzles.com/blog/" target="_blank">Grandmaster Puzzles</a>, run by Thomas Snyder. The blog posts a wonderfully handcrafted puzzle every weekday. There are all sorts of puzzle types there, and they will wonderfully break your brain.</p>
       <p>But keep in mind that a Mystery Hunt puzzle is unlikely to just give you one of those puzzles with nothing else. First of all, you need to get a word or phrase as the answer, and second of all, people like writing computer solvers for these puzzles, so what might be a really hard logic puzzle could be made trivial by some code. This means that you are likely going to see these logic puzzles under different circumstances. Maybe the logic puzzle is otherwise disguised as something else. Maybe the logic puzzle is also a metapuzzle, and you’re trying to crack as much as you can without solving more puzzles. Or maybe the puzzle writer wrote a brand new variant on that type of puzzle that everyone is solving for the first time. It’s best not to be a real expert at any one type, but practice general deductions that will help you with all sorts of puzzles.</p>
-      <p>If you get a grid and it doesn’t tell you what kind of puzzle it is, the second half of <a href="https://devjoe.appspot.com/puzzleid/">/dev/joe’s page</a> will help <a href="#ILearnToo">:you</a>.</p>
+      <p>If you get a grid and it doesn’t tell you what kind of puzzle it is, the second half of <a href="https://devjoe.appspot.com/puzzleid/" target="_blank">/dev/joe’s page</a> will help <a href="#ILearnToo">:you</a>.</p>
 
     <h1>:x I Learn Too</h1>
       <p>Fun fact: I discovered this resource while writing this. This is cool! Thanks /dev/joe!</p>
@@ -981,6 +983,253 @@
         <li>The loop can only take 90 degree turns.</li>
       </ol>
 
+    <h1>:X Logic Hints</h1>
+      <p>These walkthroughs will take you step by step through each of the puzzles. All of the actual steps are behind expandable links, so you can only reveal up to the part you're on, and the titles should give you an idea of the general solving path.</p>
+      <p><a href="#HeyawakeWalkthrough">:Heyawake Walkthrough</a></p>
+      <p><a href="#SlitherlinkWalkthrough">:Slitherlink Walkthrough</a></p>
+      <p><a href="#ESLSWalkthrough">:Equal Sum Line Sudoku Walkthrough</a></p>
+      <p><a href="#YajilinWalkthrough">:Yajilin Walkthrough</a></p>
+      <br>
+      <p><a href="#LogicOne">:I’ve solved all four puzzles, now what do I do?</a></p>
+      <p><a href="#LogicTwo">:How do I turn that into an answer?</a></p>
+      <p><a href="#LogicThree">:I can’t get 3 to look right.</a></p>
+      <br>
+      <p><a href="#LogicSkip">:I'm hopelessly stuck. Get me off the current part that I'm on.</a></p>
+
+    <h1>:X Heyawake Walkthrough</h1>
+      <p><a href="#HeyawakeWalkthrough1">:Step 1 – the 0 region and the 3 region</a></p>
+      <p><a href="#HeyawakeWalkthrough2">:Step 2 – the northern 1 region</a></p>
+      <p><a href="#HeyawakeWalkthrough3">:Step 3 – the bottom right region</a></p>
+      <p><a href="#HeyawakeWalkthrough4">:Step 4 – the other 1 region</a></p>
+      <p><a href="#HeyawakeWalkthrough5">:Step 5 – the top row</a></p>
+      <p><a href="#HeyawakeWalkthrough6">:Step 6 – the rest of the grid</a></p>
+      <p><a href="#HeyawakeSolution">:Heyawake Solution</a></p>
+
+    <h1>:X Heyawake Walkthrough 1</h1>
+      <p>The region marked with 0 cannot have any black squares, so they must all be unshaded (marked as green).</p>
+      <p>The region marked with 3 can only has 5 spaces, so the three black squares have to be in those spaces. We can then mark all of the squares adjacent to the black squares as unshaded.</p>
+      <img src="img/heyawake1.png">
+
+    <h1>:X Heyawake Walkthrough 2</h1>
+      <p>The space marked A must be shaded because otherwise there would be an unbroken line of unshaded squares that spans more than 2 regions. This means that the rest of the 1 region must be unshaded, which forces B and C to be shaded to break up the line of unshaded squares.</p>
+      <img src="img/heyawake2.png">
+
+    <h1>:X Heyawake Walkthrough 3</h1>
+      <p>The space marked A must be unshaded because it is next to a shaded square.</p>
+      <p>The space marked B must be unshaded because otherwise the unshaded space to its right would be cut off from the rest of the unshaded squares.</p>
+      <img src="img/heyawake3.png">
+
+    <h1>:X Heyawake Walkthrough 4</h1>
+      <p>The space marked A must be unshaded. If it was shaded, then the space with the 1 would have to be unshaded, and therefore the space marked B must be shaded to stop the line of unshaded squares from crossing 3 regions. This would make A and B be shaded, but they are adjacent to each other. Therefore the A must be unshaded, the space with the 1 must be shaded from the region requirement, and B must be unshaded due to adjacency.</p>
+      <img src="img/heyawake4.png">
+
+    <h1>:X Heyawake Walkthrough 5</h1>
+      <p>The space marked A must be unshaded. If it was shaded, then the shaded squares would break the unshaded squares into two separate regions.</p>
+      <p>Since A is unshaded, the space marked as 2 must be shaded, and all of the adjacent spaces must be unshaded.</p>
+      <img src="img/heyawake5.png">
+
+    <h1>:X Heyawake Walkthrough 6</h1>
+      <p>The spaces marked A and F must be unshaded because otherwise they would isolate the corner squares from the grid.</p>
+      <p>One of B and C must be shaded because otherwise there would be a row of unshaded squares crossing three regions. Similar logic can be used to show that one of D and E must be shaded. Due to adjacency reasons, the group must be B and E or C and D. However, if it was C and D, then the bottom right unshaded squares would be cut off from the rest of the grid, so it must be B and E.</p>
+      <img src="img/heyawake6.png">
+
+    <h1>:X Heyawake Solution</h1>
+      <img src="img/heyawakesol.png">
+
+    <h1>:X Slitherlink Walkthrough</h1>
+      <p><a href="#SlitherlinkWalkthrough1">:Step 1 – Mark the 0s and the nearby 3s.</a></p>
+      <p><a href="#SlitherlinkWalkthrough2">:Step 2 – Resolve the bottom-right corner.</a></p>
+      <p><a href="#SlitherlinkWalkthrough3">:Step 3 – Draw some segments on the 3 on the bottom right.</a></p>
+      <p><a href="#SlitherlinkWalkthrough4">:Step 4 – Resolve the 1 on the bottom edge.</a></p>
+      <p><a href="#SlitherlinkWalkthrough5">:Step 5 – Continue the loop on the left edge.</a></p>
+      <p><a href="#SlitherlinkWalkthrough6">:Step 6 – Work on the interaction between the 3 and 1 on the left.</a></p>
+      <p><a href="#SlitherlinkWalkthrough7">:Step 7 – Return to the bottom-right 3.</a></p>
+      <p><a href="#SlitherlinkWalkthrough8">:Step 8 – Go back to the leftmost 3.</a></p>
+      <p><a href="#SlitherlinkWalkthrough9">:Step 9 – Finish up on the right-hand side.</a></p>
+
+    <h1>:X Slitherlink Walkthrough 1</h1>
+      <img class="right-image" src="img/slitherlinkinset1.png">
+      <p>We can put Xs on all four sides of the 0 by definition of being a 0.</p>
+      <p>Both of the 0s share a corner with a 3. Take a look at the two sides of the 3 leading into that intersection. They can’t both be empty because a 3 can only have one empty side. However, as you can see in the image to the right, if one side is on the loop, then the other side must be because the loop doesn’t have any other exit from that intersection. Therefore, those corners must have both segments adjacent to the 3 filled in.</p>
+      <img src="img/slitherlink1.png">
+
+    <h1>:X Slitherlink Walkthrough 2</h1>
+      <img class="right-image" src="img/slitherlinkinset2.png">
+      <p>Take a look at the 2 in the bottom right hand corner. There are only two ways to resolve that corner – either the top and left edges are on the loop or the bottom and right sides are on the loop. This is because if either the bottom or right sides are on the loop, the other must also be on the loop to get the loop out of the corner. </p>
+      <p>Take the case where the top and left edges of the 2 is on the loop. Now let’s look at the top-left corner of the 2. That intersection cannot have a line coming out of it from the top or to the left due to how loops work. However, they both border the same 3 square, and a 3 can only have one edge that isn’t on the loop. This means that this case doesn’t work, and the bottom and right of the bottom-right 2 must be on the loop.</p>
+      <p>Once we have that information, we can continue these segments one up/one to the left. This is because those segments can’t turn onto the 2, so they only have one direction to go.</p>
+      <img src="img/slitherlink2.png">
+
+    <h1>:X Slitherlink Walkthrough 3</h1>
+      <p>There are four possibilities for how segments can be drawn around the 3. They are shown below.</p>
+      <div><img src="img/slitherlinkinset3-1.png"> <img src="img/slitherlinkinset3-2.png"> <img src="img/slitherlinkinset3-3.png"> <img src="img/slitherlinkinset3-4.png"></div>
+      <p>The first and the last possibilities have an issue. They have a segment that ends in the bottom right that has nowhere to go. They can’t go the right or bottom because the 2 is used up, and they can’t go in the last direction because that would be the fourth segment around the 3. This means that it’s either the 2nd or 3rd possibility. We don’t know which it is, but they both have a segment on the right and under the 3, so we can add those in.</p>
+      <p>We have now used up the 2 on the left, so we can put an X on the remaining side. This means that the segment on the bottom must continue another square along the bottom.</p>
+      <img src="img/slitherlink3.png">
+
+    <h1>:X Slitherlink Walkthrough 4</h1>
+      <p>Take a look at the 1 on the bottom edge. If it had a segment of the loop on the top edge, it runs into an issue. It can’t go up or to the right because those are blocked off by the 0, and it can’t go down because the 1 is already used up. We can use similar logic to cancel out being a segment on the right side.</p>
+      <img class="right-image" src="img/slitherlinkinset4.png">
+      <p>But what about putting a segment on the left side of the 1? Let’s look at the bottom of that segment of the loop. The loop has to continue to the left because it can’t go to the right, and from there it needs to go up twice. If this happens, we get the situation in the image to the right.</p>
+      <p>At this point we have an issue with the other side of the segment on the 1 on the bottom. It can’t go up or to the left because the higher 1 is already used up. It can’t go to the right because the bottom 1 is already used up. We’ve run into a contradiction, which means there can’t be a segment on the left of the 1 on the bottom, which means that there needs to be a segment on the bottom of the 1.</p>
+      <p>This segment can be continued to both sides because the loop only has one way to go. On the right side, it connects up with the loop we already have. On the left side, it goes into the corner and continues around the corner.</p>
+      <img src="img/slitherlink4.png">
+
+    <h1>:X Slitherlink Walkthrough 5</h1>
+      <p>Let’s continue the loop on the left edge. It can’t go to the right because then it has nowhere to go. (The 0 and the 1 are both used up at this point.) Therefore it must go up.</p>
+      <p>We can still continue this. The loop can’t go to the right because the 1 has already been used up. This means that the loop must go up again.</p>
+      <img src="img/slitherlink5.png">
+
+    <h1>:X Slitherlink Walkthrough 6</h1>
+      <img class="right-image" src="img/slitherlinkinset5.png">
+      <p>We can put Xs on all the empty spaces on the 1 we just used up. Now the segment on the bottom of the 3 must go up, giving us the situation to the right.</p>
+      <p>Now look at that segment we just drew in. If it goes up, it uses up the 1, and now the segment on the left-edge on the grid has nowhere to go. This means that it needs to go to the left, connecting up with the segment on the left edge.</p>
+      <img src="img/slitherlink6.png">
+
+    <h1>:X Slitherlink Walkthrough 7</h1>
+      <p>Let’s look at the segment underneath the 3. The left-hand side of that segment has to go up because if it goes to the left, it will be trapped. Continuing that segment, it once again has to go up because if it goes to the left, it will be trapped. Then we can put Xs on the spaces around the 1 we just used up.</p>
+      <img src="img/slitherlink7.png">
+
+    <h1>:X Slitherlink Walkthrough 8</h1>
+      <p>The segment on the right of the 3 has to go up because it will get stuck if it goes to the right. This connects it to the 3 in the second row. This forces us to draw in the segment to the right of that 3.</p>
+      <p>At this point, we can put Xs around the 1 that we just used up, now the 2 next to it only has two open segments, so we can fill them in. This connects up our loop so that there’s only two open sections to our loop.</p>
+      <img src="img/slitherlink8.png">
+
+    <h1>:X Slitherlink Walkthrough 9</h1>
+      <img class="right-image" src="img/slitherlinkinset6.png">
+      <p>Look at the segment on the right edge. If it goes over to the left, then the loop closes up, but the 3 in the upper-right hand corner won’t have any segments around it. Therefore, that segment must go up. The end of the loop to the left now has nowhere to go but up. This logic can be repeated twice until both ends of the loop reach the 3. This gives us the diagram to the right.</p>
+      <p>The edge to the right, once again must go up since it can’t close the loop yet. Then it rounds the corner to the top of the 3. At this point, the 3 needs one more segment to fill up, and the bottom cannot have a segment on the loop, which means the left must have one, closing up the loop, and finishing the puzzle.</p>
+      <img src="img/slitherlink9.png">
+
+    <h1>:X ESLS Walkthrough</h1>
+      <p><a href="#ESLSWalkthrough1">:Step 1 – Place the first three 6s.</a></p>
+      <p><a href="#ESLSWalkthrough2">:Step 2 – Place the other three 6s.</a></p>
+      <p><a href="#ESLSWalkthrough3">:Step 3 – Fill in the possibilities for 4 & 5.</a></p>
+      <p><a href="#ESLSWalkthrough4">:Step 4 – Resolve the lower-right line.</a></p>
+      <p><a href="#ESLSWalkthrough5">:Step 5 – Resolve all the 4/5 and some of the 1/2/3 squares.</a></p>
+      <p><a href="#ESLSWalkthrough6">:Step 6 – Resolve the leftmost line.</a></p>
+      <p><a href="#ESLSWalkthrough7">:Step 7 – Finish off the 4s and the 5s.</a></p>
+      <p><a href="#ESLSWalkthrough8">:Step 8 – Resolve the Z-shaped line.</a></p>
+      <p><a href="#ESLSWalkthrough9">:Step 9 – Clean up.</a></p>     
+
+    <h1>:X ESLS Walkthrough 1</h1>
+      <img class="right-image" src="img/esls1.png">
+      <p>Note the three highlighted lines in the diagram to the right. These lines each have the property that they enter one cell in one region and three cells in a second region. (The line on the left does this with the top and bottom region.) The smallest sum of three numbers in one region in this sudoku is 1+2+3=6, which is the largest number in the sudoku. Therefore the single numbers can all be filled in with 6s, and in the other squares we can put a note that they must be 1, 2, or 3.</p>
+      <img src="img/esls2.png">
+
+    <h1>:X ESLS Walkthrough 2</h1>
+      <p>The 3s in the other sections can be placed via sudoku logic.</p>
+      <p>In the upper right region, the 6 can’t be in the bottom two squares because of the 6 in the region to the left, and therefore the only open space is the one in the upper left.</p>
+      <p>In the bottom left region, the 6 can’t be in the rightmost column because of the 6 immediately above it, so it must be in the middle-up square.</p>
+      <p>In the bottom right region, the top row is knocked out by the region to the left, and the outside columns are knocked out by the regions above it, so the 6 must be in the middle-bottom square.</p>
+      <img src="img/esls3.png">
+
+    <h1>:X ESLS Walkthrough 3</h1>
+      <img class="right-image" src="img/esls4.png">
+      <p>In the upper right, middle right, and bottom left regions, we know the two remaining cells have to have 4 or 5 in some order, so let’s mark those. The picture to the right is what it looks like when we do that.</p>
+      <p>Now, take a look at the pink squares. They must be equal to each other because they’re on the same line and they both have a 6, so the pink square on the right must also have a 4 or 5.</p>
+      <p>Now, take a look at the orange squares. The columns they’re in already have two squares that must have a 4 or 5 them, which means the orange squares can’t have a 4 or 5, and they can’t have a 6 because we placed all of those, which means that they must have a 1, 2, or 3, so we can fill that in.</p>
+      <img src="img/esls5.png">
+
+    <h1>:X ESLS Walkthrough 4</h1>
+      <img class="right-image" src="img/eslsinset1.png">
+      <p>Take a look at the two remaining open squares in the lower-right region. The top one is in a row with three squares that must have a 1, 2, or 3 in them, so this square must have a 4 or 5. The bottom one is in a row with two squares that must have a 4 or 5 in them, so this square must have a 1, 2, or 3. This results in the situation highlighted to the right.</p>
+      <p>Now, this line is the equivalent to the equation (4 or 5) = (4 or 5) + (1 or 2 or 3). The only way this equation works is 5 = 4 + 1, so we can fill those numbers in.</p>
+      <img src="img/esls6.png">
+
+    <h1>:X ESLS Walkthrough 5</h1>
+      <p>Now that we placed a 4 and a 5, we can resolve all of the 4/5 squares. R6C4 must be a 5 because it contains a 4 in its region. R6C3 must be a 4 because of the 5 to its right. R5C3 must be a 5 because of the 4 we just placed. R3C5 must be a 4 because of the 5 in its region. R2C5 must be a 5 because of the 4 we just placed, and R2C4 must be a 4 because of the 5 we just placed.</p>
+      <p>The 1 also forces some deductions. We can remove the 1s from the two squares on the bottom of the bottom-left region, which means we can place a 1 in the third square. Similar logic can be used on the squares in the top-right region. We can then remove the 1 possibilities from R5C4, R5C5, R4C5.</p>
+      <img src="img/esls7.png">
+
+    <h1>:X ESLS Walkthrough 6</h1>
+      <p>In the middle region, we know that the line must add up to 6. The two possibilities are 1+5 and 2+4. It can’t be 1 and 5 because of the 1 immediately below it, so it must be 2 and 4. The 4 in the region to the right forces the 4 to be on the bottom square of the line, and forces the 2 to be above it.</p>
+      <p>This removes the 2 as a possibility from the bottom left, forcing that square to be a 3 and the square to the right to be a 2. We can also the 2 as a possibility from R3C4.</p>
+      <img src="img/esls8.png">
+
+    <h1>:X ESLS Walkthrough 7</h1>
+      <p>The leftmost column has every square filled in but one, so we can put a 5 at the top of the column. The top-left region is missing a 4, and sudoku logic is forcing it to be in the top middle square of the region. The middle-left region is missing a 5, and sudoku logic is forcing it to be in the top middle square of the region.</p>
+      <img src="img/esls9.png">
+
+    <h1>:X ESLS Walkthrough 8</h1>
+      <p>The square next to the 5 on this line only has two possibilities from its row – 1 or 3. If this is a 3, then the sum in this region would be 8, but that would force a second 4 in the upper left region. Therefore, this square must be a 1, which forces the last square on the line to be a 2.</p>
+      <img src="img/esls10.png">
+
+    <h1>:X ESLS Walkthrough 9</h1>
+      <p>The rest of the grid can be cleaned up with straightforward sudoku logic.</p>
+      <p>The middle-left region only has one square remaining in it – it must be a 3. Now the second column only has one square remaining in it – it must be a 1. Now the upper-left region only has one square remaining in it – it must be a 3.</p>
+      <p>The two remaining squares in the upper-right region are resolved by the 2 and 3 from the region to the left.</p>
+      <p>We can remove the 3 from the possibilities from the squares in row 4, forcing the rightmost square to be a 2. This forces the remaining square in that row to be a 1, and the now remaining square in that region to be a 3.</p>
+      <p>The last two squares are in the lower-right region, and they can be resolved by the 2 and 3 from the region above it.</p>
+      <img src="img/esls11.png">
+
+    <h1>:X Yajilin Walkthrough</h1>
+      <p><a href="#YajilinWalkthrough1">:Step 1 – Deal with the leftmost column.</a></p>
+      <p><a href="#YajilinWalkthrough2">:Step 2 – Resolve the corners on the right.</a></p>
+      <p><a href="#YajilinWalkthrough3">:Step 3 – Resolve the bottom-right 1.</a></p>
+      <p><a href="#YajilinWalkthrough4">:Step 4 – Resolve the 1 in Column 4.</a></p>
+      <p><a href="#YajilinWalkthrough5">:Step 5 – Focus on the middle of the grid.</a></p>
+      <p><a href="#YajilinWalkthrough6">:Step 6 – Finish the top.</a></p>
+
+    <h1>:X Yajilin Walkthrough 1</h1>
+      <p>This column has a 0 pointing to it, so all of the cells must be unshaded. This means that all these cells must be on the loop. The corners only have two possibilities for entry and exit, so they must use those possibilities. Similarly, the cell to the left of the 1 only has two possibilities, so it must connect the two L-shapes. </p>
+      <img src="img/yajilin1.png">
+
+    <h1>:X Yajilin Walkthrough 2</h1>
+      <p>The top-right corner can’t be part of the loop because there is only one way into it, so it must be shaded. This means that the square underneath it must be unshaded, and since it is in a corner, we can draw the loop through that square the only way it can go.</p>
+      <p>Similar logic can be used on the bottom-right corner.</p>
+      <img src="img/yajilin2.png">
+
+    <h1>:X Yajilin Walkthrough 3</h1>
+      <img class="right-image" src="img/yajilin3.png">
+      <p>The 1 in the bottom right forces a black square in either A or B. Imagine that it is in B. A would have to be unshaded, and therefore have the loop go through it. If this was the case, now it would have the loop go through it and since we’ve made a corner for it, the loop has to go up and to the right. However, this makes a small closed loop in the upper right hand corner, so doesn’t work. Therefore, the shaded square can’t be in B and therefore must be in A.</p>
+      <p>We can now make B unshaded and do some more loop logic. The upper-right L can extend one square in both directions thanks to A cutting off the pathways for them to go. B is now in a corner and is forced to go left and down.</p>
+      <img src="img/yajilin4.png">
+
+    <h1>:X Yajilin Walkthrough 4</h1>
+      <img class="right-image" src="img/yajilininset1.png">
+      <p>There must be a shaded square in the bottom two squares in Column 4 thanks to the 1 in that column. The top square cannot have the shaded square because then the loop couldn’t get out of the bottom square, therefore the bottom square must be shaded. This also resolves the 2 in the bottom-left, forcing the other two squares to be unshaded. This gives us the diagram to the right.</p>
+      <p>This allows for a bunch of loop logic. Cell A must be on the loop, and since it’s in a corner it must go up and to the right. Cell B must be on the loop, and since it’s in a corner it must go up and to the left. Cell D is effectively in a corner, and must go up and to the left. This means that we have now connected our two big pieces of the loop in cell C.</p>
+      <img src="img/yajilin5.png">
+
+    <h1>:X Yajilin Walkthrough 5</h1>
+      <img class="right-image" src="img/yajilininset2.png">
+      <p>Cell A must be shaded because there is only one entry into it. Because A is shaded, B must be unshaded and therefore be part of the loop. Since B is blocked off on two sides, it must go to the left and up. This forces C to be unshaded, and the only 2 places it can go is up and to the right, connecting B to the main loop.</p>
+      <img src="img/yajilin6.png">
+
+    <h1>:X Yajilin Walkthrough 6</h1>
+      <p>The two ends of the loop can’t connect yet because we don’t know the shaded/unshaded for each of the squares. This means that both ends of the loop must go the only way that they can – up. This forces both of those squares to be unshaded, so the one remaining square is forced to be shaded thanks to the 1 clue pointing to it. All that’s left to do is to connect the loop to itself.</p>
+      <img src="img/yajilin7.png">
+
+    <h1>:X Logic One</h1>
+      <p>Pay attention to the flavor text. How could you do that in this puzzle? (Consider your path to be clockwise.)</p>
+
+    <h1>:X Logic Two</h1>
+      <p>The things you’re drawing certainly look like letters. Kind of. It’s not perfect, but you should be able to figure it out. (2 is a little hard to see, but you should be able to figure it out.)</p>
+
+    <h1>:X Logic Three</h1>
+      <p>Highlight each square that contains a line that overlaps.</p>
+
+    <h1>:X Logic Skip</h1>
+      <p><a href="#LogicSkipOne">:Step 1 – Solve each of the individual puzzles.</a></p>
+      <p><a href="#LogicSkipTwo">:Step 2 – Compare the puzzles.</a></p>
+      
+    <h1>:X Logic Skip One</h1>
+      <p>Each of the individual puzzles have solutions in the Walkthroughs.</p>
+      <p><a href="#HeyawakeWalkthrough">:Heyawake Walkthrough</a></p>
+      <p><a href="#SlitherlinkWalkthrough">:Slitherlink Walkthrough</a></p>
+      <p><a href="#ESLSWalkthrough">:Equal Sum Line Sudoku Walkthrough</a></p>
+      <p><a href="#YajilinWalkthrough">:Yajilin Walkthrough</a></p>
+
+    <h1>:X Logic Skip Two</h1>
+      <p>For each pair of puzzles, put the solution of the one in the clockwise direction on the starting position of the other one.</p>
+      <p>For letter #1, put the answer to the Slitherlink on the start to the Heyawake. It overlaps a bunch on the outside, but inside the grid it makes an N.</p>
+      <p>For letter #3, put the loop of the Yajilin on the start of the Equal Sum Line Sudoku and highlight the both squares where a line segment overlaps. These squares also make an N.</p>
+      <div><img src="img/logicletters13.png"></div>
+      <p>For letter #2, put the answer to the Equal Sum Line Sudoku on the start of the Slitherlink. The numbers that overlap make an A. (Close enough.)</p>
+      <p>For letter #4, put the answer to the Heyawake on the start of the Yajilin. There are 4 numbered Yajilin clues that overlap with the shaded Heyawake, and if you follow the arrows, it forms an O.</p>
+      <div><img src="img/logicletters24.png"></div>
+      <p>Put the letters in numbered order to spell NANO.</p>
 
 
 
@@ -988,7 +1237,7 @@
 
 
 
-    <h1>:Puzzle #7: Picture Pile - Puzzle Done, Needs Hints, Testing</h1>
+    <h1>:Puzzle #7: Picture Pile - Puzzle Done, Testing</h1>
       <div class="npc">
         <a href="#PictureIntro">:Intro to this puzzle type</a>
       </div>
@@ -1124,13 +1373,131 @@
             <img src="img/32.png">
           </div>
         </div>
-        <div><a href="img/ppblank.jpg"><img src="img/ppblank.jpg"></a></div>
+        <div><a href="img/ppblank.jpg" target="_blank"><img src="img/ppblank.jpg"></a></div>
       </div>
+      <div class="npc"><p><a href="#PictureHints">:Hints</a></p></div>
 
 
     <h1>:x Picture Intro</h1>
       <p>Identify this pile of pictures is a common theme in the Mystery Hunt. There’s a wonderful ambiguity in pictures that isn’t present in words. This ambiguity allows the puzzle solver to represent groups in a more straightforward way by allowing the ambiguity to come from the pictures. As we have not as of yet developed computer code to divine the meaning of why a constructor placed a picture in the puzzle, it’s hard to cheese.</p>
       <p>That being said, that doesn’t mean that there aren’t computer tools to help you. Various reverse image searches help you, although I’ve been particularly impressed by Google Lens. It shows up in Chrome when you right click an image, it has an interface where you can grab only some of the picture, and it stays on the right side of the browser as you go from tab to tab. Note that puzzle constructors know that reverse image search exists and will take it into account when writing puzzles. This can take the form of either manipulating images so that they’re harder to find in a reverse image search, creating their own images from scratch, or just assuming that you’re going to use it and build the puzzle around that.</p>
+
+    <h1>:X Picture Hints</h1>
+      <p><a href="#PictureStart">:How the heck do I get started?</a></p>
+      <p><a href="#PictureSecond">:How does this grid work?</a></p>
+      <p><a href="#PictureThird">:I’m having trouble with identifying some of these pictures. They seem vague.</a></p>
+      <p><a href="#PictureFourth">:This doesn’t seem like the right set – when I look it up, there should be a three letter entry, but there’s no three letter entry in the grid.</a></p>
+      <p><a href="#PictureFifth">:I put the answer in the checker, but it said that I wasn’t done yet.</a></p>
+      <br>
+      <p><a href="#PictureID">:I just want to know what this one picture is.</a></p>
+      <p><a href="#PictureSkip">:I'm hopelessly stuck. Get me off the current part that I'm on.</a></p>
+
+    <h1>:X Picture Start</h1>
+      <p>Some of the pictures are going to be easier than others. 5, 15, and 20 should be relatively easy to look up if you don’t know them off the top of your head. 22 also should hopefully be very quick, and between 20 and 22 you should hopefully be able to get 21.</p> 
+      <p>2, 6, and 28 are Magic the Gathering cards, so they should be reverse image searchable. For 28, make sure you get the card with exactly the same artwork.</p>
+      <p>From those ins, you should be able to start filling in the grid, and you may be able to get the connection between the pictures.</p>
+
+    <h1>:X Picture Second</h1>
+      <p>Each of the pictures has a number above it, and the name of that picture gets filled in the corresponding entry in the grid. Black squares are spaces and don’t get filled in, while yellow squares are filled in the same as white squares. If two squares have a line connecting them, then they have the same letter in them.</p>
+
+    <h1>:X Picture Third</h1>
+      <p>You’re not meant to figure out every single picture right away. Once you’ve got a couple entries filled out in the grid, you can use the letter patterns to help you narrow down what the adjacent pictures are. (Every pair except 7/8 has at least two letter connections, which should help.)</p>
+      <p>In addition, you also need to figure out what this puzzle is about. Google should be helpful here, and once you get that connection, it should be _a lot_ easier to back-identify a bunch of the pictures.</p>
+
+    <h1>:X Picture Fourth</h1>
+      <p>Make sure that you’re using the 2nd edition, not the 1st edition.</p>
+
+    <h1>:X Picture Fifth</h1>
+      <p>Did you put all the cards into the grid? Are you sure?</p>
+
+    <h1>:X Picture ID</h1>
+      <p><a href="#PictureIDOne">:1</a> | <a href="#PictureIDTwo">:2</a> | <a href="#PictureIDThree">:3</a> | <a href="#PictureIDFour">:4</a> | <a href="#PictureIDFive">:5</a> | <a href="#PictureIDSix">:6</a> | <a href="#PictureIDSeven">:7</a> | <a href="#PictureIDEight">:8</a></p>
+      <p><a href="#PictureIDNine">:9</a> | <a href="#PictureIDTen">:10</a> | <a href="#PictureIDEleven">:11</a> | <a href="#PictureIDTwelve">:12</a> | <a href="#PictureIDThirteen">:13</a> | <a href="#PictureIDFourteen">:14</a> | <a href="#PictureIDFifteen">:15</a> | <a href="#PictureIDSixteen">:16</a> </p>
+      <p><a href="#PictureIDSeventeen">:17</a> | <a href="#PictureIDEighteen">:18</a> | <a href="#PictureIDNineteen">:19</a> | <a href="#PictureIDTwenty">:20</a> | <a href="#PictureIDTwentyOne">:21</a> | <a href="#PictureIDTwentyTwo">:22</a> | <a href="#PictureIDTwentyThree">:23</a> | <a href="#PictureIDTwentyFour">:24</a> </p>
+      <p><a href="#PictureIDTwentyFive">:25</a> | <a href="#PictureIDTwentySix">:26</a> | <a href="#PictureIDTwentySeven">:27</a> | <a href="#PictureIDTwentyEight">:28</a> | <a href="#PictureIDTwentyNine">:29</a> | <a href="#PictureIDThirty">:30</a> | <a href="#PictureIDThirtyOne">:31</a> | <a href="#PictureIDThirtyTwo">:32</a> </p>
+
+    <h1>:X Picture ID One</h1>  
+      <p>VASSAL</p>
+    <h1>:X Picture ID Two</h1>  
+      <p>ESTATE</p>
+    <h1>:X Picture ID Three</h1>  
+      <p>BANDIT</p>
+    <h1>:X Picture ID Four</h1>  
+      <p>GARDENS</p>
+    <h1>:X Picture ID Five</h1>  
+      <p>GOLD</p>
+    <h1>:X Picture ID Six</h1>  
+      <p>REMODEL</p>
+    <h1>:X Picture ID Seven</h1>  
+      <p>WORKSHOP</p>
+    <h1>:X Picture ID Eight</h1>  
+      <p>BUREAUCRAT</p>
+    <h1>:X Picture ID Nine</h1>  
+      <p>CELLAR</p>
+    <h1>:X Picture ID Ten</h1>  
+      <p>LIBRARY</p>
+    <h1>:X Picture ID Eleven</h1>  
+      <p>ARTISAN</p>
+    <h1>:X Picture ID Twelve</h1>  
+      <p>MONEYLENDER</p>
+    <h1>:X Picture ID Thirteen</h1>  
+      <p>MOAT</p>
+    <h1>:X Picture ID Fourteen</h1>  
+      <p>MARKET</p>
+    <h1>:X Picture ID Fifteen</h1>  
+      <p>COPPER</p>
+    <h1>:X Picture ID Sixteen</h1>  
+      <p>PROVINCE</p>
+    <h1>:X Picture ID Seventeen</h1>  
+      <p>POACHER</p>
+    <h1>:X Picture ID Eighteen</h1>  
+      <p>VILLAGE</p>
+    <h1>:X Picture ID Nineteen</h1>  
+      <p>FESTIVAL</p>
+    <h1>:X Picture ID Twenty</h1>  
+      <p>SILVER</p>
+    <h1>:X Picture ID Twenty One</h1>  
+      <p>SMITHY</p>
+    <h1>:X Picture ID Twenty Two</h1>  
+      <p>WITCH</p>
+    <h1>:X Picture ID Twenty Three</h1>  
+      <p>DUCHY</p>
+    <h1>:X Picture ID Twenty Four</h1>  
+      <p>CURSE</p>
+    <h1>:X Picture ID Twenty Five</h1>  
+      <p>SENTRY</p>
+    <h1>:X Picture ID Twenty Six</h1>  
+      <p>COUNCIL ROOM</p>
+    <h1>:X Picture ID Twenty Seven</h1>  
+      <p>THRONE ROOM</p>
+    <h1>:X Picture ID Twenty Eight</h1>  
+      <p>HARBINGER</p>
+    <h1>:X Picture ID Twenty Nine</h1>  
+      <p>LABORATORY</p>
+    <h1>:X Picture ID Thirty</h1>  
+      <p>MILITIA</p>
+    <h1>:X Picture ID Thirty One</h1>  
+      <p>MINE</p>
+    <h1>:X Picture ID Thirty Two</h1>  
+      <p>MERCHANT</p>
+
+    <h1>:X Picture Skip</h1>
+      <p><a href="#PictureSkipOne">:Step 1: Identify as many of the pictures as possible and fill in the grid.</a></p>
+      <p><a href="#PictureSkipTwo">:Step 2: Read off the yellow letters.</a></p>
+      <p><a href="#PictureSkipThree">:Step 3: Follow the cluephrase instruction.</a></p>
+
+    <h1>:X Picture Skip One</h1>
+      <p>Some of these identifications are hard, but they get much easier when you realize that these are all the cards in a Dominion Base Set. The easiest way to figure this out is to get a couple of the easiest identifications and stick them into Google.</p>
+      <div><img src="img/ppanswer.jpg"></div>
+
+    <h1>:X Picture Skip Two</h1>
+      <p>This message reads “ANSWER IS THE MISSING ONE.” Don’t forget that the right half of the grid goes up instead of down!</p>
+
+    <h1>:X Picture Skip Three</h1>
+      <p>This puzzle contains every card from the 2nd Edition Dominion Base Set except for one – CHAPEL. This is the answer.</p>
+
+
+
 
 
     <h1>:Puzzle #8: Trigrams - Puzzle Done, Needs Testing, Hints</h1>
@@ -1141,10 +1508,11 @@
       <div class="puzzle">
         <div class="flavor">You're gonna need a plane to get to all of these places.</div>
         <div class="trigrams">  AMA IST NAD	OGA	PAN	PIN	RIC	SEA	THE	TIN	TOF (4 2 3 8 8 2 6)</div>
-        <div class="trigrams">  ARD	BIR	EDU	EOF	ING	LAC	MAV	OCA	THP	A (9 2 7 9)</div>
+        <div class="trigrams">  ARD	BIR	EDU	EOF	ING	LAC	MAV	OCA	THP	A (10 2 7 9)</div>
         <div class="trigrams">  AYD	DEC	DER	DSP	ELT	IVI	REE	TTH	WHA	WOR (4 5 5 2 5 7)</div>
         <div class="trigrams">  BIA	CIT	FCO	ICO	LOM	OST	REP	RNM	SOU	THE	THE	UBL	YIN (12 4 2 3 8 2 8)</div>
         <div class="trigrams">  CKS	DBA	DIA	HES	ING	LEA	MOF	MON	PLA	RET	TEA	THE	WHE	Y (5 3 6-1 4 2 3 12 4)</div>
+        <p>(9 5)</p>
       </div>
 
     <h1>:X Trigram Intro</h1>
@@ -1154,7 +1522,10 @@
       <p>I mean, English is a hellscape conglomerate of languages with millions of exceptions, but there _are_ rules.</p>
 
 
-    <h1>:Puzzle #9: Twisted Clues - Puzzle Done, Hints</h1>
+
+
+
+    <h1>:Puzzle #9: Twisted Clues - Puzzle Done, Needs Hints</h1>
       <div class="npc">
         <a href="#TwistedIntro">:Intro to this puzzle type</a>
       </div>
@@ -1177,7 +1548,10 @@
       <p>The twisted clues puzzle here is deliberately simple to get you used to the puzzle type, but hopefully still interesting.</p>
 
 
-    <h1>:Metapuzzle - Puzzle Done, Needs Testing, Hints</h1>
+
+
+
+    <h1>:Metapuzzle - Puzzle Done, Needs Testing</h1>
       <div class="npc">
         <a href="#MetaIntro">:Intro to this puzzle type</a>
       </div>
@@ -1255,6 +1629,7 @@
         </table>
         <p>Oh right, you probably want to know about those 6 puzzles you didn't have access to. Yeah, sorry about that. It turns out that those puzzles are much harder than the others. Your teammates are working on them, but they would really appreciate it if you could solve the metapuzzle so they don't have to worry about solving them. Fortunately, metapuzzles are designed to be solved missing a few answers. See what you can do.</p>
       </div>
+      <div class="npc"><p><a href="#MetaHints">:Hints</a></p></div>
 
     <h1>:X Meta Intro</h1>
       <p>Metapuzzles are the backbone that gives the Mystery Hunt structure. They take it from being a large collection of hard puzzles to something with a form and a story. They also are the cleanest way of tracking progress through a Hunt. While many Hunts may not require you to solve every puzzle to finish, they usually will require you to solve every metapuzzle to finish. Each one that your team gets is a major accomplishment.</p>
@@ -1274,13 +1649,13 @@
       <p>Backsolving can be a very controversial topic with puzzlers, and you shouldn’t just backsolve willy-nilly. Different teams have different feelings about how much you guess at answers, and some people really don’t like it when the puzzle they’ve been working on for six hours has been backsolved under their noses. Consult with your team before seeing if backsolving is right for you.</p>
 
     <h1>:X 3D Circuit</h1>
-      <p>This was the Sci-Fi Round of the 2018 Hunt. It was very impressive. <a href="https://puzzles.mit.edu/2018/full/island/scifi.html">Feel free to check it out</a>, but just keep in mind that the page can be slow to load because of said 3D circuit on a borg cube.</p>
+      <p>This was the Sci-Fi Round of the 2018 Hunt. It was very impressive. <a href="https://puzzles.mit.edu/2018/full/island/scifi.html" target="_blank">Feel free to check it out</a>, but just keep in mind that the page can be slow to load because of said 3D circuit on a borg cube.</p>
 
     <h1>:X Consonancy of a Planet</h1>
-      <p>This is the <a href="https://puzzles.mit.edu/2009/puzzles/">Pluto round</a> from 2009.</p>
+      <p>This is the <a href="https://puzzles.mit.edu/2009/puzzles/" target="_blank">Pluto round</a> from 2009.</p>
 
     <h1>:X Loves Flowers</h1>
-      <p>This is <a href="https://puzzles.mit.edu/2011/puzzles/world1/world1-2.html">World 1-2</a> from 2011.</p>
+      <p>This is <a href="https://puzzles.mit.edu/2011/puzzles/world1/world1-2.html" target="_blank">World 1-2</a> from 2011.</p>
 
     <h1>:X Submetapuzzles</h1>
       <p>Sometimes, a round can have multiple smaller metas feeding into one big meta, creating a two-tier structure in the round. You may also see this kind of thing referred to a metas & metametas.</p>
@@ -1292,17 +1667,17 @@
       <p>Some notes about ordering for metapuzzles: (I’m pulling this into a different section because I want to reference this multiple times.)</p>
       <p>Puzzles will very rarely give you a list of items in the order that they need to be for the final answer, and generally if they’re doing that it’s to deliberately make the puzzle easier. (There are definitely some exceptions to this I can think of, but it’s a good guideline.) Metapuzzles are trickier in this respect because you generally have less parts to the puzzle to play around with, which means that if everything else is constraining you too much, the puzzle constructor may just need to drop the idea of making the solvers figure out the order. In this case, the constructor will just give the solvers the order somehow. But how they give the order is the interesting bit.</p>
       <p>The way that rounds are generally structured, there will be a round page with links to all the puzzles in that round. Either there will be a separate puzzle also <a href="#SeparateMeta">:linked on that page for the meta</a>, or there will be a place to submit the meta answer <a href="#MetaonRoundPage">:on that round page</a>. (Or of course, all sorts of possible <a href="#OtherMetaLayouts">:other shenanigans</a>.) Note that this should be consistent throughout the Hunt. This means that if the puzzle constructor wants to give you the ordering, there are two possible ways for them to do it.</p>
-      <p>The first is that they can give it as part of the shell. This can be done for either method of metapuzzle presentation but is more often done for the separate page one. For examples of this in action, check out the 2022 metapuzzle <a href="https://puzzles.mit.edu/2022/puzzle/introspection/">Introspection</a> or the 2021 metapuzzle <a href="https://puzzles.mit.edu/2021/puzzle/football/">Football</a>. Both of these give the order just in the shell, making it completely clear what order the puzzles are supposed to be in.</p>
-      <p>The second is that they can just put the list of puzzles in that order. Normally, the list of the puzzles on that page is in alphabetical order, as a “nothing up my sleeve” order. But that’s also arbitrary. There’s no reason that order can’t be clueful. The nice thing about doing this is that it doesn’t add anything extra to the round. It’s just there, exactly the same as other rounds, but important. You can see this in action in the 2017 metapuzzle <a href="https://puzzles.mit.edu/2017/round/chemist.html">The Chemist</a> or the 2011 metapuzzle <a href="https://puzzles.mit.edu/2011/puzzles/world1/world1-1.html">World 1-1</a>. (Also the 2022 round <a href="#ReferencePoint">:Reference Point</a>)</p>
+      <p>The first is that they can give it as part of the shell. This can be done for either method of metapuzzle presentation but is more often done for the separate page one. For examples of this in action, check out the 2022 metapuzzle <a href="https://puzzles.mit.edu/2022/puzzle/introspection/" target="_blank">Introspection</a> or the 2021 metapuzzle <a href="https://puzzles.mit.edu/2021/puzzle/football/" target="_blank">Football</a>. Both of these give the order just in the shell, making it completely clear what order the puzzles are supposed to be in.</p>
+      <p>The second is that they can just put the list of puzzles in that order. Normally, the list of the puzzles on that page is in alphabetical order, as a “nothing up my sleeve” order. But that’s also arbitrary. There’s no reason that order can’t be clueful. The nice thing about doing this is that it doesn’t add anything extra to the round. It’s just there, exactly the same as other rounds, but important. You can see this in action in the 2017 metapuzzle <a href="https://puzzles.mit.edu/2017/round/chemist.html" target="_blank">The Chemist</a> or the 2011 metapuzzle <a href="https://puzzles.mit.edu/2011/puzzles/world1/world1-1.html" target="_blank">World 1-1</a>. (Also the 2022 round <a href="#ReferencePoint">:Reference Point</a>)</p>
       <p>The point of writing all of this is to highlight how important that round ordering is. If it’s in alphabetical order, then don’t worry about it. But if it’s not, be very suspicious of that order.</p>
       <p>I also have an inside baseball story about all of this from the 2022 Hunt. It’s not necessary to read to get the idea here, but if you’re interested in behind the scenes stuff, <a href="#MinistryThoughts">:read on</a>.</p>
 
     <h1>:X Separate Meta</h1>
-      <p>As an example for this, take <a href="https://puzzles.mit.edu/2022/round/lake-eerie/">Lake Eerie</a> from the 2022 Hunt, and scroll down to the list of puzzles. The metapuzzle, “The Graveyard” is bolded and has its own page with its own answer submission box. When you get the solution to this round, you would submit the answer on this page. You can also see this behavior from the round <a href="https://puzzles.mit.edu/2022/round/noirleans/">Noirleans</a> from the same Hunt.</p>
+      <p>As an example for this, take <a href="https://puzzles.mit.edu/2022/round/lake-eerie/" target="_blank">Lake Eerie</a> from the 2022 Hunt, and scroll down to the list of puzzles. The metapuzzle, “The Graveyard” is bolded and has its own page with its own answer submission box. When you get the solution to this round, you would submit the answer on this page. You can also see this behavior from the round <a href="https://puzzles.mit.edu/2022/round/noirleans/" target="_blank">Noirleans</a> from the same Hunt.</p>
       <p>Note that this is irrespective of whether the puzzle was a pure meta or a shell meta. Noirleans was a pure meta, and it contains a page with only the flavortext for the meta, while Lake Eerie has both flavortext and a shell.</p>
 
     <h1>:X Meta on Round Page</h1>
-      <p>As an example for this, take <a href="https://puzzles.mit.edu/2017/round/dynast.html">The Despondent Dynast</a> from the 2017 Hunt. The flavortext for the metapuzzle is on the same page as the list of the puzzles and the answer submission box is in the top of this page. You can also see this behavior from the round <a href="https://puzzles.mit.edu/2017/round/dungeon.html">The Dismal Dungeon</a> from the same Hunt.</p>
+      <p>As an example for this, take <a href="https://puzzles.mit.edu/2017/round/dynast.html" target="_blank">The Despondent Dynast</a> from the 2017 Hunt. The flavortext for the metapuzzle is on the same page as the list of the puzzles and the answer submission box is in the top of this page. You can also see this behavior from the round <a href="https://puzzles.mit.edu/2017/round/dungeon.html" target="_blank">The Dismal Dungeon</a> from the same Hunt.</p>
       <p>Note that this is irrespective of whether the puzzle was a pure meta or a shell meta. The Despondent Dynast is a pure meta and therefore just has the flavortext and the submission box on the round page, while The Dismal Dungeon’s round page has both of those things and also the shell for the meta (the grid of letters).</p>
 
     <h1>:X Other Meta Layouts</h1>
@@ -1310,23 +1685,140 @@
       <p>Basically, lots of shenanigans possible, but it should be informed by what that Hunt is doing.</p>
 
     <h1>:X Reference Point</h1>
-      <p>Okay, this one is actually a bit weirder. In <a href="https://puzzles.mit.edu/2022/round/reference-point/">this round</a>, the answers are all in alphabetical order except that You Took the Fifth is first. This is because when you solve the metapuzzle, the answers form a loop. In order to read the answer off, You Took the Fifth needs to be the first letter you read. It was moved up in the order to indicate its importance while also letting solvers figure out the rest of the loop. (As to how well that worked, well, I dunno.)</p>
+      <p>Okay, this one is actually a bit weirder. In <a href="https://puzzles.mit.edu/2022/round/reference-point/" target="_blank">this round</a>, the answers are all in alphabetical order except that You Took the Fifth is first. This is because when you solve the metapuzzle, the answers form a loop. In order to read the answer off, You Took the Fifth needs to be the first letter you read. It was moved up in the order to indicate its importance while also letting solvers figure out the rest of the loop. (As to how well that worked, well, I dunno.)</p>
 
     <h1>:X Ministry Thoughts</h1>
       <p>This is going to contain spoilers for the 2022 Ministry meta. So you know, fair warning.</p>
       <p>Some hunts use the technique of adjusting the presentation order of the puzzles more than others. For example, in 2021, the only round that does this is Football, and they also give the order on the meta shell, while in 2017, this is very common. How important this technique is depends on the team, but as a solver it is always important to keep it in mind.</p>
-      <p>When we were writing the 2022 Hunt, we decided to use this rely on this order a couple of times. And by “we decided” I mean “I decided” because I was nominally in charge of this. There are a couple of metas where important information was conveyed this way, including New You City, Heartford, Reference Point, Sci-Ficisco, and important to this story, <a href="https://puzzles.mit.edu/2022/round/the-ministry/">The Ministry</a>.</p>
+      <p>When we were writing the 2022 Hunt, we decided to use this rely on this order a couple of times. And by “we decided” I mean “I decided” because I was nominally in charge of this. There are a couple of metas where important information was conveyed this way, including New You City, Heartford, Reference Point, Sci-Ficisco, and important to this story, <a href="https://puzzles.mit.edu/2022/round/the-ministry/" target="_blank">The Ministry</a>.</p>
       <p>The general way that the Ministry worked was that there were 25 individual puzzles that you needed to divide up into 5 submetas. Then, once you had those answers, you unlocked the Ministry meta, which needed both the answers to the submetas and the answers to all of the 25 individual puzzles again. If you’re not familiar with past Hunts, the fact that you need to use all 25 answers again is unusual. Oftentimes metas with submetas like this use only the submeta answers. This needed to be clued in some way. In addition to this, we needed to give the ordering of the puzzles to use in the Ministry Meta somewhere.</p>
       <p>As the editor of this puzzle/one of the people who was in charge of implementing this puzzle, I decided that the best way of doing this was to change the presentation order to be the meta ordering. This would both give the ordering and also clue that you needed the puzzle answers again since you hadn’t used the presentation order before this puzzle. It turned out that this didn’t work. Teams got stuck because they didn’t recognize that the individual puzzles contributed to the meta. Oops.</p>
       <p>Anyway, I mention this because I feel like this is a thing that I put more emphasis on than others, and I think it’s a bias I have. As a teacher, it’s worth admitting your biases to your students. I shouldn’t be your only source of information, and it’s worth being blatant about stuff like this rather than forcing you to cyberstalk me to figure this stuff out.</p>
+
+    <h1>:X Meta Hints</h1>
+      <p><a href="#MetaNames">:What's up with the names of the puzzles whose answers I don't have?</a></p>
+      <p><a href="#MetaVagueHint">:I need a vague hint.</a></p>
+      <p><a href="#MetaMoreAnswers">:I want more answers.</a></p>
+      <p><a href="#MetaStart">:How the heck do I get started?</a></p>
+      <p><a href="#MetaTwo">:I know how all the answers are connected, but what do I do with that?</a></p>
+      <p><a href="#MetaThree">:I have some more information based on the connection, but I don’t know how to make that into a phrase.</a></p>
+      <p><a href="#MetaFour">:I’ve turned it into letters, but I can’t read off an answer.</a></p>
+      <br>
+      <p><a href="#MetaSkip">:I'm hopelessly stuck. Get me off the current part that I'm on.</a></p>
+
+    <h1>:X Meta Names</h1>
+      <p>They’re not relevant to the puzzle. I just needed to fill those cells of the table, so I put some small Hunt jokes in there.</p>
+      <p>50/50/50 is a play on <a href="https://puzzles.mit.edu/2013/coinheist.com/indiana/50_50/index.html" target="_blank">50/50</a>, which was an infamous puzzle in 2013 that was just too hard. I know it can seem ridiculous to say that a puzzle is too hard for the Hunt, but this was. <a href="https://puzzles.mit.edu/2013/coinheist.com/indiana/50_50/answer/index.html" target="_blank">The solution</a> is worth a read. It’s… wow.</p>
+      <p><a href="https://devjoe.appspot.com/huntindex/keyword/chaoticconlang" target="_blank">Chaotian</a> is a constructed language that was created specifically for the MIT Mystery Hunt. <a href="https://2019.galacticpuzzlehunt.com/artifacts.html" target="_blank">Puflantu</a> is a constructed language that was created specifically for the 2019 Galactic Puzzle Hunt. A theoretical puzzle called “The Chaotian-Puflantu Dictionary” is someone’s dream puzzle, but not mine. I would run screaming.</p>
+      <p>The Obligatory New York Times Crossword Reference is there because the NYT Crossword has often hidden Hunt-relevant information or is otherwise the target of a puzzle. Every Hunt needs one!</p>
+      <p>Crow Facts 3,000,000 references <a href="https://puzzles.mit.edu/2014/puzzle/crow_facts/" target="_blank">Crow Facts</a> and <a href="https://puzzles.mit.edu/2022/puzzle/crow-facts-3000/" target="_blank">Crow Facts 3000</a>. This would be the obvious next step.</p>
+      <p>Is This a Picture of Sports? is a joke that nerdy puzzle hunters aren’t great at identifying sports. It’s not actually true – there are plenty of sports nerd puzzle hunters, but we still joke about the puzzle anyway.</p>
+      <p>The World’s Most Complicated Scavenger Hunt plays off the <a href="https://devjoe.appspot.com/huntindex/keyword/scavengerhunt" target="_blank">traditional scavenger hunt</a>. As the Hunt has grown in team sizes, they have tended to get more and more complicated unless writing teams make a significant effort to scale it back down. (There may not be one in the future for logistics issues.) </p>
+
+    <h1>:X Meta Vague Hint</h1>
+      <p>The flavor text asks “Do you even know where you are right now?”. So do you know? Where are you right now?</p>
+
+    <h1>:X Meta More Answers</h1>
+      <p>Honestly, even if you can’t get the full answer yet, you really should try to figure out how these answers are related before you get new answers.</p>
+      <p>That being said, if you want more answers, you can reveal the answers down here:</p>
+      <p><a href="#505050">:50/50/50</a></p>
+      <p><a href="#ChaotianPuflantu">:The Chaotian-Puflantu Dictionary</a></p>
+      <p><a href="#NYTCrossword">:The Obligatory New York Times Crossword Reference</a></p>
+      <p><a href="#CrowFacts">:Crow Facts 3,000,000</a></p>
+      <p><a href="#SportsPic">:Is This a Picture of Sports?</a></p>
+      <p><a href="#ScavengerHunt">:The World's Most Complicated Scavenger Hunt</a></p>
+
+    <h1>:X 50 50 50</h1>
+      <p>SENSABLE</p>
+    <h1>:X Chaotian Puflantu</h1>
+      <p>LISA T SU</p>
+    <h1>:X NYT Crossword</h1>
+      <p>OCEAN ENGINEERING</p>
+    <h1>:X Crow Facts</h1>
+      <p>BITTER MAGNET</p>
+    <h1>:X Sports Pic</h1>
+      <p>TECHNIQUE</p>
+    <h1>:X Scavenger Hunt</h1>
+      <p>ELECTROCERAMICS</p>
+
+    <h1>:X Meta Start</h1>
+      <p>The first question we want to ask ourselves is this more likely to be an orthographic meta or a semantic meta? (Orthographic is based on the letters, semantic is based on the meanings) The answers don’t look too weird. The Twisted Clues’ answer looks a little strange and is probably picked for being a name, and the Cryptic’s answer is a little strange, but it seems to be a real phrase. Given that the rest of the words seem relatively normal, it would be a good guess to say that it’s semantic rather than orthographic.</p>
+      <p>So now, you need to consider what these answers are and how they connect to the theme of the meta aka looking at the flavor text. Googling multiple answers may help you here.</p>
+
+    <h1>:X Meta Two</h1>
+      <p>It can be useful to consider what these answers and their corresponding places have in common. Since they’re all on campus, what is a piece of information that these places all have?</p>
+
+    <h1>:X Meta Three</h1>
+      <p>This uses alphanumerics (A = 1, B = 2, C = 3…)</p>
+
+    <h1>:X Meta Four</h1>
+      <p>Keep in mind that the answer won’t contain any of the punctuation that is in the phrase, and it will hide all the word breaks, which will make it harder to parse. Perhaps look for individual words and see what that does to the rest of the phrase. Keep in mind it needs to answer the question posed by the meta.</p>
+      <p>If you just don’t have enough to do this with, that’s okay. You should feel free to reveal more answers.</p>
+
+    <h1>:X Meta Skip</h1>
+      <p><a href="#MetaSkipOne">:Step 1: Figure out what all the answers have in common.</a></p>
+      <p><a href="#MetaSkipTwo">:Step 2: Get additional info for each of the answers.</a></p>
+      <p><a href="#MetaSkipThree">:Step 3: Turn that info into letters.</a></p>
+      <p><a href="#MetaSkipFour">:Step 4: Interpret that phrase.</a></p>
+
+    <h1>:X Meta Skip One</h1>
+      <p>Each of the answers can describe a place on MIT’s campus. In some cases, the answers is the name of a whole building, and sometimes it’s a place inside a building.</p>
+
+    <h1>:X Meta Skip Two</h1>
+      <p>Since each of these is a place on campus, it can be associated with a building, and therefore a building number.</p>
+      <table>
+        <tr><th>Building</th><th>ID</th></tr>
+        <tr><td>?</td><td>?</td></tr>
+        <tr><td>PUERTO RICO</td><td>20</td></tr>
+        <tr><td>NANO</td><td>12</td></tr>
+        <tr><td>?</td><td>?</td></tr>
+        <tr><td>SIMONS</td><td>2</td></tr>
+        <tr><td>?</td><td>?</td></tr>
+        <tr><td>PIERCE</td><td>1</td></tr>
+        <tr><td>VISITOR CENTER</td><td>7</td></tr>
+        <tr><td>CHAPEL</td><td>15</td></tr>
+        <tr><td>?</td><td>?</td></tr>
+        <tr><td>GLASS LAB</td><td>4</td></tr>
+        <tr><td>?</td><td>?</td></tr>
+        <tr><td>CABLE TELEVISION</td><td>9</td></tr>
+        <tr><td>?</td><td>?</td></tr>
+        <tr><td>REGISTRAR</td><td>5</td></tr>
+      </table>
+
+    <h1>:X Meta Skip Three</h1>
+      <p>You can use alphanumerics (A = 1, B = 2, C = 3…) to turn these building numbers into letters.</p>
+      <table>
+        <tr><th>Building</th><th>ID</th><th>Letter</th></tr>
+        <tr><td>?</td><td>?</td><td>?</td></tr>
+        <tr><td>PUERTO RICO</td><td>20</td><td>T</td></tr>
+        <tr><td>NANO</td><td>12</td><td>L</td></tr>
+        <tr><td>?</td><td>?</td><td>?</td></tr>
+        <tr><td>SIMONS</td><td>2</td><td>B</td></tr>
+        <tr><td>?</td><td>?</td><td>?</td></tr>
+        <tr><td>PIERCE</td><td>1</td><td>A</td></tr>
+        <tr><td>VISITOR CENTER</td><td>7</td><td>G</td></tr>
+        <tr><td>CHAPEL</td><td>15</td><td>O</td></tr>
+        <tr><td>?</td><td>?</td><td>?</td></tr>
+        <tr><td>GLASS LAB</td><td>4</td><td>D</td></tr>
+        <tr><td>?</td><td>?</td><td>?</td></tr>
+        <tr><td>CABLE TELEVISION</td><td>9</td><td>I</td></tr>
+        <tr><td>?</td><td>?</td><td>?</td></tr>
+        <tr><td>REGISTRAR</td><td>5</td><td>E</td></tr>
+      </table>
+
+    <h1>:X Meta Skip Four</h1>
+      <p>The phrase ?TL?B?AGO?D?I?E can be solved as IT’LL BE A GOOD TIME.</p>
+      <p>The two ins to this is the ?TL? and GO?D. It is reasonable to guess IT’LL and GOOD from the info you have, and then the rest is a reasonable guess.</p>
+
+
 
 
 
     <h1>:About</h1>
       <p>These puzzles were written for the 2023 How to Hunt Seminar at MIT on January 12, 2023.</p>
-      <p>Cryptic was written by joon pahk. Logic Puzzles was written by Shai Nir Hana. Example clues in the cryptic section are taken from <a href="https://apocute.com/cryptictransformations.html">Transformations</a>. Everything else was written by <a href="https://apocute.com/">Jen McTeague</a>.</p>
-      <p>This cool expandable stuff is made using <a href="https://ncase.me/nutshell/">Nutshell</a>, an awesome script written by <a href="https://ncase.me/">Nicky Case</a>. You should check their work out - I use their stuff in my classes all the time!.</p>
-      <p>Nothing in this About section is a puzzle. Also this was not written to hide anything for any specific Mystery Hunt puzzle, but I wouldn't put it past teammate or anyone future team to somehow make it part of one without me knowing.</p>
+      <p>Cryptic was written by joon pahk. Logic Puzzles was written by Shai Nir Hana. Example clues in the cryptic section are taken from <a href="https://apocute.com/cryptictransformations.html" target="_blank">Transformations</a>. Everything else was written by <a href="https://apocute.com/" target="_blank">Jen McTeague</a>.</p>
+      <p>This cool expandable stuff is made using <a href="https://ncase.me/nutshell/" target="_blank">Nutshell</a>, an awesome script written by <a href="https://ncase.me/" target="_blank">Nicky Case</a>. You should check their work out - I use their stuff in my classes all the time!.</p>
+      <p>Nothing in this About section is a puzzle. Also this was not written to hide anything for any specific Mystery Hunt puzzle, but I wouldn't put it past teammate or anyone future team to somehow make it part of one without me knowing. I mean, teammate isn't going to see this until like a week before the Hunt begins, but I am very familiar with writing a last-minute <a href="https://puzzles.mit.edu/2022/puzzle/i-dont-have-a-clue/" target="_blank">puzzle</a>.</p>
 
   </body>
 
