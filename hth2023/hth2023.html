@@ -959,7 +959,10 @@
         <a href="#LocationIntro">:Intro to this puzzle type</a>
       </div>
       <div class="answerchecker"><iframe src="answerchecker.html?puzzle=5" width="100%" height="100px"></iframe></div>
-      <p></p>
+      <div class="flavor">Renumbering MIT's rooms? Now that's going too far!</div>
+      <div class="puzzle">This puzzle is in the 1st floor hallway in building 4.</div>
+      <div class="npc"><p><a href="#LocationHints">:Hints</a></p></div>
+      
 
     <h1>:x Location Intro</h1>
       <p>Location puzzles are part of what makes the Mystery Hunt feel very much like MIT. They get you to look at MIT’s campus in a new way, from an answer hidden on a particular poster on an out-of-the-way bulletin board, to a runaround taking you to visit various interesting sites all over campus. They’re puzzles that can’t be done in any other puzzle hunt, and they bring the campus to life. Even the pandemic hunts had some remote location puzzles (<a href="#PandemicLocations">:well, one more than the other</a>). </p>
@@ -969,6 +972,73 @@
     <h1>:X Pandemic Locations</h1>
       <p>The 2021 Hunt involved an MMO of people walking around a virtual MIT campus. Anything that the 2022 Hunt did was going to be less tied to MIT than that.</p>
       <p>Although TBH, I was hoping to just walk around campus for a bit, looking for cool things to base a puzzle around or use in a runaround. Maybe if I get the privilege of writing again, I’ll get to do that.</p>
+
+    <h1>:X ISIS Hints</h1>
+      <p><a href="#LocationStart">:How the heck do I get started?</a></p>
+      <p><a href="#LocationSecond">:I have data, now what should I be doing?</a></p>
+      <p><a href="#LocationThird">:I know what the Verified room signs are doing, but not what the Not Verified room signs are doing.</a></p>
+      <p><a href="#LocationFourth">:I have some data from the Not Verified room signs. What do I do with that?</a></p>
+      <br>
+      <p><a href="#LocationSkip">:I'm hopelessly stuck. Get me off the current part that I'm on.</a></p>
+
+    <h1>:X Location Start</h1>
+      <p>The first thing you should do is gather data. Go see what’s in the hallway, and gather it in a spreadsheet or a piece of paper. </p>
+
+    <h1>:X Location Second</h1>
+      <p>The numbers on the signs aren’t random. Your first goal should be to figure out how the numbers relate to the room numbers. Note the Verified/Not Verified implying that some are being done correctly, and some are being done incorrectly.</p>
+      <p>Also, why is 4-159 listed as Room #2?</p>
+
+    <h1>:X Location Third</h1>
+      <p>The same thing. Well, except the Not Verified ones are a little off.</p>
+
+    <h1>:X Location Fourth</h1>
+      <p>Alphanumerics (A=1, B=2, C=3…)</p>
+
+    <h1>:X Location Skip</h1>
+      <p><a href="#LocationSkipOne">:Step 1 – Gather data</a></p>
+      <p><a href="#LocationSkipTwo">:Step 2 – Figure out what’s going on with the Verified signs</a></p>
+      <p><a href="#LocationSkipThree">:Step 3 – Figure out what’s going on with the Not Verified signs</a></p>
+
+    <h1>:X Location Skip One</h1>
+      <p>The Building 4 1st floor hallway is filled with signs renumbering various rooms. In addition, each sign says whether it is “Verified” or “Not Verified”.</p>
+      <table>
+        <tr><th>Real Room #</th><th>Fake Room #</th><th>Verified?</th></tr>
+        <tr><td>4-131</td><td>7393</td><td>Verified</td></tr>
+        <tr><td>4-134</td><td>5279</td><td>Verified</td></tr>
+        <tr><td>4-138</td><td>1075</td><td>Verified</td></tr>
+        <tr><td>4-140</td><td>3249</td><td>Verified</td></tr>
+        <tr><td>4-141</td><td>20020</td><td>Verified</td></tr>
+        <tr><td>4-142</td><td>3756</td><td>Verified</td></tr>
+        <tr><td>4-144</td><td>1637</td><td>Verified</td></tr>
+        <tr><td>4-145</td><td>2700</td><td>Not Verified</td></tr>
+        <tr><td>4-146</td><td>393</td><td>Not Verified</td></tr>
+        <tr><td>4-148</td><td>3366</td><td>Not Verified</td></tr>
+        <tr><td>4-149</td><td>19932</td><td>Not Verified</td></tr>
+        <tr><td>4-152</td><td>9367</td><td>Not Verified</td></tr>
+        <tr><td>4-153</td><td>11051</td><td>Not Verified</td></tr>
+        <tr><td>4-158</td><td>7924</td><td>Verified</td></tr>
+        <tr><td>4-159</td><td>2</td><td>Verified</td></tr>
+        <tr><td>4-162</td><td>4745</td><td>Verified</td></tr>
+        <tr><td>4-163</td><td>5107</td><td>Verified</td></tr>
+        <tr><td>4-164</td><td>26614</td><td>Verified</td></tr>
+        <tr><td>4-166</td><td>4127</td><td>Verified</td></tr>
+      </table>
+
+    <h1>:X Location Skip Two</h1>
+      <p>As clued by Room 4-159 being Room #2 (significantly smaller than all the others), each of these room numbers indicates where you can find each of the room numbers in pi.</p>
+
+    <h1>:X Location Skip Three</h1>
+      <p>These overshoot the correct number by a little bit. Find out the difference between the written room number and the correct room number, and translate it using alphanumerics (A=1, B=2, C=3…)</p>
+      <table>
+        <tr><th>Real Room #</th><th>Fake Room #</th><th>Correct Room #</th><th>Difference</th><th>Alphanumeric</th></tr>
+        <tr><td>4-145</td><td>2700</td><td>2684</td><td>16</td><td>P</td></tr>
+        <tr><td>4-146</td><td>393</td><td>384</td><td>9</td><td>I</td></tr>
+        <tr><td>4-148</td><td>3366</td><td>3361</td><td>5</td><td>E</td></tr>
+        <tr><td>4-149</td><td>19932</td><td>19914</td><td>18</td><td>R</td></tr>
+        <tr><td>4-152</td><td>9367</td><td>9364</td><td>3</td><td>C</td></tr>
+        <tr><td>4-153</td><td>11051</td><td>11046</td><td>5</td><td>E</td></tr>
+      </table>
+
 
 
 
