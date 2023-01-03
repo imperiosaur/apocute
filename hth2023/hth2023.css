@@ -23,3 +23,19 @@ div.picture-pile-container {
   display: flex;
   align-items: center;
 }
+
+.right-image {
+  float: right;
+}
+
+.left-image {
+  float: left;
+}
+
+.mono {
+  font-family: monospace;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}

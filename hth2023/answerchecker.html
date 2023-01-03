@@ -52,6 +52,8 @@
           break;
           case 7:
             if(cleanedUpEntryWord == "CHAPEL") {outputText = "CHAPEL is correct!";}
+            else if(cleanedUpEntryWord == "THEMISSINGONE") {outputText = "You're not done yet. You have one more step before you finish the puzzle.";}
+            else if(cleanedUpEntryWord == "ANSWERISTHEMISSINGONE") {outputText = "You're not done yet. You have one more step before you finish the puzzle.";}
             else {outputText = "Your answer " + cleanedUpEntryWord + " is not correct.";}
           break;
           case 8:
@@ -73,6 +75,7 @@
         document.getElementById('result').innerHTML = outputText;
       }
     </script>
+    <link rel="stylesheet" href="hth2023.css"></link>
   </head>
 
   <body>
