@@ -20,7 +20,7 @@ Apocute (uh-POCK-you-TEE) is a wife and wife team who writes puzzles. This websi
                  </div>
                  <div class="panel-body">
                      <h4>Ange Strom-Weber</h4>
-                     <p>Ange is a school registrar (among many other titles) and politically-active. She like solving cryptics and test-solving other people's puzzles.</p>
+                     <p>Ange is a stay-at-home aunt for a pair of nephews. She like solving cryptics and test-solving other people's puzzles.</p>
                      <!--<a href="tag_getting_started.html" class="btn btn-primary">Learn More</a>-->
                  </div>
              </div>
@@ -34,7 +34,7 @@ Apocute (uh-POCK-you-TEE) is a wife and wife team who writes puzzles. This websi
                  </div>
                  <div class="panel-body">
                      <h4>Jen McTeague</h4>
-                     <p>Jen is a math teacher and a frequent Pathfinder Game Master. She likes creating puzzles with complicated or interesting structures. You can find her on twitter at <a href="https://twitter.com/mersiamnot">@mersiamnot</a>.</p>
+                     <p>Jen is a math teacher, a frequent Pathfinder Game Master, and a Magic: the Gathering player. She likes creating puzzles with complicated or interesting structures.</p>
                      <a href="aboutjen.html" class="btn btn-primary">Learn More</a>
                  </div>
              </div>
