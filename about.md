@@ -5,7 +5,7 @@ sidebar: main_sidebar
 permalink: about.html
 toc: false
 ---
-Apocute (uh-POCK-you-TEE) is a wife and wife team who writes puzzles. This website is here to host their puzzles, whether they were created separately or together.
+Apocute (uh-POCK-you-TEE) is a wife and wife team who writes puzzles. This website is here to host their puzzles, whether they were created separately or together. You can contact us at contact AT apocute DOT com.
 
 <div class="row">
          <div class="col-lg-12">
